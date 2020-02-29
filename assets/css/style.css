@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/*Home page bkgd picture*/
+#landing {
+    background-image: url('images/home.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding: 0 20px;
+}
+
+/*#landing  h1,p{
+    background-color: rgba(36, 35, 35, 0.938);
+    width: 65%;
+}*/ 
+
+
+
+/*Header text*/
+#landing  h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3.5em;
+    line-height:1.2;
+    color: #34CCE3;
+    padding: 10px 10px 10px 0px;
+}
+
+h1::after {
+    content:'';
+    background: #49c41b;
+    height: 3px;
+    width: 480px;
+    display: block;   
+    left: -2.5em; 
+}
+
+/*Header p text*/
+#landing  p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4em;
+    color: #ffffff;
+    /*width: 50%;*/
+    padding: 0px 10px 20px 10px;
+    
+}
+
+/*Header button styling*/
+#landing .button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color:#fff;
+    background-color: #49c41b;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top:20px;
+}
+
+#landing .button:hover{
+    background: white;
+    color:gray;
+}
+
+div.transbox{
+    margin: 30px;
+    background-color: #272626;
+    background: rgb(34, 34, 34); /* Fallback for older browsers without RGBA-support */
+    background: rgba(37, 37, 37, 0.712);   
+    width: 57%;
+}
+
+.testimonial {
+    padding-top: 3em;
+}
+
+1
+2
+3
+4
+5
+6
+7
+8
+.jumbotron {
+    background-image: url('images/home.jpg');
+    padding-top: 20%;
+    padding-bottom: 20%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}

@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/*Home page picture & Jumbotron*/
+.jumbotron {
+    background-image: url('../img/home.jpg');
+    /*padding-top: 20%;
+    padding-bottom: 20%;*/
+    height: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.drk:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #000;
+    opacity: 0.5;
+}
+
+/*Blue header type*/
+.display-4 {
+    font-family: 'Noto Sans KR', sans-serif;
+    color:#34CCE3;
+    background-color: rgba(36, 36, 36, 0.692);
+    text-align: center;
+    padding: 20px;
+}
+
+/*green rule line header*/
+h1::after {
+    content:'';
+    background: #49c41b;
+    height: 3px;
+    width: 515px;
+    display: block;   
+    left: -2.5em; 
+}
+
+/*paragraph under home page header*/
+.lead{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: rgba(36, 36, 36, 0.692);
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+.test{
+    color: white;
+    text-align: center;
+}
+
+/*"Learn more" button styling*/
+.btn {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color:#fff;
+    background-color: #49c41b;
+    border-color: #49c41b;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top:20px;
+}
+
+/*Testimonial Carousel*/
+.btn:hover{
+    background: white;
+    border-color: white;
+    color:gray;
+}
+
+.carousel-inner{
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonial {
+    padding-top: 5em;
+    min-height: 100px;
+}
+
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #90929E;
+}
+
+.carousel-indicators > li {
+    background-color: rgb(106, 231, 250);
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    background-color: #34CCE3;
+}
+
+.testimonial {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    quotes: "\201C""\201D""\2018""\2019";
+    padding: 10px 20px;
+    line-height: 1.4;
+}
+
+.testimonial::before {
+    font-family: 'Times New Roman', Times, serif;
+    content: open-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: -10px;
+    position: relative;
+    top: 30px;
+    color: #34CCE3;
+    font-size: 4em;
+}
+
+.testimonial::after {
+    font-family: 'Times New Roman', Times, serif;
+    content: close-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: 10px;
+    position: relative;
+    top: 35px;
+    color: #34CCE3;
+    font-size: 4em;
+}
+
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding:0px 0px 100px 20px;
+    text-align: left;
+    font-size: .9em;
+}
+
+/*green rule line
+divider::before {
+    content:'';
+    background: #49c41b;
+    height: 3px;
+    width: 500px;
+    display: block;   
+    left: -2.5em; 
+}*/
+
+/*green ruled line above 2 women picture*/
+.divider-left {
+    background-color: #49e41b;
+    height: 3px;
+    width: 515px;
+    display: block;   
+    left: -2.5em; 
+}
+
+.divider-right {
+    background-color: #49e41b;
+    height: 3px;
+    width: 515px;
+    display: block;   
+    right: -2.5em; 
+}
+
+/*blue dots under picture*/
+.pict {
+    font-size: 100px;
+    color: #34CCE3;
+    text-align: right;
+    padding: 0px;
+}
+
+.btn.btn-primary {
+}
+
+/*body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}*/
+
+.cards h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cards h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#cards img {
+    margin-top: -50px;
+}
+
+#cards p {
+    font-weight: 400;
+}
+
+#cards .card{
+    border-radius: 0;
+    box-shadow: 5px 5px 5px #90929E;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    /*height: 600px;*/
+}
+
+/*#cards .card:hover{
+    background: #90929E;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 5px rgb(113, 115, 124);
+}*/
+
+#cards .card:hover h3 {
+    color: white;
+}
+
+.body-text p{
+
+}
+
+
+
+
+
+
+
