@@ -15,7 +15,7 @@
     background-size: cover;
 }
 
-.drk:after {
+/*.drk:after {
     content: '';
     display: block;
     position: absolute;
@@ -26,7 +26,7 @@
     background-size: cover;
     background: #000;
     opacity: 0.5;
-}
+}*/
 
 /*Blue header type*/
 .display-4 {
@@ -38,7 +38,7 @@
 }
 
 /*green rule line header*/
-h1::after {
+.display-4::after {
     content:'';
     background: #49c41b;
     height: 3px;
@@ -93,8 +93,6 @@ h1::after {
     padding-top: 5em;
     min-height: 100px;
 }
-
-
 
 .carousel-control-prev-icon, .carousel-control-next-icon{
     background-color: #90929E;
@@ -222,7 +220,7 @@ divider::before {
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
-    /*height: 600px;*/
+    height: 100%;
 }
 
 /*#cards .card:hover{
@@ -233,17 +231,80 @@ divider::before {
     box-shadow: 5px 5px 5px rgb(113, 115, 124);
 }*/
 
-#cards .card:hover h3 {
+/*#cards .card:hover h3 {
     color: white;
+}*/
+
+.blueDots {
+    color: #34CCE3;
+    font-size: 30px;
 }
 
-.body-text p{
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    min-height: 200px;
+}
+
+.body-text{
+    padding-right: 20px;
+}
+
+/*green line in stratetgies page above 4 strategies*/
+.greenLine  {
+    background-color:#90929E;
+    height: 2px;
+    display: block;   
+    width: 70%;
+    margin-bottom: 35px;
+}
+
+/*blue circle at end of green line#*/
+.greenLine:after { 
+    background: url('images/blueCircleOutline2.png') no-repeat top right;
+    content: "";
+    display: block;
+    height: 75px; /* height of the ornament */
+    position: relative;
+    top: -36px; /* half the height of the ornament */
+    border: 0;
+}
+
+.greenLine2 {
+    background-color: #49e41b;
+    height: 2px;
+    display: block;
+    width: 30%;
 
 }
 
+.dots:after {
+    background: url('images/blueDots.png') no-repeat left;
+    content:"";
+    display: block;
+    height: 60px;
+    position: relative;
+    border: 0px;
+}
 
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
 
-
-
-
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #90929E;
+    display: block;
+    }
 
