@@ -10,9 +10,9 @@
     <script src="blueIvy.js"></script>
     <title>Get Blue Ivy</title>
 </head>
-<?php
-include '/header.php';
-?>
+<?php include('include/header.php');?>
+<?php include('include/nav.php');?>
+
 <body>
     <!--<div class="jumbotron drk jumbotron-fluid">-->
             <div class="container-fluid">
@@ -22,23 +22,21 @@ include '/header.php';
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-12 desc"><br>
                         <h1><strong>What Can Blue Do For You?</strong></h1>
-                            <h2 class="dots">​Shape an amazing workplace by...</h2>
+                            <h2 class="dots">​Shape an amazing workplace by<span></span>...</h2>
                     </div>
                 </div>
             </div>
-                <!--<hr class="my-4">-->
-            <div class="container-fluid">
+
+            <div class="container-fluid" id="cultureArea">
                 <hr class="greenLine">
             </div>
 
-            <!--side navigation-->
-            <div class="sidenav">
-                <a href="#culture">culture</a>
-                <a href="#communication">communication</a>
-                <a href="#employee development">employee development</a>
-                <a href="#compliance">compliance</a>
+            <div id="mySidenav" class="sidenav">
+                <a href="#cultureArea" id="culture">Culture</a>
+                <a href="#communicationArea" id="communication">Communication</a>
+                <a href="#developmentArea" id="development">Development</a>
+                <a href="#complianceArea" id="compliance">Compliance</a>
             </div>
-
 
             <!--paragraph and picture in culture section-->
             <div class="container-fluid">
@@ -84,7 +82,7 @@ include '/header.php';
                     </div><br><br>
                 
             <!--<hr class="my-4">-->
-            <div class="container-fluid">
+            <div class="container-fluid" id="communicationArea">
                 <hr class="greenLine">
             </div>
 
@@ -102,99 +100,47 @@ include '/header.php';
                                 <h2>Implementing Effective COMMUNICATION</h2>
                                 <hr class="greenLine2">
                                     <p class="body-text"><br>
-                                        Gone are the days when employees were hired, put
-                                        to work, and evaluated annually  The workforce
-                                        is evolving, and thrives in an environment of
-                                        frequent feedback and recognition. Without such
-                                        an environment, not only do we have a failure to
-                                        communicate, we have an inability to develop and
-                                        retain engaged talent.<br><br>
+                                        Gone are the days when employees were
+                                        evaluated only annually. Employees
+                                        thrive in an environment of frequent
+                                        feedback and recognition. Without such
+                                        an environment, employees become
+                                        misaligned with company objectives, find
+                                        themselves uncertain of their role, and
+                                        lose their desire to excel.
+                                        <br><br>
 
                                         <strong>Gather candid employee feedback.</strong><br>
-                                        An employee who feels understood plays with
-                                        a real cool hand.  Employees often have
-                                        great ideas, pertinent feedback, or serious
-                                        concerns that need to be recognized.
-                                        Without a well-established and safe channel
-                                        for feedback, employees will either suffer
-                                        in silence or eventually express their
-                                        feedback in unproductive ways.<br><br>Employee
-                                        Engagement<br><br>
+                                        Building shared meaning with our
+                                        employees can be invaluable. Management
+                                        teams often become entrenched in stale
+                                        patterns, and alternate points of view
+                                        can break the cycle and illuminate
+                                        opportunities for improvement. Without
+                                        well-established and safe channels of
+                                        communication, employees will either
+                                        suffer in silence or eventually express
+                                        their feedback in unproductive
+                                        ways.<br><br>
 
-                                        <strong>Be proactive.</strong><br>
-                                        If you are hearing about discontent through the
-                                        grapevine, the problem is already out of hand.
-                                        Approach employees early and often to determine
-                                        what small measures can create huge returns.<br><br>
-
-
-                                        <strong>Recognize excellence in every employee.</strong>
-                                        A good manager recognizes that everyone has
-                                        opportunities for improvement.  Great managers
-                                        can identify moments of greatness in every
-                                        employee, even if they are not a natural born
-                                        world-shaker.  Shining a spotlight on those
-                                        moments effectively encourages our better angels
-                                        to overcome our lesser tendencies. <br><br>
-                                    
-                                        When we hold ourselves and others equally
-                                        accountable for success, then we can truly
-                                        overcome all of the obstacles that threaten to
-                                        destroy our success and prosperity.</p>
+                                        <strong>Recognize excellence in every employee.</strong><br>
+                                        We make a commitment when we hire an
+                                        employee. A good manager recognizes
+                                        that everyone has opportunities for
+                                        improvement. Great managers can
+                                        identify moments of greatness in every
+                                        employee, even if they are not a
+                                        natural-born world-shaker. Shining a
+                                        spotlight on those moments effectively
+                                        encourages our better angels to overcome
+                                        our lesser tendencies.<br><br></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div><br><br>
 
-            <div class="container-fluid">
-                <hr class="greenLine">
-            </div>
-
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <img src="images/complianceStrategiesPage.jpg" class="img-fluid">
-                        <span class="text-justify"></span>
-                    </div>
-                    <div class="col-lg-8 col-md-8 col-sm-12 desc"><br>
-                        <div class="row">
-                            <div class="col-lg-9 col-md-8 col-sm-12"><br>
-                                <h2>COMPLIANCE (BEST PRACTICES)</h2>
-                                <hr class="greenLine2">
-                                    <p class="body-text"><br>
-                                        Lorem ipsum dolor sit amet.<br><br>
-
-                                        <strong<>Lorem impsum</strong><br>
-                                        Lorem ipsum dolor sit amet consectetur,
-                                        adipisicing elit. Enim esse veniam suscipit
-                                        corporis iure temporibus harum maxime dolorem
-                                        deleniti ut illum quae, quas quam perspiciatis
-                                        aliquid. Et eveniet soluta molestias.<br><br>
-
-                                        <strong<>Lorem impsum</strong><br>
-                                        Lorem ipsum dolor sit amet consectetur,
-                                        adipisicing elit. Enim esse veniam suscipit
-                                        corporis iure temporibus harum maxime dolorem
-                                        deleniti ut illum quae, quas quam perspiciatis
-                                        aliquid. Et eveniet soluta molestias.<br><br>
-
-
-                                        <strong<>Lorem impsum</strong><br>
-                                        Lorem ipsum dolor sit amet consectetur,
-                                        adipisicing elit. Enim esse veniam suscipit
-                                        corporis iure temporibus harum maxime dolorem
-                                        deleniti ut illum quae, quas quam perspiciatis
-                                        aliquid. Et eveniet soluta molestias.<br><br>
-                                    
-                                        Lorem ipsum dolor sit amet consectetur..</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><br><br>
-
-            <div class="container-fluid">
+            <div class="container-fluid" id="developmentArea">
                 <hr class="greenLine">
             </div>
 
@@ -210,23 +156,34 @@ include '/header.php';
                                 <h2>Commiting to EMPLOYEE DEVELOPMENT</h2>
                                 <hr class="greenLine2">
                                     <p class="body-text"><br>
-                                        You have got to believe. Operating from a growth
-                                        mindset, we realize that employees at any level
-                                        can grow, and can improve. This frame of mind
-                                        allows us to have a realistic expectation that
-                                        any employee, managed properly, can excel in
-                                        their profession.<br><br>
+                                        Operating from a growth mindset, we
+                                        realize that all persons in any
+                                        situation can grow and improve.  This
+                                        frame of mind allows us to have a
+                                        realistic expectation that any employee,
+                                        managed properly, can excel in their
+                                        profession.  It is also important to
+                                        note that every dollar spent on
+                                        developing employees has a measurable
+                                        benefit to productivity and
+                                        profitability.<br><br>
 
-                                        <strong>Career Planning...</strong><br>
-                                        Every employee likes to know that there are
-                                        bigger things on the horizon. In most cases, it
-                                        is also advantageous to the company to have
-                                        just-in-time talent available to fill vacant
-                                        roles. Plan and implement your strategy to
-                                        avoid the difficulties associated with getting
-                                        new or unqualified talent up to speed.<br><br>
+                                        <strong>Supervisor Responsibility</strong><br>
+                                        The old paradigm attempts to prove that
+                                        the employer made a good-faith effort to
+                                        give the employee ample opportunity to
+                                        comply.  When that effort has been
+                                        willfully rebuffed the employer
+                                        supposedly is left with no choice other
+                                        than termination.  The flaw in this
+                                        logic is that it disregards the
+                                        supervisor's responsibility to develop
+                                        talent and expand the capabilities of
+                                        their team. Front line supervisors can
+                                        be either our greatest asset or our
+                                        greatest liability.<br><br>
 
-                                        <strong>Individualized Engagement</strong><br>
+                                        <strong>Individualized Approach</strong><br>
                                         Employee development programs on a large scale
                                         are laudable, but engaging with every employee
                                         identically is like trying to eat fifty hard
@@ -234,23 +191,77 @@ include '/header.php';
                                         lose more than a few.<br><br>
 
 
-                                        <strong>Performance Management</strong>
-                                        The old paradigm attempts to prove that the
-                                        employer made a good-faith effort to give the
-                                        employee ample opportunity to comply, but that
-                                        effort has been willfully rebuffed and there
-                                        fore the employer was left with no choice other
-                                        than termination.<br><br>
-                                    
-                                        This paradigm must change.</p>
+                                        <strong>Performance Management</strong><br>
+                                        Employee development programs on a large
+                                        scale are laudable, but trying to
+                                        develop every employee identically
+                                        alienates a significant portion of your
+                                        workforce.  Remember that employees are
+                                        like snowflakes: no two are the same.
+                                        Also, a lot of them together can make
+                                        quite an impact.<br><br></p>
                             </div>
                         </div>
                     </div>
+
+                    <div class="container-fluid" id="complianceArea">
+                        <hr class="greenLine">
+                    </div>
+        
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <img src="images/complianceStrategiesPage.jpg" class="img-fluid">
+                                <span class="text-justify"></span>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-12 desc"><br>
+                                <div class="row">
+                                    <div class="col-lg-9 col-md-8 col-sm-12"><br>
+                                        <h2>REGULATORY COMPLIANCE</h2>
+                                        <hr class="greenLine2">
+                                            <p class="body-text"><br>
+                                                is a healthy combination of
+                                                preparation and paranoia.  Big
+                                                Brother is not really coming to
+                                                get you. Yet.<br><br>
+        
+                                                <strong>An ounce of prevention...</strong><br>
+                                                Compliance definitely takes
+                                                time, effort, and resources.
+                                                Considering the potential fines
+                                                that can be incurred, however,
+                                                the investment is worth the
+                                                expense.  For example, an audit
+                                                of your I-9s can result in
+                                                minimum fines of over $200 per
+                                                error, and a fines can be
+                                                assessed for multiple errors per
+                                                form.  A remediation audit can
+                                                save thousands in fines, and
+                                                training for supervisors can
+                                                resolve problems before they
+                                                happen.<br><br>
+        
+                                                <strong>Acronyms don't have to inspire dread.</strong><br>
+                                                ADAA, IRCA, USCIS, WARN, FMLA,
+                                                SOX, EEOC, OSHA, HIPAA, ERISA,
+                                                PDA, PPACA, GINA, SUTA, DOL,
+                                                EPPA, ADEA, COBRA, FLSA, NLRB,
+                                                OFCCP, USERRA.  What if you knew
+                                                someone who understands all of
+                                                these and could walk you through
+                                                them step-by-step?
+                                                (Wink.)<br><br></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br><br>
+
                 </div>
             </div><br><br>
 
         
-
 
 
 
@@ -262,5 +273,6 @@ include '/header.php';
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </body>
 </html>
