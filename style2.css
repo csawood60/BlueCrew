@@ -4,7 +4,7 @@
 }
 
 /*Home page picture & Jumbotron*/
-.jumbotron {
+#homePage {
     background-image: url('images/home.jpg');
     height: cover;
     -webkit-background-size: cover;
@@ -17,7 +17,7 @@
 .display-4 {
     font-family: 'Noto Sans KR', sans-serif;
     color:#34CCE3;
-    background-color: rgba(36, 36, 36, 0.692);
+    background-color: rgba(36, 36, 36, 0.74);
     text-align: center;
     padding: 20px;
 }
@@ -36,7 +36,7 @@
 .lead{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    background-color: rgba(36, 36, 36, 0.692);
+    background-color: rgba(36, 36, 36, 0.74);
     text-align: center;
     padding: 20px 20px;
     font-size: 25px;
@@ -230,6 +230,7 @@ footer {
 
 .body-text{
     padding-right: 20px;
+    font-weight: normal;
 }
 
 /*green line in stratetgies page above 4 strategies*/
@@ -327,3 +328,34 @@ footer {
             display: none;
         }
     }
+
+    #eventBlurb {
+        
+    }
+
+.display-3{
+    color: #34CCE3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.lead-2 {
+}
+
+/*.blueBkgd {
+    background-color:#34CCE3;
+}*/
+
+.testBkgd{
+    background-color:#34CCE3;
+}
+
+.testBkgd::before{
+    background: url('images/whiteDots2.png') no-repeat;
+    content:"";
+    display: block;
+    position: relative;
+    border: 0px;
+}
+
