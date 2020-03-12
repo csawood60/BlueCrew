@@ -5,7 +5,9 @@
 
 /*Home page picture & Jumbotron*/
 .jumbotron {
-    background-image: url('images/home.jpg');
+    background-image: url('../img/home.jpg');
+    /*padding-top: 20%;
+    padding-bottom: 20%;*/
     height: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -13,17 +15,17 @@
     background-size: cover;
 }
 
-.jumbotron-no-image {
-    background-color: white;
+.drk:after {
+    content: '';
+    display: block;
+    position: absolute;
     height: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-.opacity {
-    background-color: rgba(36, 36, 36, 0.692);
+    background: #000;
+    opacity: 0.5;
 }
 
 /*Blue header type*/
@@ -33,27 +35,6 @@
     background-color: rgba(36, 36, 36, 0.692);
     text-align: center;
     padding: 20px;
-}
-
-/*green rule line on header*/
-.display-4::after {
-    content:'';
-    background: #49c41b;
-    height: 3px;
-    width: 515px;
-    display: block;   
-    left: -2.5em; 
-}
-
-/*Black header type*/
-.display-3 {
-    font-family: 'Noto Sans KR', sans-serif; /* Move this font to body tag so we don't need this? */
-}
-
-/*Blue header dots*/
-.design-dots {
-    font-family: 'Noto Sans KR', sans-serif;
-    color:#34CCE3;
 }
 
 /*green rule line header*/
@@ -66,7 +47,7 @@ h1::after {
     left: -2.5em; 
 }
 
-/*text paragraph under home page header*/
+/*paragraph under home page header*/
 .lead{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
@@ -80,11 +61,6 @@ h1::after {
 .test{
     color: white;
     text-align: center;
-}
-
-.centered {
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /*"Learn more" button styling*/
@@ -117,6 +93,8 @@ h1::after {
     padding-top: 5em;
     min-height: 100px;
 }
+
+
 
 .carousel-control-prev-icon, .carousel-control-next-icon{
     background-color: #90929E;
@@ -152,7 +130,7 @@ h1::after {
     position: relative;
     top: 30px;
     color: #34CCE3;
-    font-size: 3em;
+    font-size: 4em;
 }
 
 .testimonial::after {
@@ -165,7 +143,7 @@ h1::after {
     position: relative;
     top: 35px;
     color: #34CCE3;
-    font-size: 3em;
+    font-size: 4em;
 }
 
 footer {
@@ -211,7 +189,6 @@ divider::before {
     padding: 0px;
 }
 
-/*Green button throughout site*/
 .btn.btn-primary {
 }
 
@@ -221,7 +198,6 @@ divider::before {
     font-weight: 400;
 }*/
 
-/*cards on home page*/
 .cards h1 {
     font-size: 20px;
     font-weight: bold;
@@ -246,7 +222,7 @@ divider::before {
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
-    height: 100%;
+    /*height: 600px;*/
 }
 
 /*#cards .card:hover{
@@ -257,181 +233,17 @@ divider::before {
     box-shadow: 5px 5px 5px rgb(113, 115, 124);
 }*/
 
-/*#cards .card:hover h3 {
+#cards .card:hover h3 {
     color: white;
-}*/
-
-/*Blue dots throughout site*/
-.blueDots {
-    color: #34CCE3;
-    font-size: 30px;
 }
 
-.blueDots-jpg {
-    max-height: 30px;
-}
-
-.row {
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-    min-height: 150px;
-}
-
-.short-row {
-    min-height: 100px;
-}
-
-.body-text{
-    padding-right: 20px;
-}
-
-/*green line in stratetgies page above 4 strategies*/
-.greenLine  {
-    background-color:#90929E;
-    height: 2px;
-    display: block;   
-    width: 70%;
-    margin-bottom: 35px;
-}
-
-/*blue circle at end of green line#*/
-.greenLine:after { 
-    background: url('images/blueCircleOutline2.png') no-repeat top right;
-    content: "";
-    display: block;
-    height: 75px; /* height of the circle */
-    position: relative;
-    top: -36px; /* half the height of the circle */
-    border: 0;
-}
-
-.greenLine2 {
-    background-color: #49e41b;
-    height: 2px;
-    display: block;
-    width: 30%;
+.body-text p{
 
 }
 
-.dots:after {
-    background: url('images/blueDots.png') no-repeat left;
-    content:"";
-    display: block;
-    height: 60px;
-    position: relative;
-    border: 0px;
-}
 
 
-/*Green dot navigation styling on the side of on Strategies Page
-.sidenav {
-    width: 130px;
-    position: fixed;
-    z-index: 1;
-    top: 20px;
-    left: 10px;
-    overflow-x: hidden;
-    padding: 8px 0;
-}
 
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 15px;
-    color: #90929E;
-    display: block;
-    }*/
 
-#mySidenav a {
-    position: fixed;
-    left: -140px;
-    z-index: 999;
-    transition: 0.3s;
-    padding: 5px;
-    width: 190px;
-    text-decoration: none;
-    font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
-    border-radius: 0 20px 20px 0;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.29);
-}
 
-#mySidenav a:hover {
-    left: 0;
-    }
-    
-    #culture {
-    top: 20px;
-    background-color: #49e41b;
-    }
-    
-    #communication {
-    top: 70px;
-    background: #49e41b url(images/communicationIconBlack.png);
-    background-position: right;
-    background-size: 33px;
-    background-repeat: no-repeat;
-    }
-    
-    #development {
-    top: 120px;
-    background-color: #49e41b;
-    }
-    
-    #compliance {
-    top: 170px;
-    background-color: #49e41b
-    }
 
-    @media (max-width: 768px) {
-        #mySidenav {
-            display: none;
-        }
-    }
-
-    .required {
-        color: red;
-    }
-
-    .about-img {
-        border-radius: 50%;
-        border: 15px solid #34CCE3;
-        max-width: 300px;
-    }
-
-    .logo {
-        max-width: 125px;
-    }
-
-    .overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: #008CBA;
-      }
-      
-      .container-overlay:hover .overlay {
-        opacity: 1;
-      }
-      
-      .text {
-        color: white;
-        font-size: 20px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
-      }

@@ -4,7 +4,7 @@
     Use the <php include('./asset/include/nav.php'); ?> command
  -->
 
-    <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: black">
+    <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: black; height: 100px;">
         <div class="container"><a class="navbar-brand logo" href="#">GETBLUEIVY</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse"
                 id="navbarNav">
