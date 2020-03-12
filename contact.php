@@ -11,7 +11,7 @@
     <title>Contact Us</title>
     </head>
     <body>
-        <div class="jumbotron jumbotron-fluid">
+        <div class="jumbotron-no-image jumbotron-fluid">
         <div class="container">
             <h1 class="display-3"><strong>Drop us a line<span class="design-dots">.....</span></strong></h1>
                 <p class="lead-2"><strong>Reach out anytime. We love to chat!</strong></p>
