@@ -22,32 +22,32 @@
         </div>
         </div>
         <div class="container"> <!--Need to make input boxes blue-->
-            <form>
+            <form action="mail.php" method="POST">
                 <p>Indicates a Required Field<span class="required">*</span></p>
                 <div class="form-group">
                     <label for="Name">Name:</label>
-                    <input type="text" class="form-control" placeholder="Your Name...">
+                    <input type="text" class="form-control" name="name" placeholder="Your Name...">
                 </div>
                 <div class="form-group">
                     <label for="Company">Company:</label>
-                    <input type="text" class="form-control" placeholder="Company Name...">
+                    <input type="text" class="form-control" name="company-name" placeholder="Company Name...">
                 </div>
                 <div class="form-group">
                     <label for="Phone-number">Phone Number:</label>
-                    <input type="text" class="form-control" placeholder="Phone Number...">
+                    <input type="text" class="form-control" name="phone-number" placeholder="Phone Number...">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Email address:</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your Email..." aria-describedby="emailHelp">
+                    <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Your Email..." aria-describedby="emailHelp">
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
                 <div class="form-group">
                     <label for="Team-size">Team Size:</label>
-                    <input type="text" class="form-control" placeholder="Team Size...">
+                    <input type="text" class="form-control" name="team-size" placeholder="Team Size...">
                 </div>
                 <div class="form-group">
                     <label for="Message">What's Happening in Your World?:</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="3"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
