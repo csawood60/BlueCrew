@@ -27,7 +27,7 @@
     color:#34CCE3;
     background-color: rgba(36, 36, 36, 0.692);
     text-align: center;
-    padding: 20px;
+    padding: 0px 20px;
 }
 
 /*green rule line on header*/
@@ -38,6 +38,12 @@
     width: 515px;
     display: block;   
     left: -2.5em; 
+}
+/*Blue header type blog page*/
+.display-5 {
+    font-family: 'Noto Sans KR', sans-serif;
+    color:#34CCE3;
+    text-align: left; 
 }
 
 /*Black header type*/
@@ -58,6 +64,10 @@ h1::after {
     width: 515px;
     display: block;   
     left: -2.5em; 
+}
+
+.h1Plus {
+    font-size: 2.5rem;
 }
 
 /*text paragraph under home page header*/
@@ -265,6 +275,10 @@ footer {
     min-height: 200px;
 }
 
+.row-5 {
+    min-height: 100px;
+}
+
 .short-row {
     min-height: 100px;
 }
@@ -299,6 +313,15 @@ footer {
     height: 2px;
     display: block;
     width: 30%;
+
+}
+
+.greenLine3 {
+    background-color: #49e41b;
+    height: 3px;
+    display: block;
+    width: 40%;
+    z-index: 99;
 
 }
 
