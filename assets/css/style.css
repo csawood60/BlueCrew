@@ -3,6 +3,10 @@
     padding:0;
 }
 
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
 /*Home page picture & Jumbotron*/
 #homePage {
     background-image: url('../img/home.jpg');
@@ -23,7 +27,7 @@
 
 /*Blue header type*/
 .display-4 {
-    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;/*for home page*/
     color:#34CCE3;
     background-color: rgba(36, 36, 36, 0.692);
     text-align: center;
@@ -39,9 +43,9 @@
     display: block;   
     left: -2.5em; 
 }
+
 /*Blue header type blog page*/
 .display-5 {
-    font-family: 'Noto Sans KR', sans-serif;
     color:#34CCE3;
     text-align: left; 
 }
@@ -57,14 +61,14 @@
 }
 
 /*green rule line header*/
-h1::after {
+/*h1::after {
     content:'';
     background: #49c41b;
     height: 3px;
     width: 515px;
     display: block;   
     left: -2.5em; 
-}
+}*/
 
 .h1Plus {
     font-size: 2.5rem;
@@ -288,6 +292,91 @@ footer {
     font-weight: normal;
 }
 
+/* NEW gray lines (with circle icons at ends) in strategies page above 4 strategies*/
+.grayLineCulture {
+    background-color:#90929E;
+    height: 2px;
+    display: block;   
+    width: 70%;
+    margin-bottom: 35px;
+}
+
+.grayLineCommunication {
+    background-color:#90929E;
+    height: 2px;
+    display: block;   
+    width: 70%;
+    margin-bottom: 35px;
+}
+
+.grayLineDevelopment {
+    background-color:#90929E;
+    height: 2px;
+    display: block;   
+    width: 70%;
+    margin-bottom: 35px;
+}
+
+.grayLineCompliance {
+    background-color:#90929E;
+    height: 2px;
+    display: block;   
+    width: 70%;
+    margin-bottom: 35px;
+}
+
+/*blue circle at end of green line OLD
+.greenLine:after { 
+    background: url('../img/blueCircleOutline2.png') no-repeat top right;
+    content: "";
+    display: block;
+    height: 75px; /* height of the circle 
+    position: relative;
+    top: -36px; /* half the height of the circle 
+    border: 0;
+}*/
+
+/*blue circle at end of green line with icon*/
+.grayLineCulture:after { 
+    background: url('../img/cultureIcon5.png') no-repeat top right;
+    content: "";
+    display: block;
+    height: 75px; /* height of the circle */
+    position: relative;
+    top: -36px; /* half the height of the circle */
+    border: 0;
+}
+
+.grayLineCommunication:after { 
+    background: url('../img/communication4.png') no-repeat top right;
+    content: "";
+    display: block;
+    height: 75px; /* height of the circle */
+    position: relative;
+    top: -36px; /* half the height of the circle */
+    border: 0;
+}
+
+.grayLineDevelopment:after { 
+    background: url('../img/developmentIcon.png') no-repeat top right;
+    content: "";
+    display: block;
+    height: 75px; /* height of the circle */
+    position: relative;
+    top: -36px; /* half the height of the circle */
+    border: 0;
+}
+
+.grayLineCompliance:after { 
+    background: url('../img/complianceIcon2.png') no-repeat top right;
+    content: "";
+    display: block;
+    height: 75px; /* height of the circle */
+    position: relative;
+    top: -36px; /* half the height of the circle */
+    border: 0;
+}
+
 /*green line in stratetgies page above 4 strategies*/
 .greenLine  {
     background-color:#90929E;
@@ -384,76 +473,92 @@ footer {
         background-repeat: no-repeat;
         }
 
-    /*gets rid of pop-out side navigation on strategies page when screen size is smaller*/
-    @media (max-width: 768px) {
-        #mySidenav {
-            display: none;
-        }
+/*gets rid of pop-out side navigation on strategies page when screen size is smaller*/
+@media (max-width: 768px) {
+    #mySidenav {
+        display: none;
+    }
+}
+
+.lead-2 {
+}
+
+/*Events page blue background*/
+.testBkgd{
+    background-color:#34CCE3;
+}
+
+/*.testBkgd::before{
+    background: url('../img/whiteDots2.png') no-repeat;
+    content:"";
+    display: block;
+    position: relative;
+    border: 0px;
+}*/
+
+/*outline on events page for calendar*/
+#calendarBox {
+    border: solid #90929E;
+    padding: 15px;
+}
+
+/*calendar icon on Events page*/
+.event::before{
+    background: url('../img/calendar.png') no-repeat;
+    content:"";
+    display: block;
+    position: relative;
+    border: 0px;
+}
+
+/*Jumbotron display title on Events page*/
+#events{
+    font-size: 2em;
+    color: #34CCE3;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+/*span class on required fields, contact page*/
+.required {
+    color: red;
+}
+
+.about-img {
+    border-radius: 50%;
+    border: 15px solid #34CCE3;
+    max-width: 300px;
+}
+
+.logo {
+    max-width: 125px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
     }
 
-    /*#eventBlurb {
-        
-    }*/
-
-    .lead-2 {
-    }
+.container-overlay:hover .overlay {
+    opacity: 1;
+}
     
-    /*.blueBkgd {
-        background-color:#34CCE3;
-    }*/
-    
-    .testBkgd{
-        background-color:#34CCE3;
-    }
-    
-    .testBkgd::before{
-        background: url('../img/whiteDots2.png') no-repeat;
-        content:"";
-        display: block;
-        position: relative;
-        border: 0px;
-    }
-
-    /*span class on required fields, contact page*/
-    .required {
-        color: red;
-    }
-
-    .about-img {
-        border-radius: 50%;
-        border: 15px solid #34CCE3;
-        max-width: 300px;
-    }
-
-    .logo {
-        max-width: 125px;
-    }
-
-    .overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: #008CBA;
-      }
-      
-      .container-overlay:hover .overlay {
-        opacity: 1;
-      }
-      
-      .text {
-        color: white;
-        font-size: 20px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
-      }
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
