@@ -1,0 +1,30 @@
+
+/* This replace jquery-ui.css for corners */
+.ui-corner-all {
+/*  border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px; 
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px; */
+}
+
+/* Color for the tabs */
+.ui-state-active{
+    border: 3px solid #49c41b;
+    background: #34CCE3;
+    font-weight: bold;
+    color: black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+ 
+}
+
+.ui-state-default {
+    border: 2px solid #49c41b; 
+    /*background: #f6f6f6;*/
+    font-weight: normal;
+    color: #454545;
+}
+
+.ui-helper-reset {
+    margin: 20px;
+}
