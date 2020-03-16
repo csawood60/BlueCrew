@@ -1,94 +1,243 @@
-<html lang="en">
+<div lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="assets/css/style2.css">    
     <script src="blueIvy.js"></script>
-    <title>Events</title>
+    <title>Get Blue Ivy</title>
 </head>
+
 <div>
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid event">
         <div class="container">
-            <h1 class="display-3">Amazing workplaces develop amazing people
-                <span class="design-dots">.....</span></h1>
-            <h4 class="lead-2"><strong>​Come join the movement ​at one of our live events below</h4>
-                <hr class="divider-left">
-        </div>
-    </div>
-    <div class="container" id="eventsBlurb"> 
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 blueBkgd" >
-                <h3>Amplify Employee Effectiveness</h3>
-                    <p>January 22, 2020<br>
-                        Noon to 2:00 pm<br>
-                        RISE Services: 13552 South 110 West<br></p>
-                    <p class="body-text">Engaging effectively with your
-                    employees can make the difference between a fulfilling,
-                    productive team and a dreary, demoralizing grind. Come
-                    explore ways to build employee enthusiasm around team goals.
-                    We will be discussing various types of performance
-                    management techniques and their effectiveness in different
-                    situations. Lunch starts at noon; don't be late!</p><br><br>
-                <!--<img src="images/blueDots.png" class="img-fluid">
-                <span class="text-justify"><h2 class="pict">.....</h2></span>-->
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-12 desc">
-                
-                <!--<img src="images/blueDots.png" class="img-fluid">
-                <span class="text-justify"><h2 class="pict">.....</h2></span>--><br>
-<br><br>
-            </div>
-        </div>
-    </div><br><br>
-
-    <div class="container" id="eventsBlurb">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 blueBkgd" >
-                <h3>Emotional Intelligence at Work</h3>
-                    <p>February 2020<br>
-                    <p class="body-text">Emotional intelligence (EQ) is
-                        the top indicator of high-performing individuals and
-                        a key attribute of great leaders. A person who is
-                        adept at utilizing EQ can communicate better, defuse
-                        conflicts, improve relationships, and succeed in the
-                        workplace.</p><br><br>
-                <!--<img src="images/blueDots.png" class="img-fluid">
-                <span class="text-justify"><h2 class="pict">.....</h2></span>-->
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-12 desc">
-                
-                <!--<img src="images/blueDots.png" class="img-fluid">
-                <span class="text-justify"><h2 class="pict">.....</h2></span>--><br>
-<br><br>
-            </div>
-        </div>
-    </div><br><br>
-
-        <div class="container-fluid"></div>
             <div class="row">
-                <div class="col-sm-9">
-                    <div class="row">
-                        <div class="col-8 col-sm-6 testBkgd">
-                            Emotional Intelligence at Work<br>
-                            February 2020<br>
-                            <p class="body-text">Emotional intelligence (EQ) is
-                            the top indicator of high-performing individuals and
-                            a key attribute of great leaders. A person who is
-                            adept at utilizing EQ can communicate better, defuse
-                            conflicts, improve relationships, and succeed in the
-                            workplace.</p>
-                        </div>
-                        <div class="col-4 col-sm-6">
-                        </div>
-                    </div>
+                <div class="col-lg-2 my-auto">                
+                    <img src="assets/img/calendar.png" alt="" max width="150px">
+                </div>
+                <div class="col-lg-10 my-auto">                
+                    <h1 id="events">Amazing workplaces develop amazing people...</h1>
+                    <h4 class="lead-2"><strong>​Come join the movement ​at one of our live events below</h4>
+                    <hr class="divider-left">
                 </div>
             </div>
         </div>
+    </div>
 
-<!-- Start of HubSpot Embed Code -->
-<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/6110584.js"></script>
-<!-- End of HubSpot Embed Code -->
+    <div class="container"> 
+        <div class="row">
+            <div class="col-lg-4 my-auto">
+                <img src="assets/img/handsOverDesk.jpg" alt="group of hands" width="100%">
+            </div>
+            <div class="col-lg-6" id="calendarBox">
+                <h3><strong>Blue Ivy Calendar: Upcoming Events (check back often)</strong></h3>
+                <hr class="divider-left">
+            </div>
+            <div class="col-lg-2">
+                <img src="assets/img/blueDots.png" alt="Blue dots" class="img-fluid">
+
+            </div>
+            
+        </div>
+    </div>
+    <hr class="my-4">
+
+    <div class="testBkgd">
+        <div class="container"> 
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-12 h-100" >
+                    <!--<img src="assets/img/communicationPict.jpg" alt="" width="100%">-->
+                    <img src="assets/img/whiteDots.png" class="whitedots">
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12">
+                    <h3><strong>Winning Over Struggling Employees</strong></h3>
+                    <hr class="divider-left">
+                        <p>March 17, 2020<br>
+                            Noon to 2:30 pm<br>
+                            Red Lobster<br>
+                            298 East Winchester Street<br>
+                            Murray, UT 84107</p><br>
+                        <p class="body-text">Engaged employees make the difference between a fulfilled, productive team & a dreary, demoralizing grind.
+                            Register now for this lunch-and-learn at:
+                            https://www.upcca.info/lunch-and-learn- registration.html</p>
+                            <a class="btn btn-primary btn-lg" href="#resources" role="button">Register</a><br><br>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 h-100 my-auto">
+                    <img src="assets/img/strugglingEmployeeEvent.png" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+        <hr class="my-4">
+
+    <div class="testBkgd">
+        <div class="container"> 
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-12 h-100" >
+                    <!--<img src="assets/img/communicationPict.jpg" alt="" width="100%">-->
+                    <img src="assets/img/whiteDots.png" class="whitedots">
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12">
+                    <h3><strong>Marijuana in the Workplace: Strategies for Compliance</strong></h3>
+                        <hr class="divider-left">
+                        <p>Thursday, April 2, 2020<br>
+                            Noon to 1:30 pm<br>
+                            Hampton Inn Draper<br>
+                            13711 South 200 West<br></p>
+                            <a class="btn btn-primary btn-lg" href="#resources" role="button">Register</a><br><br>                        <p class="body-text"></p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 h-100 my-auto">
+                    <img src="assets/img/MarijuanaEvent.png" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+        <hr class="my-4">
+    <div>
+        <img src="assets/img/greenLines.png" alt="">
+    </div>
+
+    
+
+
+    <!--<div class="container-fluid"> 
+        <div class="row">
+            <div class="col-lg-1">
+                <img src="assets/img/whiteDots.png" class="img-fluid whiteDots" max-width="60%">
+            </div>
+            <div class="col-lg-6 testBkgd">
+                <h3><strong>Winning Over Struggling Employees</strong></h3>
+                <hr class="divider-left">
+                <p>March 17, 2020<br>
+                    Noon to 2:30 pm<br>
+                    Red Lobster<br>
+                    298 East Winchester Street<br>
+                    Murray, UT 84107<br></p>
+                <p class="body-text">Engaged employees make the difference between a
+                    fulfilled, productive team & a dreary, demoralizing
+                    grind.<br> Register now for this lunch-and-learn at:<br>
+                    https://www.upcca.info/lunch-and-learn-
+                    registration.html</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Register Now</a>
+            </div>
+            <div class="col-lg-4 my-auto">
+                <img src="assets/img/strugglingEmployeeEvent.png" alt="" width="100%">
+            </div>
+            
+        </div>
+    </div>
+    <hr class="my-4">
+
+
+
+    <div class="container-fluid" id="eventsBlurb"> 
+        <div class="row">  
+            <div class="col-lg-1">
+                <img src="assets/img/blueDots.png" class="img-fluid" id="whiteDots">
+            </div>     
+            <div class="col-lg-6 testBkgd">
+                <h3><strong>Marijuana in the Workplace: Strategies for Compliance</strong></h3>
+                <hr class="divider-left">
+                <p>Thursday, April 2, 2020<br>
+                    Noon to 1:30 pm<br>
+                    Hampton Inn Draper<br>
+                    13711 South 200 West<br></p>
+                <p class="body-text"></p>
+            </div>
+            <div class="col-lg-4 my-auto">
+                <img src="assets/img/MarijuanaEvent.png" alt="" width="100%">
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 blueBkgd" >
+                <img src="assets/img/handsOverDesk.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 desc">
+                <h3><strong>Winning Over Struggling Employees</strong></h3>
+                <hr class="divider-left">
+                    <p>March 17, 2020<br>
+                        Noon to 2:30 pm<br>
+                        Red Lobster<br>
+                        298 East Winchester Street<br>
+                        Murray, UT 84107</p><br>
+                    <p class="body-text">Engaged employees make the difference between a fulfilled, productive team & a dreary, demoralizing grind.
+                        Register now for this lunch-and-learn at:
+                        https://www.upcca.info/lunch-and-learn- registration.html</p>
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+
+
+    <div class="container" id="eventsBlurb"> 
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 h-100 justify-content-center align-items-center" >
+                <img src="assets/img/calendar.png" alt="" width="65%">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 desc">
+                <h3><strong>Marijuana in the Workplace: Strategies for Compliance</strong></h3>
+                <hr class="divider-left">
+                <p>Thursday, April 2, 2020<br>
+                    Noon to 1:30 pm<br>
+                    Hampton Inn Draper<br>
+                    13711 South 200 West<br></p>
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">-->
+
+    <!--<div class="container-fluid" id="eventsBlurb"> 
+        <div class="row">
+            <div class="col-lg-8 testBkgd">
+                <h3><strong>Marijuana at Work</strong></h3>
+                <p>April 2, 2020<br>
+                    Noon to 1:30 pm<br>
+                    South Jordan Hampton<br></p>
+                <p class="body-text"></p>
+            </div>
+            <div class="col-lg-3 my-auto">
+                <img src="assets/img/calendar.png" alt="" width="65%">
+            </div>
+            <div class="col-lg-1">
+                <img src="assets/img/blueDots.png" class="img-fluid whiteDots">
+            </div>
+        </div>
+    </div><br>
+
+    <div class="container-fluid testBkgd" id="eventsBlurb"> 
+        <div class="row">
+            <div class="col-lg-1">
+                <img src="assets/img/whiteDots.png" class="img-fluid whiteDots">
+            </div>
+            <div class="col-lg-4">
+            </div>
+            <div class="col">
+                <h3><strong>Marijuana at Work</strong></h3>
+                <p>April 2, 2020<br>
+                    Noon to 1:30 pm<br>
+                    South Jordan Hampton<br></p>
+                <p class="body-text"></p>
+            </div>
+        </div>
+    </div>
+    <br>-->
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
