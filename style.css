@@ -17,6 +17,21 @@ body{
     background-size: cover;
 }
 
+
+/*#homePage {
+    background-image: url(small.jpg);
+  }
+  /* Only override this if one of the conditions for the 1500w image is met */
+  /*@media 
+    (min-width: 375px) and (max-width: 400px),
+    (min-width: 468px),
+    (-webkit-min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi) {
+    .img {
+      background-image: url(large.jpg);
+    }
+  }*/
+
 .jumbotron {
     background-color: #fff;
 }
@@ -52,7 +67,17 @@ body{
 
 /*Black header type*/
 .display-3 {
-    color: black;
+    color: black; 
+}
+
+/*Black header type*/
+.display-3::after {
+    content:'';
+    background: #49c41b;
+    height: 3px;
+    width: 400px;
+    display: block;   
+    left: -2.5em; 
 }
 
 /*Blue header dots - span class on contact page*/
@@ -485,7 +510,8 @@ footer {
 
 /*Events page blue background*/
 .testBkgd{
-    background-color:#34CCE3;
+    background-color:rgba(52, 204, 227, 0.486);
+    padding: 15px;
 }
 
 /*.testBkgd::before{
@@ -498,7 +524,6 @@ footer {
 
 /*outline on events page for calendar*/
 #calendarBox {
-    border: solid #90929E;
     padding: 15px;
 }
 
@@ -511,11 +536,15 @@ footer {
     border: 0px;
 }
 
+/*White dots on Events page*/
+.whiteDots {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 /*Jumbotron display title on Events page*/
 #events{
-    font-size: 2em;
-    color: #34CCE3;
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 700;
 }
 
