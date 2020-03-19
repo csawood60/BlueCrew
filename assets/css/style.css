@@ -170,7 +170,7 @@ body{
     position: relative;
     top: 30px;
     color: #34CCE3;
-    font-size: 3em;
+    font-size: 4em;
 }
 
 .testimonial::after {
@@ -561,4 +561,23 @@ footer {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+#broker{
+    padding-left: 10px;
+}
+
+/*bullet colors in benefit broker page*/
+ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #34CCE3;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em; 
+    margin-left: 1em;
 }
