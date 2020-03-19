@@ -496,12 +496,6 @@ footer {
     border: 0px;
 }*/
 
-/*outline on events page for calendar*/
-#calendarBox {
-    border: solid #90929E;
-    padding: 15px;
-}
-
 /*calendar icon on Events page*/
 .event::before{
     background: url('../img/calendar.png') no-repeat;
