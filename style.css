@@ -17,21 +17,6 @@ body{
     background-size: cover;
 }
 
-
-/*#homePage {
-    background-image: url(small.jpg);
-  }
-  /* Only override this if one of the conditions for the 1500w image is met */
-  /*@media 
-    (min-width: 375px) and (max-width: 400px),
-    (min-width: 468px),
-    (-webkit-min-device-pixel-ratio: 2), 
-    (min-resolution: 192dpi) {
-    .img {
-      background-image: url(large.jpg);
-    }
-  }*/
-
 .jumbotron {
     background-color: #fff;
 }
@@ -67,18 +52,26 @@ body{
 
 /*Black header type*/
 .display-3 {
-    color: black; 
+    color: black;
 }
 
-/*Black header type*/
-.display-3::after {
+.blueR {
+    position: absolute;
+    height: 100px;
+    width: 500px;
+    z-index: -1;
+    top: 45px;
+    left: 100px;
+    opacity: 40%;
+}
+
+/*.display-3::after {
     content:'';
     background: #49c41b;
     height: 3px;
-    width: 400px;
-    display: block;   
-    left: -2.5em; 
-}
+    width: 430px;
+    display: block;
+}*/
 
 /*Blue header dots - span class on contact page*/
 .design-dots {
@@ -113,11 +106,6 @@ body{
     color: white;
     text-align: center;
 }
-
-/* .centered {  - To center if needed. I think this is not in use
-    margin-left: auto;
-    margin-right: auto;
-} */
 
 /*"Learn more" button styling*/
 .btn {
@@ -195,7 +183,7 @@ body{
     position: relative;
     top: 30px;
     color: #34CCE3;
-    font-size: 3em;
+    font-size: 4em;
 }
 
 .testimonial::after {
@@ -299,8 +287,6 @@ footer {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
     min-height: 200px;
 }
 
@@ -309,7 +295,7 @@ footer {
 }
 
 .short-row {
-    min-height: 100px;
+    min-height: 75px;
 }
 
 .body-text{
@@ -434,9 +420,22 @@ footer {
     background-color: #49e41b;
     height: 3px;
     display: block;
-    width: 40%;
+    width: 60%;
     z-index: 99;
+}
 
+/*green line for about and contact headers*/
+.greenLine4 {
+    position: absolute;
+    left: -50px;
+    background-color: #49e41b;
+    height: 3px;
+    width: 50%;
+}
+
+.center {
+    max-width: auto;
+    text-align: center;
 }
 
 .dots:after {
@@ -510,8 +509,7 @@ footer {
 
 /*Events page blue background*/
 .testBkgd{
-    background-color:rgba(52, 204, 227, 0.486);
-    padding: 15px;
+    background-color:#34CCE3;
 }
 
 /*.testBkgd::before{
@@ -524,6 +522,7 @@ footer {
 
 /*outline on events page for calendar*/
 #calendarBox {
+    border: solid #90929E;
     padding: 15px;
 }
 
@@ -536,15 +535,11 @@ footer {
     border: 0px;
 }
 
-/*White dots on Events page*/
-.whiteDots {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 /*Jumbotron display title on Events page*/
 #events{
-    font-size: 2.5em;
+    font-size: 2em;
+    color: #34CCE3;
+    font-size: 3em;
     font-weight: 700;
 }
 
@@ -590,4 +585,23 @@ footer {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+#broker{
+    padding-left: 10px;
+}
+
+/*bullet colors in benefit broker page*/
+ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #34CCE3;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em; 
+    margin-left: 1em;
 }
