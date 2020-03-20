@@ -238,9 +238,30 @@ footer {
     font-weight: bold;
 }
 
-.cards h4 {
-    font-size: 16px;
+#cards h3 {
+    font-size: 40px;
     font-weight: bold;
+}
+
+.card h4 {
+    font-size: 20px;
+    font-weight: bold;
+    hyphens: auto;
+}
+
+.card-buttons {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    left: 30px;
+}
+
+.p-4 {
+    width: 100%;
+}
+
+.card a {
+    left: 50px;
 }
 
 #cards img {
@@ -509,8 +530,7 @@ footer {
 
 /*Events page blue background*/
 .testBkgd{
-    background-color:rgba(52, 204, 227, 0.486);
-    padding: 15px;
+    background-color:#34CCE3;
 }
 
 /*.testBkgd::before{
