@@ -556,22 +556,3 @@ footer {
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
-#broker{
-    padding-left: 10px;
-}
-
-/*bullet colors in benefit broker page*/
-ul {
-    list-style: none;
-    padding-left: 10px;
-}
-
-ul li::before {
-    content: "\2022";
-    color: #34CCE3;
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em; 
-    margin-left: 1em;
-}
