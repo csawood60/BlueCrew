@@ -10,7 +10,7 @@ body{
 /*Home page picture & Jumbotron*/
 #homePage {
     background-image: url('../img/home.jpg');
-    height: cover;
+    height: 500px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -28,8 +28,8 @@ body{
 /*Blue header type*/
 .display-4 {
     font-weight: 300;/*for home page*/
-    color:#34CCE3;
-    background-color: rgba(36, 36, 36, 0.692);
+    color: black;
+    background-color: rgba(52, 204, 277, 0.75);
     text-align: center;
     padding: 0px 20px;
 }
@@ -555,4 +555,29 @@ footer {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+.high100 {
+    height: 100px;
+}
+
+.picx {
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.pic1 {
+    background-image: url('../img/culture3.jpg');
+}
+
+.pic2 {
+    
+    background-image: url('../img/revolvingdoor.jpg');
+}
+
+.pic3 {
+    background-image: url('../img/workbrainscover.jpg');
 }
