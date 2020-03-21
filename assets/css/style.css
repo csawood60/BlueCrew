@@ -485,7 +485,8 @@ footer {
 
 /*Events page blue background*/
 .testBkgd{
-    background-color:#34CCE3;
+    background-color:rgba(52, 204, 227, 0.486);
+    padding: 15px;
 }
 
 /*.testBkgd::before{
@@ -555,6 +556,12 @@ footer {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+ul.noStyle {
+    list-style-type:none;
+    margin: 3px;
+    padding: 3px;
 }
 
 .high100 {
