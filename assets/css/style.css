@@ -557,3 +557,9 @@ footer {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+ul.noStyle {
+    list-style-type:none;
+    margin: 3px;
+    padding: 3px;
+}
