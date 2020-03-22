@@ -17,6 +17,21 @@ body{
     background-size: cover;
 }
 
+
+/*#homePage {
+    background-image: url(small.jpg);
+  }
+  /* Only override this if one of the conditions for the 1500w image is met */
+  /*@media 
+    (min-width: 375px) and (max-width: 400px),
+    (min-width: 468px),
+    (-webkit-min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi) {
+    .img {
+      background-image: url(large.jpg);
+    }
+  }*/
+
 .jumbotron {
     background-color: #fff;
 }
@@ -89,6 +104,23 @@ body{
     text-align: center;
 }
 
+/*carousel testing*/
+.overlayHome { 
+    color:#fff;
+    position:absolute;
+    z-index:12;
+    top:50%;
+    left:0;
+    width:60%;
+    text-align:center;
+}
+
+.carousel-item .img-fluid {
+    width:100%;
+    height:100%;
+}
+
+
 /* .centered {  - To center if needed. I think this is not in use
     margin-left: auto;
     margin-right: auto;
@@ -138,7 +170,7 @@ body{
 
 .testimonial {
     padding-top: 5em;
-    min-height: 100px;
+    min-height: 130px;
 }
 
 .carousel-indicators > li {
@@ -490,6 +522,16 @@ footer {
     padding: 15px;
 }
 
+.borderBlue{
+    /*background-color:#34CCE3;*/
+    /*border-color: #34CCE3;*/
+    border-color: #49e41b;
+    border-style: solid;
+    padding: 10px;
+    border-width: 4px;
+}
+
+
 /*.testBkgd::before{
     background: url('../img/whiteDots2.png') no-repeat;
     content:"";
@@ -497,6 +539,16 @@ footer {
     position: relative;
     border: 0px;
 }*/
+
+.blueLine {
+    color: #34CCE3;
+    height: 5px;
+}
+
+/*outline on events page for calendar*/
+#calendarBox {
+    padding: 15px;
+}
 
 /*calendar icon on Events page*/
 .event::before{
@@ -507,11 +559,15 @@ footer {
     border: 0px;
 }
 
+/*White dots on Events page*/
+.whiteDots {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 /*Jumbotron display title on Events page*/
 #events{
-    font-size: 2em;
-    color: #34CCE3;
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 700;
 }
 
@@ -565,27 +621,18 @@ ul.noStyle {
     padding: 3px;
 }
 
-.high100 {
-    height: 100px;
-}
+/*bullet colors in benefit broker page*/
+/*#blueBullet {
+    list-style-type: none;
+    padding-left: 10px;
+}*/
 
-.picx {
-    height: 300px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+/*ul.blueBullet li::before {*/
+    /*content: "\2022";
+    color: #34CCE3;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: 1em;
+}*/
 
-.pic1 {
-    background-image: url('../img/culture3.jpg');
-}
-
-.pic2 {
-    
-    background-image: url('../img/revolvingdoor.jpg');
-}
-
-.pic3 {
-    background-image: url('../img/workbrainscover.jpg');
-}
