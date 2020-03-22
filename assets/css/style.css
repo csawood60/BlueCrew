@@ -183,7 +183,7 @@ body{
     position: relative;
     top: 35px;
     color: #34CCE3;
-    font-size: 3em;
+    font-size: 4em;
 }
 
 /*testimonial peoples' names & position before*/
@@ -435,6 +435,7 @@ footer {
     color: black;
     border-radius: 0 20px 20px 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.29);
+    margin-top: 70px;
 }
 
 #mySidenav a:hover {
@@ -556,4 +557,35 @@ footer {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+ul.noStyle {
+    list-style-type:none;
+    margin: 3px;
+    padding: 3px;
+}
+
+.high100 {
+    height: 100px;
+}
+
+.picx {
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.pic1 {
+    background-image: url('../img/culture3.jpg');
+}
+
+.pic2 {
+    
+    background-image: url('../img/revolvingdoor.jpg');
+}
+
+.pic3 {
+    background-image: url('../img/workbrainscover.jpg');
 }
