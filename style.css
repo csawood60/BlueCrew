@@ -17,21 +17,6 @@ body{
     background-size: cover;
 }
 
-
-/*#homePage {
-    background-image: url(small.jpg);
-  }
-  /* Only override this if one of the conditions for the 1500w image is met */
-  /*@media 
-    (min-width: 375px) and (max-width: 400px),
-    (min-width: 468px),
-    (-webkit-min-device-pixel-ratio: 2), 
-    (min-resolution: 192dpi) {
-    .img {
-      background-image: url(large.jpg);
-    }
-  }*/
-
 .jumbotron {
     background-color: #fff;
 }
