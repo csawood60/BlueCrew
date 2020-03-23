@@ -9,7 +9,7 @@ body{
 
 /*Home page picture & Jumbotron*/
 #homePage {
-    background-image: url('../img/home.jpg');
+    background-image: url('../img/home.jpg');/*Photo by Startup Stock Photos from Pexels*/
     height: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -17,20 +17,18 @@ body{
     background-size: cover;
 }
 
-
-/*#homePage {
-    background-image: url(small.jpg);
-  }
-  /* Only override this if one of the conditions for the 1500w image is met */
-  /*@media 
-    (min-width: 375px) and (max-width: 400px),
-    (min-width: 468px),
-    (-webkit-min-device-pixel-ratio: 2), 
-    (min-resolution: 192dpi) {
-    .img {
-      background-image: url(large.jpg);
+@media only screen and (max-width: 767px) {
+    #homePage {
+    /* The file size of this background image is 93% smaller
+        to improve page load speed on mobile internet connections */
+        background-image: url('../img/homeSmall.jpg');
+        height: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
-  }*/
+  }
 
 .jumbotron {
     background-color: #fff;
@@ -163,7 +161,7 @@ body{
 
 /*Testimonial Carousel*/
 .carousel-inner{
-    max-width: 65%;
+    max-width: 73%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -434,7 +432,6 @@ footer {
     height: 2px;
     display: block;
     width: 30%;
-
 }
 
 .greenLine3 {
@@ -443,8 +440,25 @@ footer {
     display: block;
     width: 40%;
     z-index: 99;
-
 }
+
+.greenLine4 {
+    background-color: #49e41b;
+    height: 5px;
+    display: block;
+    width: 75%;
+    z-index: 99;
+}
+
+.whiteLine {
+    background-color: white;
+    height: 5px;
+    display: block;
+    width: 40%;
+    z-index: 99;
+}
+
+
 
 .dots:after {
     background: url('../img/blueDots.png') no-repeat left;
@@ -527,7 +541,7 @@ footer {
     /*border-color: #34CCE3;*/
     border-color: #49e41b;
     border-style: solid;
-    padding: 10px;
+    padding: 15px;
     border-width: 4px;
 }
 
