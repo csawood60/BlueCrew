@@ -1,5 +1,6 @@
 <?php include('assets/include/head.php');?>
-   
+    
+    <link rel="stylesheet" href="assets/css/sawhold.css">     
     <title>Get Blue Ivy</title>
 </head>
 
@@ -13,7 +14,7 @@
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-12 desc"><br>
                         <h1><strong>What Can Blue Do For You?</strong></h1>
-                            <h2 class="dots">​Shape an amazing workplace by<span></span>...</h2>
+                        <h2 class="dots">​Shape an amazing workplace by<span></span>...</h2>
                     </div>
                 </div>
             </div>
@@ -58,7 +59,7 @@
                                     positioning your company as a front-runner in
                                     your industry.<br><br>
         
-                                    <strong>​If we ignore culture in the workplace...                                </strong><br>
+                                    <strong>​If we ignore culture in the workplace...</strong><br>
                                     we do so at our own peril. Culture exists
                                     regardless of our attentiveness. When ignored,
                                     it becomes toxic and destructive, causing
@@ -249,13 +250,8 @@
                 </div>
             </div><br><br>
 
-        
 
-
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<?php include('assets/include/foot.php');?>
 
 </body>
 </html>

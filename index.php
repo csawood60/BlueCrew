@@ -1,5 +1,8 @@
 <?php include('assets/include/head.php');?>
-   
+    
+    <link rel="stylesheet" href="assets/css/sawhold.css">    
+    <script src="blueIvy.js"></script>
+    
     <title>Get Blue Ivy</title>
 </head>
 
@@ -10,18 +13,20 @@
             <h1 class="display-4"><strong>Shaping Amazing Workplaces</strong></h1>
             <p class="lead">​Blue Ivy Professional Services is dedicated
             to providing world-class human capital management capabilities to
-            organizations that seek to improve employee engagement</p>
+            organizations that seek to improve employee engagement</p> 
             <p class="test">
                 <a class="btn btn-primary btn-lg" href="#resources" role="button">Learn more</a>
             </p>
         </div>
     </div>
+
     <div class="container">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -54,6 +59,19 @@
                         one. We are witnessing the impact his support is having on
                         our team.</em></p></blockquote>
                         <footer>Rhonda Rigby<br>Director Of Operations<br>ABC Great Beginnings Inc.</footer>
+                    </div>
+                <div class="carousel-item">
+                    <blockquote>
+                    <p class="testimonial"><em>Tim at Blue Ivy Professional has
+                    been a trusted adviser as our outsourced HR professional. He
+                    has been integral in helping us update our employee manuals,
+                    has been keeping us up-to-date on all of the changes to laws
+                    and regulations, specifically with regard to the COVID-19
+                    outbreak. He has been extremely flexible and very responsive
+                    every time we have reached out to him. We definitely
+                    recommend him to help with whatever HR needs arise.
+                    </em></p></blockquote>
+                    <footer>Steven Rowley<br>Partner<br>Keddington& Christensen, LLC</footer>
                 </div>
             </div>
         </div>
@@ -64,7 +82,8 @@
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <hr class="divider-left">
                         <img src="assets/img/womenMeet.jpg" class="img-fluid">
-                        <span class="text-justify"><h2 class="pict">.....</h2></span>
+                        <img src="assets/img/blueDots.png" class="img-fluid whiteDots" alt="clue dots" class="text-justify">
+                        <!--<span class="text-justify"><h2 class="pict">.....</h2></span>-->
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-12 desc"><br>
                         <h2><strong>Your Most Valuable Resources are Human</strong></h2>
@@ -103,19 +122,19 @@
                                 <div class="col-lg-3 col-md-6">
                                     <div class="card">
                                         <div class="card-body w-100">
-                                            <img src="assets/img/cultureIcon5.png" alt="" class="img-fluid rounded-circle w-25 mb-3 align-items-start">
+                                            <img src="assets/img/cultureIcon5.png" alt="" class="img-fluid rounded-circle w-25 mb-3">
                                             <h4><strong>Organizational Culture</strong></h4>
-                                            <p class="align-items-center">Culture permeates everything in
+                                            <p>Culture permeates everything in
                                             your company, whether you
                                             acknowledge it or not. If you are
                                             not intentional about proactively
                                             driving a positive culture, your
                                             culture will drive your organization
                                             in unintentional and undesirable
-                                            ways.</p> <br><br><br><br>
+                                            ways.</p>
                                             <div class="d-flex flex-row justify-content-center">
                                                 <div class="p-4">
-                                                    <a href="strategies.html#cultureArea" class="btn btn-primary">Learn More</a>
+                                                    <a href="strategies.php#cultureArea" class="btn btn-primary">Learn More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -135,10 +154,10 @@
                                             needs to happen and when they are
                                             connected with a greater vision
                                             because of effective communication
-                                            processes.</p><br><br><br>
+                                            processes.</p>
                                             <div class="d-flex flex-row justify-content-center">
                                                 <div class="p-4">
-                                                    <a href="strategies.html#communicationArea" class="btn btn-primary">Learn More</a>
+                                                    <a href="strategies.php#communicationArea" class="btn btn-primary">Learn More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -158,10 +177,10 @@
                                             employee development will see a
                                             substantial return on investment
                                             through increased productivity,
-                                            loyalty, and retention.</p><br><br>
+                                            loyalty, and retention.</p>
                                             <div class="d-flex flex-row justify-content-center">
                                                 <div class="p-4">
-                                                    <a href="strategies.html#developmentArea" class="btn btn-primary">Learn More</a>
+                                                    <a href="strategies.php#developmentArea" class="btn btn-primary">Learn More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -182,10 +201,10 @@
                                             manner. Policies and best practices
                                             must be clearly documented,
                                             communicated, and trained
-                                            regularly.</p><br>
+                                            regularly.</p>
                                             <div class="d-flex flex-row justify-content-center">
                                                 <div class="p-4">
-                                                    <a href="strategies.html#complianceArea" class="btn btn-primary">Learn More</a>
+                                                    <a href="strategies.php#complianceArea" class="btn btn-primary">Learn More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -197,12 +216,7 @@
                 </div>
             </div>    
 
+<?php include('assets/include/foot.php');?>
 
-
-
-    
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -3,10 +3,10 @@
     All pages must be php pages
     Use the <php include('./asset/include/nav.php'); ?> command
  -->
-    <div   class="container">    
-        <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: black; height: 75px;">
+    <div   class="container navWidth" style="min-width: 100%; padding: 0;">    
+        <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: black;">
                     <a class="navbar-brand logo" href="index.php">
-                <img src="assets/img/untitled_640_white.png" alt="Get Blue Ivy" style="width:150px;">
+                <img src="assets/img/untitled_640_white_2.png" alt="Get Blue Ivy" style="width:150px;">
             </a>
             <button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav">
                 <span class="sr-only">Toggle navigation</span>
@@ -15,14 +15,14 @@
                 
             <div class="collapse navbar-collapse"
                 id="navbarNav">
-                <ul class="nav navbar-nav ml-auto text-uppercase">
-                    <li class="nav-item "role="presentation"><a class="nav-link active" href="index.php">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="./strategies.php">Strategies</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="./about.php" >About Us</a></li>                  
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="./events.php">Events</a></li> 
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="./resourcedetail.php">Resource</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="./benefitBroker.php">Unknown</a></li> 
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="./contact.php">Contact</a></li>
+                <ul class="nav navbar-nav ml-auto text-uppercase" >
+                    <li class="nav-item"role="presentation"><a class="nav-link active gbiBlue" href="./index.php" style="color: #34CCE3;">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link gbiBlue" href="./strategies.php" style="color: #34CCE3;">Strategies</a></li>
+                    <li class="nav-item" role="presentation" ><a class="nav-link gbiBlue" href="./about.php" style="color: #34CCE3;">About Us</a></li>                  
+                    <li class="nav-item" role="presentation"><a class="nav-link gbiBlue" href="./events.php" style="color: #34CCE3;">Events</a></li> 
+                    <li class="nav-item" role="presentation"><a class="nav-link gbiBlue" href="./resourceshead.php" style="color: #34CCE3;">Resources</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link gbiBlue" href="./benefitBroker.php" style="color: #34CCE3;">Benefit</a></li> 
+                    <li class="nav-item" role="presentation"><a class="nav-link gbiBlue" href="./contact.php" style="color: #34CCE3;">Contact</a></li>
                 </ul>
             </div>
         </nav>
