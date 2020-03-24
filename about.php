@@ -1,17 +1,16 @@
 <?php include('assets/include/head.php');?>
-
- <title>About Us</title>
+    
+    <link rel="stylesheet" href="assets/css/sawhold.css">  
+    <title>About Us</title>
 </head>
 <body>
-
-<?php include('assets/include/nav.php');?>
+    <?php include('assets/include/nav.php');?>
     <div class="container">
-        <div class="row short-row">
-            <div class="col-sm-2">
-                <img class="logo" src="assets/img/logo240.png" alt="Blue Ivy Logo">
-            </div>
+        <div class="row short-row"> 
             <div class="col-sm">
                 <h1 class="display-3"><strong>Who is Blue Ivy?</strong></h1>
+                <div class="greenLine4"></div>
+                <br>
             </div>
         </div>
         <div class="row">
@@ -20,7 +19,7 @@
             </div>
             <div class="col-sm-8 desc"><br>
                 <h1>Tim Johnson, CEO</h1>
-                <p class="body-text" id="about-tim">Tim Johnson is the founder, president, CEO, 
+                <p id="about-tim">Tim Johnson is the founder, president, CEO, 
                     heart, and soul of Blue Ivy Professional Services.  Leveraging 
                     decades of experience, he enjoys the challenge of providing 
                     human capital solutions for growing organizations.  From simple 
@@ -39,14 +38,11 @@
                     Away from the office, Tim finds joy in home maintenance, working 
                     in the yard, and watching movies with his dear wife and wrangling 
                     his four sweet children.  He also spends time volunteering in the 
-                    community and participating in the West Jordan City Band.<br><br></p>
+                    community and participating in the West Jordan City Band.</p>
+                    <div class="d-flex justify-content-center">
+                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fwestjordancityband%2Fphotos%2Fa.10153564749825023%2F10157093347550023%2F%3Ftype%3D3&width=500" width="500" height="286" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    </div>
             </div>
-        <div class="row">
-            <div class="col-sm-10"></div>
-            <div class="col-sm-2">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fwestjordancityband%2Fphotos%2Fa.10153564749825023%2F10157093347550023%2F%3Ftype%3D3&width=500" width="500" height="286" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-            </div>
-        </div>
         </div>
         <div class="row short-row">
             <div class="col-sm d-flex justify-content-center align-items-center">
@@ -56,7 +52,7 @@
         <div class="row">
             <div class="col-sm-8 desc"><br>
                 <h1>Ray Ivy</h1>
-                <p class="body-text">A fifth-generation Texan and a quintessential 
+                <p> A fifth-generation Texan and a quintessential 
                     member of the Greatest Generation, Ray Ivy consistently demonstrated 
                     a strong reputation for industry, integrity, and community-building.  
                     Breaking horses in the lean years of the 1930s taught him the 
@@ -89,7 +85,7 @@
             </div>
             <div class="col-sm-8 desc"><br>
                 <h1>Herman Blau</h1>
-                <p class="body-text">Even from his early years on a sheep ranch in
+                <p> Even from his early years on a sheep ranch in
                     Kansas, Herman Blau built his life around hard work and a 
                     commitment to his community.  As a result of the famine and crop 
                     failures in that region, he relocated to Arizona where he began 
@@ -117,9 +113,8 @@
             </div>
         </div>
     </div>
-    <img src="assets/img/greenlinesDark.png" alt="Green Lines">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <?php include('assets/include/foot.php');?>
+
 </body>
 </html>
