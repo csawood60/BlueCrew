@@ -21,7 +21,7 @@
                     <li class="nav-item" role="presentation" ><a class="nav-link gbiBlue" href="./about.php" style="color: #34CCE3;">About Us</a></li>                  
                     <li class="nav-item" role="presentation"><a class="nav-link gbiBlue" href="./events.php" style="color: #34CCE3;">Events</a></li> 
                     <li class="nav-item" role="presentation"><a class="nav-link gbiBlue" href="./resourceshead.php" style="color: #34CCE3;">Resources</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link gbiBlue" href="./benefitBroker.php" style="color: #34CCE3;">Benefit</a></li> 
+                    <li class="nav-item" role="presentation"><a class="nav-link gbiBlue" href="./benefitBroker.php" style="color: #34CCE3;">Partnerships</a></li> 
                     <li class="nav-item" role="presentation"><a class="nav-link gbiBlue" href="./contact.php" style="color: #34CCE3;">Contact</a></li>
                 </ul>
             </div>
