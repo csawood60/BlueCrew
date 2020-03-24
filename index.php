@@ -131,8 +131,9 @@
                                             driving a positive culture, your
                                             culture will drive your organization
                                             in unintentional and undesirable
-                                            ways.</p>
-                                            <div class="d-flex flex-row justify-content-center">
+                                            ways.</p><br><br>
+                                            <div class="short-row"></div>
+                                            <div class="card-buttons">
                                                 <div class="p-4">
                                                     <a href="strategies.php#cultureArea" class="btn btn-primary">Learn More</a>
                                                 </div>
@@ -154,8 +155,9 @@
                                             needs to happen and when they are
                                             connected with a greater vision
                                             because of effective communication
-                                            processes.</p>
-                                            <div class="d-flex flex-row justify-content-center">
+                                            processes.</p><br><br>
+                                            <div class="short-row"></div>
+                                            <div class="card-buttons">
                                                 <div class="p-4">
                                                     <a href="strategies.php#communicationArea" class="btn btn-primary">Learn More</a>
                                                 </div>
@@ -177,8 +179,9 @@
                                             employee development will see a
                                             substantial return on investment
                                             through increased productivity,
-                                            loyalty, and retention.</p>
-                                            <div class="d-flex flex-row justify-content-center">
+                                            loyalty, and retention.</p><br><br>
+                                            <div class="short-row"></div>
+                                            <div class="card-buttons">
                                                 <div class="p-4">
                                                     <a href="strategies.php#developmentArea" class="btn btn-primary">Learn More</a>
                                                 </div>
@@ -201,8 +204,9 @@
                                             manner. Policies and best practices
                                             must be clearly documented,
                                             communicated, and trained
-                                            regularly.</p>
-                                            <div class="d-flex flex-row justify-content-center">
+                                            regularly.</p><br><br>
+                                            <div class="short-row"></div>
+                                            <div class="card-buttons">
                                                 <div class="p-4">
                                                     <a href="strategies.php#complianceArea" class="btn btn-primary">Learn More</a>
                                                 </div>
