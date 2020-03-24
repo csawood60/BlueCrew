@@ -635,18 +635,36 @@ ul.noStyle {
     padding: 3px;
 }
 
-/*bullet colors in benefit broker page*/
-/*#blueBullet {
-    list-style-type: none;
-    padding-left: 10px;
-}*/
+/*styling for partnership page: background image*/
+#partnership-section {
+    background-color:#7e90a2;
+    background-image:url(assets/img/womanLaptop3.jpg);
+    color:black;
+    height:475px;
+    position:relative;
+}
 
-/*ul.blueBullet li::before {*/
-    /*content: "\2022";
-    color: #34CCE3;
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em;
-    margin-left: 1em;
-}*/
+@media only screen and (max-width: 767px) {
+    #partnership-section {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+        background-image: url(assets/img/WomanLaptopSmall.jpg);
+        align-items: center;
+    }
+}
 
+/*styling for partnership page: title on partnership page with blue background*/
+div.partnership-content {
+    background-color: rgba(52, 204, 227, 0.746);
+    position:absolute;
+    bottom:30px;
+    left: 20%; 
+    right: 20%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 20px;
+    }
+
+.responsive {
+    position:relative;
+}
