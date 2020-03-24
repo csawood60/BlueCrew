@@ -4,7 +4,7 @@
 }
 
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*Home page picture & Jumbotron*/
@@ -20,10 +20,6 @@ body{
 .jumbotron {
     background-color: #fff;
 }
-
-/*.opacity {
-    background-color: rgba(36, 36, 36, 0.692);
-}*/
 
 /*Blue header type*/
 .display-4 {
@@ -54,6 +50,24 @@ body{
 .display-3 {
     color: black;
 }
+
+.blueR {
+    position: absolute;
+    height: 100px;
+    width: 500px;
+    z-index: -1;
+    top: 45px;
+    left: 100px;
+    opacity: 40%;
+}
+
+/*.display-3::after {
+    content:'';
+    background: #49c41b;
+    height: 3px;
+    width: 430px;
+    display: block;
+}*/
 
 /*Blue header dots - span class on contact page*/
 .design-dots {
@@ -88,28 +102,6 @@ body{
     color: white;
     text-align: center;
 }
-
-/*carousel testing*/
-.overlayHome { 
-    color:#fff;
-    position:absolute;
-    z-index:12;
-    top:50%;
-    left:0;
-    width:60%;
-    text-align:center;
-}
-
-.carousel-item .img-fluid {
-    width:100%;
-    height:100%;
-}
-
-
-/* .centered {  - To center if needed. I think this is not in use
-    margin-left: auto;
-    margin-right: auto;
-} */
 
 /*"Learn more" button styling*/
 .btn {
@@ -155,7 +147,7 @@ body{
 
 .testimonial {
     padding-top: 5em;
-    min-height: 130px;
+    min-height: 100px;
 }
 
 .carousel-indicators > li {
@@ -200,7 +192,7 @@ body{
     position: relative;
     top: 35px;
     color: #34CCE3;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 /*testimonial peoples' names & position before*/
@@ -242,9 +234,30 @@ footer {
     font-weight: bold;
 }
 
-.cards h4 {
-    font-size: 16px;
+#cards h3 {
+    font-size: 40px;
     font-weight: bold;
+}
+
+.card h4 {
+    font-size: 20px;
+    font-weight: bold;
+    hyphens: auto;
+}
+
+.card-buttons {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    left: 30px;
+}
+
+.p-4 {
+    width: 100%;
+}
+
+.card a {
+    left: 50px;
 }
 
 #cards img {
@@ -291,8 +304,6 @@ footer {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
     min-height: 200px;
 }
 
@@ -301,7 +312,7 @@ footer {
 }
 
 .short-row {
-    min-height: 100px;
+    min-height: 75px;
 }
 
 .body-text{
@@ -426,9 +437,22 @@ footer {
     background-color: #49e41b;
     height: 3px;
     display: block;
-    width: 40%;
+    width: 60%;
     z-index: 99;
+}
 
+/*green line for about and contact headers*/
+.greenLine4 {
+    position: absolute;
+    left: -50px;
+    background-color: #49e41b;
+    height: 3px;
+    width: 50%;
+}
+
+.center {
+    max-width: auto;
+    text-align: center;
 }
 
 .dots:after {
@@ -452,7 +476,6 @@ footer {
     color: black;
     border-radius: 0 20px 20px 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.29);
-    margin-top: 70px;
 }
 
 #mySidenav a:hover {
@@ -503,19 +526,8 @@ footer {
 
 /*Events page blue background*/
 .testBkgd{
-    background-color:rgba(52, 204, 227, 0.486);
-    padding: 15px;
+    background-color:#34CCE3;
 }
-
-.borderBlue{
-    /*background-color:#34CCE3;*/
-    /*border-color: #34CCE3;*/
-    border-color: #49e41b;
-    border-style: solid;
-    padding: 10px;
-    border-width: 4px;
-}
-
 
 /*.testBkgd::before{
     background: url('../img/whiteDots2.png') no-repeat;
@@ -525,13 +537,9 @@ footer {
     border: 0px;
 }*/
 
-.blueLine {
-    color: #34CCE3;
-    height: 5px;
-}
-
 /*outline on events page for calendar*/
 #calendarBox {
+    border: solid #90929E;
     padding: 15px;
 }
 
@@ -544,15 +552,11 @@ footer {
     border: 0px;
 }
 
-/*White dots on Events page*/
-.whiteDots {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 /*Jumbotron display title on Events page*/
 #events{
-    font-size: 2.5em;
+    font-size: 2em;
+    color: #34CCE3;
+    font-size: 3em;
     font-weight: 700;
 }
 
@@ -600,24 +604,21 @@ footer {
     text-align: center;
 }
 
-ul.noStyle {
-    list-style-type:none;
-    margin: 3px;
-    padding: 3px;
+#broker{
+    padding-left: 10px;
 }
 
 /*bullet colors in benefit broker page*/
-/*#blueBullet {
-    list-style-type: none;
+ul {
+    list-style: none;
     padding-left: 10px;
-}*/
+}
 
-/*ul.blueBullet li::before {*/
-    /*content: "\2022";
+ul li::before {
+    content: "\2022";
     color: #34CCE3;
     font-weight: bold;
     display: inline-block; 
-    width: 1em;
+    width: 1em; 
     margin-left: 1em;
-}*/
-
+}
