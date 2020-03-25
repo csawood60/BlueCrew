@@ -38,6 +38,7 @@
     
     .navheaderWidth {
         min-width: 100%;
+        padding: 0;
     }
     
     /* All lettering that is to be Blue Ivy Blue */
@@ -65,6 +66,18 @@
     
     .pic3 {
         background-image: url(../img/workbrainscover.jpg);
+    }
+
+    .pic4 {
+        background-image: url(../img/MarijuanaatWorkstandalonegraphic.png);
+    }
+    
+    .pic5 {
+        background-image: url(../img/COVID-19.jpg);
+    }
+    
+    .pic6 {
+        background-image: url(../img/*.jpg);
     }
     
     .picx {
