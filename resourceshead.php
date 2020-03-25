@@ -31,10 +31,10 @@
                                         <div class="card-body w-100">
                                             <div class="jumbotron drk jumbotron-fluid picx pic1">
                                             </div>
-                                            <h4><strong>OCulture Building Activity</strong></h4>
+                                            <h4><strong>Culture Building Activity</strong></h4>
                                             <p class="align-items-center">If you can get all the people in your organization rowing in the
                                                 same direction, you will dominate in any industry, in any
-                                                market, against any competition, at any time.</p> <br><br>
+                                                market, against any competition, at any time.</p> 
                                                 <div class="short-row"></div>
                                                 <div class="card-buttons">
                                                 <div class="p-4">
@@ -57,7 +57,7 @@
                                                 cyclonic fury, and maybe
                                                 some have even become
                                                 accustomed to it, but I
-                                                have had enough!</p> <br><br>
+                                                have had enough!</p> 
                                                 <div class="short-row"></div>
                                                 <div class="card-buttons">
                                                 <div class="p-4">
@@ -74,7 +74,7 @@
                                             <div class="jumbotron drk jumbotron-fluid picx pic3">
                                             </div>
                                             <h4><strong>Zombie Employees</strong></h3>
-                                            <p>Despite the irglossed - over eyes, lethargy, grunting and moaning, they somehow creep upon you unexpectedly and eat away at your productivity. </p><br><br>
+                                            <p>Despite the irglossed - over eyes, lethargy, grunting and moaning, they somehow creep upon you unexpectedly and eat away at your productivity. </p>
                                             <div class="short-row"></div>
                                             <div class="card-buttons">
                                                 <div class="p-4">
