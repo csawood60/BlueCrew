@@ -118,7 +118,6 @@ body{
     height:100%;
 }
 
-
 /* .centered {  - To center if needed. I think this is not in use
     margin-left: auto;
     margin-right: auto;
@@ -622,7 +621,7 @@ footer {
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
+/*Partnership Page: taking bullets off of the lists*/
 ul.noStyle {
     list-style-type:none;
     margin: 3px;
