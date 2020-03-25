@@ -7,7 +7,7 @@
 
 <body>
 <?php include('assets/include/nav.php');?>
-<div class="jumbotron drk jumbotron-fluid" id="resources">
+<div class="jumbotron drk jumbotron-fluid" id="resourcesPage">
         <div class="container">
             <h1 class="display-4 marginTop400"><strong>Tools to Shape an Amazing Workplace</strong></h1>
             <!-- <p class="test">
