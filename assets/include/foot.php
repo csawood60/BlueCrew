@@ -12,7 +12,7 @@
                     <a href="events.html" style="color: #34CCE3;">Events</a>
                 </div>
                 <div class="social-icons">
-                    <a href="mailto:tim@getblueivy.com" target="_blank"><i class="icon ion-email"></i></a>
+                    <a href="mailto:tim@getblueivy.com"><i class="icon ion-email"></i></a>
                     <a href="https://www.facebook.com/getblueivy/" target="_blank"><i class="icon ion-social-facebook"></i></a>
                     
                     <a href="https://www.linkedin.com/company/getblueivy" target="_blank"><i class="icon ion-social-linkedin"></i></a>
