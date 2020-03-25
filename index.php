@@ -131,7 +131,7 @@
                                             driving a positive culture, your
                                             culture will drive your organization
                                             in unintentional and undesirable
-                                            ways.</p><br><br><br><br>
+                                            ways.</p><br><br><br>
                                             <div class="d-flex flex-row justify-content-center">
                                                 <div class="p-4">
                                                     <a href="strategies.php#cultureArea" class="btn btn-primary">Learn More</a>
@@ -154,7 +154,7 @@
                                             needs to happen and when they are
                                             connected with a greater vision
                                             because of effective communication
-                                            processes.</p><br><br><br>
+                                            processes.</p><br><br>
                                             <div class="d-flex flex-row justify-content-center">
                                                 <div class="p-4">
                                                     <a href="strategies.php#communicationArea" class="btn btn-primary">Learn More</a>
