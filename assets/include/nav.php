@@ -3,7 +3,7 @@
     All pages must be php pages
     Use the <php include('./asset/include/nav.php'); ?> command
  -->
-    <div   class="container navWidth" style="min-width: 100%; padding: 0;">    
+    <div   class="container navheaderWidth">    
         <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: black;">
                     <a class="navbar-brand logo" href="index.php">
                 <img src="assets/img/untitled_640_white_2.png" alt="Get Blue Ivy" style="width:150px;">
