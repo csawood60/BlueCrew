@@ -7,9 +7,9 @@
 
 <body>
 <?php include('assets/include/nav.php');?>
-<div class="jumbotron drk jumbotron-fluid" id="homePage">
+<div class="jumbotron drk jumbotron-fluid" id="resources">
         <div class="container">
-            <h1 class="display-4"><strong>Tools to Shape an Amazing Workplace</strong></h1>
+            <h1 class="display-4 marginTop400"><strong>Tools to Shape an Amazing Workplace</strong></h1>
             <!-- <p class="test">
                 <a class="btn btn-primary btn-lg" href="#resources" role="button">Learn more</a>
             </p> -->
@@ -34,9 +34,8 @@
                                             <h4><strong>Culture Building Activity</strong></h4>
                                             <p class="align-items-center">If you can get all the people in your organization rowing in the
                                                 same direction, you will dominate in any industry, in any
-                                                market, against any competition, at any time.</p> 
-                                                <div class="short-row"></div>
-                                                <div class="card-buttons">
+                                                market, against any competition, at any time.</p>
+                                            <div class="d-flex flex-row justify-content-center">
                                                 <div class="p-4">
                                                     <a href="assets/doc/BlueIvyCultureBuildingWorksheet.pdf" class="btn btn-primary"  target=”_blank” >Read More</a>
                                                 </div>
@@ -58,8 +57,7 @@
                                                 some have even become
                                                 accustomed to it, but I
                                                 have had enough!</p> 
-                                                <div class="short-row"></div>
-                                                <div class="card-buttons">
+                                            <div class="d-flex flex-row justify-content-center">
                                                 <div class="p-4">
                                                     <a href="assets/doc/RevolvingDoorsandRetention.pdf"  target=”_blank” class="btn btn-primary">Read More</a>
                                                 </div>
@@ -74,9 +72,8 @@
                                             <div class="jumbotron drk jumbotron-fluid picx pic3">
                                             </div>
                                             <h4><strong>Zombie Employees</strong></h3>
-                                            <p>Despite the irglossed - over eyes, lethargy, grunting and moaning, they somehow creep upon you unexpectedly and eat away at your productivity. </p>
-                                            <div class="short-row"></div>
-                                            <div class="card-buttons">
+                                            <p>Despite the irglossed - over eyes, lethargy, grunting and moaning, they somehow creep upon you unexpectedly and eat away at your productivity. </p><br>
+                                            <div class="d-flex flex-row justify-content-center">
                                                 <div class="p-4">
                                                     <a href="assets/doc/ZombieEmployees.pdf"  target=”_blank” class="btn btn-primary">Read More</a>
                                                 </div>
