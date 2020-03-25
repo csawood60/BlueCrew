@@ -1,52 +1,76 @@
 
 /* This replace jquery-ui.css for corners */
 .ui-corner-all {
-/*  border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px; 
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px; */
-}
-
-/* Color for the tabs */
-/* .ui-state-active{
-    border: 3px solid #49c41b;
-    background: #34CCE3;
-    font-weight: bold;
-    color: black;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
- 
-} */
-
-/* .ui-state-default {
-    border: 2px solid #49c41b;  */
-    /*background: #f6f6f6;
-    font-weight: normal;
-    color: #454545;
-}
-
-.ui-helper-reset {
-    margin: 20px;
-}
-
-/* this is from bootstrap css & used to change footer icon colors*/
-
-.page-footer .social-icons a {
-    color: black;
-    background-color: #49c41b;
-}
-
-.navheaderWidth {
-    min-width: 100%;
-}
-
-/* All lettering that is to be Blue Ivy Blue */
-.gbiBlue {
-    color: #34CCE3;
-}    
-
-.Launcher__LauncherButton-sc-1d77t61-0 {
-    background-color: #34CCE3; 
-    background-color: red;
-    margin: 0px 0px  100px; 
-}
+    /*  border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px; 
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px; */
+    }
+    
+    /* Color for the tabs */
+    /* .ui-state-active{
+        border: 3px solid #49c41b;
+        background: #34CCE3;
+        font-weight: bold;
+        color: black;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+     
+    } */
+    
+    /* .ui-state-default {
+        border: 2px solid #49c41b;  */
+        /*background: #f6f6f6;
+        font-weight: normal;
+        color: #454545;
+    }
+    
+    .ui-helper-reset {
+        margin: 20px;
+    }
+    
+    /* this is from bootstrap css & used to change footer icon colors*/
+    
+    .page-footer .social-icons a {
+        color: black;
+        background-color: #49c41b;
+    }
+    
+    .navheaderWidth {
+        min-width: 100%;
+    }
+    
+    /* All lettering that is to be Blue Ivy Blue */
+    .gbiBlue {
+        color: #34CCE3;
+    }    
+    
+    .Launcher__LauncherButton-sc-1d77t61-0 {
+        background-color: #34CCE3; 
+        background-color: red;
+        margin: 0px 0px  100px; 
+    }
+    
+    .marginTop400 {
+        margin:400px 0 0 0;
+    }
+    
+    .pic1 {
+        background-image: url(../img/culture3.jpg);
+    }
+    
+    .pic2 {
+        background-image: url(../img/revolvingdoor.jpg);
+    }
+    
+    .pic3 {
+        background-image: url(../img/workbrainscover.jpg);
+    }
+    
+    .picx {
+        height: 300px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
