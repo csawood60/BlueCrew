@@ -1,7 +1,4 @@
 <?php include('assets/include/head.php');?>
-    
-    <link rel="stylesheet" href="assets/css/sawhold.css">    
-    <script src="blueIvy.js"></script>
     <title>Get Blue Ivy</title>
 </head>
 

@@ -1,6 +1,4 @@
 <?php include('assets/include/head.php');?>
-    
-    <link rel="stylesheet" href="assets/css/sawhold.css">     
     <title>Get Blue Ivy</title>
 </head>
 
