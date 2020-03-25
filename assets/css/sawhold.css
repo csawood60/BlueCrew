@@ -69,11 +69,11 @@
     }
 
     .pic4 {
-        background-image: url(../img/MarijuanaatWorkstandalonegraphic.png);
+        background-image: url(../img/COVID-19solosqr.jpg);
     }
     
     .pic5 {
-        background-image: url(../img/COVID-19.jpg);
+        background-image: url(../img/px_here_worried.jpg);
     }
     
     .pic6 {
@@ -100,4 +100,8 @@
 
     #cards img {
         margin-top: -30px;
+    }
+
+    .high100 {
+        height: 100px;
     }
