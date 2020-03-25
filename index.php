@@ -1,8 +1,4 @@
 <?php include('assets/include/head.php');?>
-    
-    <link rel="stylesheet" href="assets/css/sawhold.css">    
-    <script src="blueIvy.js"></script>
-    
     <title>Shaping Amazing Workplaces</title>
 </head>
 

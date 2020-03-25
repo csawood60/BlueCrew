@@ -1,7 +1,5 @@
 <?php include('assets/include/head.php');?>
-    
-    <link rel="stylesheet" href="assets/css/sawhold.css">  
-    <title>About Us</title>
+     <title>About Us</title>
 </head>
 <body>
     <?php include('assets/include/nav.php');?>
