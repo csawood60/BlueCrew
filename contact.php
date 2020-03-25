@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://rawgit.com/RobinHerbots/jquery.inputmask/3.x/dist/jquery.inputmask.bundle.js"></script>
     <title>Contact Us</title>
 </head>
@@ -13,7 +14,7 @@
     <div class="container">
         <div class="row short-row"> 
             <div class="col-sm">
-                <h1 class="display-3"><strong>Drop us a line<span class="design-dots">.....</span></strong></h1>
+                <h1 class="display-3"><strong>Drop us a line<span class="design-dots">.</span></strong></h1>
                 <div class="greenLine4"></div>
                 <br>
             </div>
@@ -60,7 +61,7 @@
                     <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="5"></textarea>
                 </div>
             </div>
-            <button class="btn btn-primary" type="submit" name="submit">Submit</button>
+            <button class="btn btn-primary btn-custom" type="submit" name="submit">Submit</button><br><br>
           </form>
           
           <script>
