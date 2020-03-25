@@ -74,3 +74,13 @@
         -o-background-size: cover;
         background-size: cover;
     }
+
+    #resources {
+        background-image: url(../img/womanLaptop.jpg);
+        height: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 600px;
+    }
