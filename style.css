@@ -104,7 +104,10 @@ body{
 }
 
 /*"Learn more" button styling*/
-.btn {
+.btn, .btn-default, .btn-primary, .btn-default:hover, .btn:hover, 
+.btn-primary:hover, .btn-default:active, .btn:active, .btn-primary:active,
+.btn:focus, .btn.focus, .btn-primary:focus, .btn-primary.focus,
+.btn-default:focus, .btn-default.focus {
     font-size: 18px;
     text-decoration: none;
     color:#fff;
@@ -113,30 +116,31 @@ body{
     padding: 10px 20px;
     border-radius: 10px;
     margin-top:20px;
+    box-shadow: none;
 }
 
-/*Green button styling*/
-.btn:hover{
+/*Green button styling
+.btn-default:hover, .btn:hover, .btn-primary:hover {
     background: white;
     border-color: white;
     color:gray;
     border-color:#49c41b ;
 }
 
-.btn:active{
+.btn-default:active, .btn:active, .btn-primary:active {
     background: white;
     border-color: white;
     color:gray;
     border-color:#49c41b;
 }
 
-/*Green button throughout site*/
+/*Green button throughout site
 .btn .btn-primary:hover{
     background: white;
     border-color: white;
     color:gray;
     border-color:#49c41b;
-}
+}*/
 
 /*Testimonial Carousel*/
 .carousel-inner{
