@@ -52,7 +52,7 @@
     }
     
     .marginTop400 {
-        margin:400px 0 0 0;
+        margin: 35% 0 0 0;
     }
     
     .pic1 {
@@ -83,4 +83,8 @@
         -o-background-size: cover;
         background-size: cover;
         height: 600px;
+    }
+
+    #cards img .cardz {
+        margin-top: -20px;
     }
