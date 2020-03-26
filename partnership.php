@@ -1,4 +1,4 @@
-<?php include('assets/include/head.php');?>
+<?php $page='home'; include('assets/include/head.php');?>
     <title>Shaping Amazing Workplaces</title>
 </head>
 
@@ -8,11 +8,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-10 my-auto">                
-                <h1><strong>Add value through Strategic Partnerships<span class="design-dots">.....</span></strong></h1>
-                <div class="divider-left"></div>
+                <h1><strong>Add Value Through Strategic Partnerships</strong></h1>
+                <div class="greenLine4"></div>
             </div>
             <div class="col-lg-2 my-auto">                
-                <img src="assets/img/handshake.png" alt="Handshake Icon" max width="150px" class="img-fluid mx-auto d-block">
+                <img src="assets/img/handshake.png" alt="Handshake Icon" max width="150px" class="img-fluid mx-auto d-block"  style="padding-top:15px;">
             </div>
         </div>
     </div>
@@ -22,7 +22,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="assets/img/handsOverDesk2.jpg" alt="Group of Hands Over Desk Picture" class="about-img mx-auto d-block">
+                <img src="assets/img/handsOverDesk2.jpg" alt="Group of Hands Over Desk Picture" class="about-img img-fluid mx-auto d-block">
             </div>
         <div class="col-lg-8 col-md-8 col-sm-12"><br>
                 <p class="body-text borderBlue">
@@ -51,7 +51,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-12">
-                <h2>Partner Perks<span class="design-dots">.....</span></h2>
+                <h2>Partner Perks<span class="design-dots">...</span></h2>
                     <p class="body-text borderBlue">
                         Blue Ivy Professional Services allows partners
                         to effectively expand their menu of services
@@ -71,7 +71,7 @@
                 <p>Reach out today to find additional trusted resources to strengthen your strategy.</p>
             </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <img src="assets/img/menu.jpg" alt="Menu Picture" class="about-img img-fluid mx-auto d-block">
+                    <img src="assets/img/menu.jpg" alt="Menu Picture" class="about-img img-fluid mx-auto my-auto d-block">
                 </div>
         </div>
     </div>
@@ -84,7 +84,7 @@
                 <img src="assets/img/writeGlass.jpg" alt="Flow Chart Picture" class="about-img img-fluid mx-auto d-block">
             </div>
             <div class="col-lg-8 col-md-8 col-sm-12"><br>
-                <h2>Client Perks<span class="design-dots">.....</span></h2>
+                <h2>Client Perks<span class="design-dots">...</span></h2>
                     <p class="body-text borderBlue">
                         Because of these amazing partnerships, Blue Ivy
                         Professional Services can recommend amazing
@@ -108,10 +108,10 @@
     <br><br>
 
 <!--Green Lines decortaion at bottom-->
-    <div class="container-fluid"><img src="assets/img/greenLinesDark.png" alt="greeen line design" width="30%"></div>
+    <div class="container-fluid"><img src="assets/img/greenLinesDark.png" alt="greeen line design" class="img-fluid" width="30%"></div>
     </div>
     <br><br>
-
+  
 <?php include('assets/include/foot.php');?>
 
 </body>
