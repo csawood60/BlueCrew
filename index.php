@@ -1,4 +1,4 @@
-<?php include('assets/include/head.php');?>
+<?php $page='home'; include('assets/include/head.php');?>
     <title>Shaping Amazing Workplaces</title>
 </head>
 
@@ -210,7 +210,7 @@
                         </div>
                     </div>
                 </div>
-            </div>    
+                </div>  </div>  </div>  </div>  </div>  </div>  </div>    
 
 <?php include('assets/include/foot.php');?>
 
