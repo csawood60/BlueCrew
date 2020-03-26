@@ -8,7 +8,7 @@
         <div class="container">
             <h1 class="display-4 marginTop400"><strong>Tools to Shape an Amazing Workplace</strong></h1>
             <!-- <p class="test">
-                <a class="btn btn-primary btn-lg" href="#resources" role="button">Learn more</a>
+                <a class="btn btn-success btn-lg" href="#resources" role="button">Learn more</a>
             </p> -->
         </div>
     </div>
@@ -35,7 +35,7 @@
                                             <div class="short-row"></div>
                                             <div class="card-buttons">
                                                 <div class="p-4">
-                                                    <a href="assets/doc/BlueIvyCultureBuildingWorksheet.pdf" class="btn btn-primary"  target=”_blank” >Read More</a>
+                                                    <a href="assets/doc/BlueIvyCultureBuildingWorksheet.pdf" class="btn btn-success"  target=”_blank” >Read More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -58,7 +58,7 @@
                                             <div class="short-row"></div>
                                             <div class="card-buttons">
                                                 <div class="p-4">
-                                                    <a href="assets/doc/RevolvingDoorsandRetention.pdf"  target=”_blank” class="btn btn-primary">Read More</a>
+                                                    <a href="assets/doc/RevolvingDoorsandRetention.pdf"  target=”_blank” class="btn btn-success">Read More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -75,7 +75,7 @@
                                             <div class="short-row"></div>
                                             <div class="card-buttons">
                                                 <div class="p-4">
-                                                    <a href="assets/doc/ZombieEmployees.pdf"  target=”_blank” class="btn btn-primary">Read More</a>
+                                                    <a href="assets/doc/ZombieEmployees.pdf"  target=”_blank” class="btn btn-success">Read More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -103,7 +103,7 @@
                                             <div class="short-row"></div>
                                             <div class="card-buttons">
                                                 <div class="p-4">
-                                                    <a href="assets/doc/CoronaVirusflyerMarch2020.pdf" class="btn btn-primary"  target=”_blank” >Read More</a>
+                                                    <a href="assets/doc/CoronaVirusflyerMarch2020.pdf" class="btn btn-success"  target=”_blank” >Read More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -120,7 +120,7 @@
                                             <div class="short-row"></div>
                                             <div class="card-buttons">
                                                 <div class="p-4">
-                                                    <a href="assets/doc/MandatoryPaidLeaveRequirements.pdf"  target=”_blank” class="btn btn-primary">Read More</a>
+                                                    <a href="assets/doc/MandatoryPaidLeaveRequirements.pdf"  target=”_blank” class="btn btn-success">Read More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -137,7 +137,7 @@
                                                 <div class="short-row"></div>
                                                 <div class="card-buttons">
                                                 <div class="p-4">
-                                                    <a href="assets/doc/ZombieEmployees.pdf"  target=”_blank” class="btn btn-primary">Read More</a>
+                                                    <a href="assets/doc/ZombieEmployees.pdf"  target=”_blank” class="btn btn-success">Read More</a>
                                                 </div>
                                             </div>
                                         </div>
