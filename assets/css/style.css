@@ -118,10 +118,15 @@ body{
     height:100%;
 }
 
-/* .centered {  - To center if needed. I think this is not in use
-    margin-left: auto;
-    margin-right: auto;
-} */
+.blueR {
+    position: absolute;
+    height: 100px;
+    width: 500px;
+    z-index: -1;
+    top: 45px;
+    left: 100px;
+    opacity: 40%;
+}
 
 /*"Learn more" button styling*/
 .btn {
