@@ -7,9 +7,9 @@
         <footer class="page-footer" style="background: black">
             <div class="container">
                 <div class="links">
-                    <a href="about.html" style="color: #34CCE3;">About</a>
-                    <a href="contact.html" style="color: #34CCE3;">Contact</a>
-                    <a href="events.html" style="color: #34CCE3;">Events</a>
+                    <a href="about.php" style="color: #34CCE3;">About</a>
+                    <a href="contact.php" style="color: #34CCE3;">Contact</a>
+                    <a href="events.php" style="color: #34CCE3;">Events</a>
                 </div>
                 <div class="social-icons">
                     <a href="mailto:tim@getblueivy.com"><i class="icon ion-email"></i></a>
