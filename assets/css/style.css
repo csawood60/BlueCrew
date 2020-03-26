@@ -285,6 +285,13 @@ footer {
     padding-bottom: 10px;
 }
 
+.card-buttons {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    left: 30px;
+}
+
 #cards .card:hover{
     transform: scale(1.025);
     transition: all 0.3s ease-in;
