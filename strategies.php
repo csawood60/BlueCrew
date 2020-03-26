@@ -246,6 +246,8 @@
 
                 </div>
             </div><br><br>
+        </div></div>
+        </div>
 
 <?php include('assets/include/foot.php');?>
 
