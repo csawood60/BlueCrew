@@ -61,7 +61,7 @@
                     <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="5"></textarea>
                 </div>
             </div>
-            <button class="btn btn-primary btn-custom" type="submit" name="submit">Submit</button><br><br>
+            <button class="btn btn-success" type="submit" name="submit">Submit</button><br><br>
           </form>
           
           <script>

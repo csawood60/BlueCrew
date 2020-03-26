@@ -1,5 +1,9 @@
-<?php $page='home'; include('assets/include/head.php');?>
-    <title>Shaping Amazing Workplaces</title>
+<?php include('assets/include/head.php');?>
+    
+    <link rel="stylesheet" href="assets/css/sawhold.css">    
+    <script src="blueIvy.js"></script>
+    
+    <title>Get Blue Ivy</title>
 </head>
 
 <body>
@@ -9,9 +13,9 @@
             <h1 class="display-4"><strong>Shaping Amazing Workplaces</strong></h1>
             <p class="lead">​Blue Ivy Professional Services is dedicated
             to providing world-class human capital management capabilities to
-            organizations that seek to improve employee engagement.</p> 
+            organizations that seek to improve employee engagement</p> 
             <p class="test">
-                <a class="btn btn-primary btn-lg" href="#resources" role="button">Learn more</a>
+                <a class="btn btn-success btn-lg" href="#resources" role="button">Learn more</a>
             </p>
         </div>
     </div>
@@ -127,10 +131,11 @@
                                             driving a positive culture, your
                                             culture will drive your organization
                                             in unintentional and undesirable
-                                            ways.</p><br><br><br>
-                                            <div class="d-flex flex-row justify-content-center">
+                                            ways.</p><br><br>
+                                            <div class="short-row"></div>
+                                            <div class="card-buttons">
                                                 <div class="p-4">
-                                                    <a href="strategies.php#cultureArea" class="btn btn-primary">Learn More</a>
+                                                    <a href="strategies.php#cultureArea" class="btn btn-success">Learn More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -151,9 +156,10 @@
                                             connected with a greater vision
                                             because of effective communication
                                             processes.</p><br><br>
-                                            <div class="d-flex flex-row justify-content-center">
+                                            <div class="short-row"></div>
+                                            <div class="card-buttons">
                                                 <div class="p-4">
-                                                    <a href="strategies.php#communicationArea" class="btn btn-primary">Learn More</a>
+                                                    <a href="strategies.php#communicationArea" class="btn btn-success">Learn More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -173,10 +179,11 @@
                                             employee development will see a
                                             substantial return on investment
                                             through increased productivity,
-                                            loyalty, and retention.</p><br>
-                                            <div class="d-flex flex-row justify-content-center">
+                                            loyalty, and retention.</p><br><br>
+                                            <div class="short-row"></div>
+                                            <div class="card-buttons">
                                                 <div class="p-4">
-                                                    <a href="strategies.php#developmentArea" class="btn btn-primary">Learn More</a>
+                                                    <a href="strategies.php#developmentArea" class="btn btn-success">Learn More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -197,10 +204,11 @@
                                             manner. Policies and best practices
                                             must be clearly documented,
                                             communicated, and trained
-                                            regularly.</p>
-                                            <div class="d-flex flex-row justify-content-center">
+                                            regularly.</p><br><br>
+                                            <div class="short-row"></div>
+                                            <div class="card-buttons">
                                                 <div class="p-4">
-                                                    <a href="strategies.php#complianceArea" class="btn btn-primary">Learn More</a>
+                                                    <a href="strategies.php#complianceArea" class="btn btn-success">Learn More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -210,10 +218,9 @@
                         </div>
                     </div>
                 </div>
-                </div>  </div>  </div>  </div>  </div>  </div>  </div>    
+            </div>    
 
 <?php include('assets/include/foot.php');?>
 
 </body>
-
 </html>

@@ -9,12 +9,18 @@ body{
 
 /*Home page picture & Jumbotron*/
 #homePage {
-    background-image: url('../img/home.jpg');
-    height: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    @media only screen and (max-width: 767px) {
+        #homePage {
+        /* The file size of this background image is 93% smaller
+            to improve page load speed on mobile internet connections */
+            background-image: url('../img/homeSmall.jpg');
+            height: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+      }
 }
 
 .jumbotron {
@@ -104,9 +110,9 @@ body{
 }
 
 /*"Learn more" button styling*/
-.btn, .btn-default, .btn-primary, .btn-default:hover, .btn:hover, 
-.btn-primary:hover, .btn-default:active, .btn:active, .btn-primary:active,
-.btn:focus, .btn.focus, .btn-primary:focus, .btn-primary.focus,
+.btn, .btn-default, .btn-success, .btn-default:hover, .btn:hover, 
+.btn-success:hover, .btn-default:active, .btn:active, .btn-success:active,
+.btn:focus, .btn.focus, .btn-success:focus, .btn-success.focus,
 .btn-default:focus, .btn-default.focus {
     font-size: 18px;
     text-decoration: none;
