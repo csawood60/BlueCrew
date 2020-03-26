@@ -32,7 +32,8 @@
                                             <p class="align-items-center">If you can get all the people in your organization rowing in the
                                                 same direction, you will dominate in any industry, in any
                                                 market, against any competition, at any time.</p>
-                                            <div class="d-flex flex-row justify-content-center">
+                                            <div class="short-row"></div>
+                                            <div class="card-buttons">
                                                 <div class="p-4">
                                                     <a href="assets/doc/BlueIvyCultureBuildingWorksheet.pdf" class="btn btn-primary"  target=”_blank” >Read More</a>
                                                 </div>
@@ -54,7 +55,8 @@
                                                 some have even become
                                                 accustomed to it, but I
                                                 have had enough!</p> 
-                                            <div class="d-flex flex-row justify-content-center">
+                                            <div class="short-row"></div>
+                                            <div class="card-buttons">
                                                 <div class="p-4">
                                                     <a href="assets/doc/RevolvingDoorsandRetention.pdf"  target=”_blank” class="btn btn-primary">Read More</a>
                                                 </div>
@@ -69,8 +71,9 @@
                                             <div class="jumbotron drk jumbotron-fluid picx pic3">
                                             </div>
                                             <h4><strong>Zombie Employees</strong></h3>
-                                            <p>Despite the irglossed - over eyes, lethargy, grunting and moaning, they somehow creep upon you unexpectedly and eat away at your productivity. </p><br>
-                                            <div class="d-flex flex-row justify-content-center">
+                                            <p>Despite their glossed - over eyes, lethargy, grunting and moaning, they somehow creep upon you unexpectedly and eat away at your productivity. </p><br>
+                                            <div class="short-row"></div>
+                                            <div class="card-buttons">
                                                 <div class="p-4">
                                                     <a href="assets/doc/ZombieEmployees.pdf"  target=”_blank” class="btn btn-primary">Read More</a>
                                                 </div>
@@ -97,7 +100,8 @@
                                             <div class="jumbotron drk jumbotron-fluid picx pic4"></div>
                                             <h4><strong>COVID-19 ACTION PLANNING</strong></h4>
                                             <p class="align-items-center">Knowing the facts and having a plan in place will reinforce the stabiltiy and profitabiltiy of your business.</p>
-                                            <div class="d-flex flex-row justify-content-center">
+                                            <div class="short-row"></div>
+                                            <div class="card-buttons">
                                                 <div class="p-4">
                                                     <a href="assets/doc/CoronaVirusflyerMarch2020.pdf" class="btn btn-primary"  target=”_blank” >Read More</a>
                                                 </div>
@@ -113,7 +117,8 @@
                                             </div>
                                             <h4><strong>Family First</strong></h4>
                                             <p class="align-items-center">The Emergency Paid Sick Leave Act requires 2 weeks paid sick leave for employees impacted by COVID-19.</p> <br>
-                                            <div class="d-flex flex-row justify-content-center">
+                                            <div class="short-row"></div>
+                                            <div class="card-buttons">
                                                 <div class="p-4">
                                                     <a href="assets/doc/MandatoryPaidLeaveRequirements.pdf"  target=”_blank” class="btn btn-primary">Read More</a>
                                                 </div>
@@ -129,7 +134,8 @@
                                             </div>
                                             <h4><strong>Zombie Employees</strong></h3>
                                             <p>Despite the irglossed - over eyes, lethargy, grunting and moaning, they somehow creep upon you unexpectedly and eat away at your productivity. </p><br>
-                                            <div class="d-flex flex-row justify-content-center">
+                                                <div class="short-row"></div>
+                                                <div class="card-buttons">
                                                 <div class="p-4">
                                                     <a href="assets/doc/ZombieEmployees.pdf"  target=”_blank” class="btn btn-primary">Read More</a>
                                                 </div>
