@@ -1,5 +1,9 @@
-<?php include('assets/include/head.php');?>
-    <title>Get Blue Ivy</title>
+<?php $title = 'Shaping Amazing Workplaces'; ?>
+<?php $metaTags = 'resurces materials PDF articles listings documentation'; ?>
+<?php $currentPage = 'resources'; ?>
+
+<?php include('assets/include/head.php'); ?>
+
 </head>
 
 <body>

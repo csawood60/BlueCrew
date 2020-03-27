@@ -1,5 +1,9 @@
-<?php $page='home'; include('assets/include/head.php');?>
-<title>Shaping Amazing Workplaces</title>
+<?php $title = 'Shaping Amazing Workplaces'; ?>
+<?php $metaTags = 'events occasions conference activities'; ?>
+<?php $currentPage = 'events'; ?>
+
+<?php include('assets/include/head.php'); ?>
+
 </head>
 
 <body>
