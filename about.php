@@ -1,8 +1,13 @@
-<?php include('assets/include/head.php');?>
-     <title>About Us</title>
+<?php $title = 'Shaping Amazing Workplaces'; ?>
+<?php $metaTags = 'about concerning information'; ?>
+<?php $currentPage = 'about'; ?>
+
+<?php include('assets/include/head.php'); ?>
+
 </head>
+
 <body>
-    <?php include('assets/include/nav.php');?>
+<?php include('assets/include/nav.php');?>
     <div class="container">
         <div class="row short-row"> 
             <div class="col-sm">

@@ -1,5 +1,9 @@
-<?php $page='home'; include('assets/include/head.php');?>  
-    <title>Shaping Amazing Workplaces</title>
+<?php $title = 'Shaping Amazing Workplaces'; ?>
+<?php $metaTags = 'strategies goals vision tactical'; ?>
+<?php $currentPage = 'strategies'; ?>
+
+<?php include('assets/include/head.php'); ?>
+
 </head>
 
 <body>

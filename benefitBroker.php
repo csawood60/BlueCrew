@@ -1,9 +1,13 @@
-<?php include('assets/include/head.php');?>
-    <title>Get Blue Ivy</title>
+<?php $title = 'Shaping Amazing Workplaces'; ?>
+<?php $metaTags = 'broker agent '; ?>
+<?php $currentPage = 'Broker'; ?>
+
+<?php include('assets/include/head.php'); ?>
+
 </head>
 
-    <body>
-        <?php include('assets/include/nav.php');?>
+<body>
+<?php include('assets/include/nav.php');?>
         <!--<div class="jumbotron drk jumbotron-fluid">-->
             <div class="jumbotron jumbotron-fluid">
                 <div class="container">
