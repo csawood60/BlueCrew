@@ -1,5 +1,5 @@
 <?php $title = 'Shaping Amazing Workplaces'; ?>
-<?php $metaTags = 'about concerning information'; ?>
+<?php $metaTags = 'about stories articles research'; ?>
 <?php $currentPage = 'about'; ?>
 
 <?php include('assets/include/head.php'); ?>
@@ -42,9 +42,6 @@
                     in the yard, and watching movies with his dear wife and wrangling 
                     his four sweet children.  He also spends time volunteering in the 
                     community and participating in the West Jordan City Band.</p>
-                    <div class="d-flex justify-content-center">
-                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fwestjordancityband%2Fphotos%2Fa.10153564749825023%2F10157093347550023%2F%3Ftype%3D3&width=500" width="500" height="286" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                    </div>
             </div>
         </div>
         <div class="row short-row">
@@ -116,8 +113,8 @@
             </div>
         </div>
     </div>
-
-    <?php include('assets/include/foot.php');?>
+ 
+<?php include('assets/include/foot.php');?>
 
 </body>
 </html>
