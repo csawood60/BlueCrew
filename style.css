@@ -4,12 +4,12 @@
 }
 
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 /*Home page picture & Jumbotron*/
 #homePage {
-    background-image: url('../img/home.jpg');
+    background-image: url('../img/home.jpg');/*Photo by Startup Stock Photos from Pexels*/
     height: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -17,9 +17,26 @@ body{
     background-size: cover;
 }
 
+@media only screen and (max-width: 767px) {
+    #homePage {
+    /* The file size of this background image is 93% smaller
+        to improve page load speed on mobile internet connections */
+        background-image: url('../img/homeSmall.jpg');
+        height: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+  }
+
 .jumbotron {
     background-color: #fff;
 }
+
+/*.opacity {
+    background-color: rgba(36, 36, 36, 0.692);
+}*/
 
 /*Blue header type*/
 .display-4 {
@@ -35,9 +52,19 @@ body{
     content:'';
     background: #49c41b;
     height: 3px;
-    width: 515px;
+    width: 40%;
     display: block;   
     left: -2.5em; 
+}
+
+@media only screen and (max-width: 680px) {
+    .display-4::after {
+        content:'';
+        background: #49c41b;
+        height: 3px;
+        width: 100%;
+        display: block;   
+    }
 }
 
 /*Blue header type blog page*/
@@ -50,24 +77,6 @@ body{
 .display-3 {
     color: black;
 }
-
-.blueR {
-    position: absolute;
-    height: 100px;
-    width: 500px;
-    z-index: -1;
-    top: 45px;
-    left: 100px;
-    opacity: 40%;
-}
-
-/*.display-3::after {
-    content:'';
-    background: #49c41b;
-    height: 3px;
-    width: 430px;
-    display: block;
-}*/
 
 /*Blue header dots - span class on contact page*/
 .design-dots {
@@ -103,11 +112,34 @@ body{
     text-align: center;
 }
 
+/*carousel testing*/
+.overlayHome { 
+    color:#fff;
+    position:absolute;
+    z-index:12;
+    top:50%;
+    left:0;
+    width:60%;
+    text-align:center;
+}
+
+.carousel-item .img-fluid {
+    width:100%;
+    height:100%;
+}
+
+.blueR {
+    position: absolute;
+    height: 100px;
+    width: 550px;
+    z-index: -1;
+    top: 145px;
+    left: 45px;
+    opacity: 40%;
+}
+
 /*"Learn more" button styling*/
-.btn, .btn-default, .btn-primary, .btn-default:hover, .btn:hover, 
-.btn-primary:hover, .btn-default:active, .btn:active, .btn-primary:active,
-.btn:focus, .btn.focus, .btn-primary:focus, .btn-primary.focus,
-.btn-default:focus, .btn-default.focus {
+.btn {
     font-size: 18px;
     text-decoration: none;
     color:#fff;
@@ -116,42 +148,49 @@ body{
     padding: 10px 20px;
     border-radius: 10px;
     margin-top:20px;
-    box-shadow: none;
 }
 
-/*Green button styling
-.btn-default:hover, .btn:hover, .btn-primary:hover {
+/*Green button styling*/
+.btn:hover{
     background: white;
     border-color: white;
     color:gray;
     border-color:#49c41b ;
 }
 
-.btn-default:active, .btn:active, .btn-primary:active {
+.btn:active{
     background: white;
     border-color: white;
     color:gray;
     border-color:#49c41b;
 }
 
-/*Green button throughout site
+/*Green button throughout site*/
 .btn .btn-primary:hover{
     background: white;
     border-color: white;
     color:gray;
     border-color:#49c41b;
-}*/
+}
 
 /*Testimonial Carousel*/
 .carousel-inner{
-    max-width: 65%;
+    max-width: 73%;
     margin-left: auto;
     margin-right: auto;
 }
 
+@media only screen and (max-width: 767px) {
+    .carousel-inner {
+    /* The file size of this background image is 93% smaller
+        to improve page load speed on mobile internet connections */
+        max-width: 97%;
+    }
+  }
+
 .testimonial {
     padding-top: 5em;
-    min-height: 100px;
+    min-height: 130px;
 }
 
 .carousel-indicators > li {
@@ -196,7 +235,7 @@ body{
     position: relative;
     top: 35px;
     color: #34CCE3;
-    font-size: 3em;
+    font-size: 4em;
 }
 
 /*testimonial peoples' names & position before*/
@@ -211,7 +250,7 @@ footer {
 .divider-left {
     background-color: #49e41b;
     height: 3px;
-    width: 515px;
+    width: 60%px; /*changed from 515px*/
     display: block;   
     left: -2.5em; 
 }
@@ -238,30 +277,9 @@ footer {
     font-weight: bold;
 }
 
-#cards h3 {
-    font-size: 40px;
+.cards h4 {
+    font-size: 16px;
     font-weight: bold;
-}
-
-.card h4 {
-    font-size: 20px;
-    font-weight: bold;
-    hyphens: auto;
-}
-
-.card-buttons {
-    position: absolute;
-    bottom: 20px;
-    right: 30px;
-    left: 30px;
-}
-
-.p-4 {
-    width: 100%;
-}
-
-.card a {
-    left: 50px;
 }
 
 #cards img {
@@ -283,6 +301,13 @@ footer {
 
 #cards .button {
     padding-bottom: 10px;
+}
+
+.card-buttons {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    left: 30px;
 }
 
 #cards .card:hover{
@@ -308,6 +333,8 @@ footer {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
     min-height: 200px;
 }
 
@@ -316,7 +343,7 @@ footer {
 }
 
 .short-row {
-    min-height: 75px;
+    min-height: 100px;
 }
 
 .body-text{
@@ -409,7 +436,7 @@ footer {
     border: 0;
 }
 
-/*green line in stratetgies page above 4 strategies*/
+/*Strategies page:green line above 4 strategies*/
 .greenLine  {
     background-color:#90929E;
     height: 2px;
@@ -418,7 +445,7 @@ footer {
     margin-bottom: 35px;
 }
 
-/*blue circle at end of green line#*/
+/*Strategies page: blue circle at end of gray line: not currently being used*/
 .greenLine:after { 
     background: url('../img/blueCircleOutline2.png') no-repeat top right;
     content: "";
@@ -434,29 +461,31 @@ footer {
     height: 2px;
     display: block;
     width: 30%;
-
 }
 
 .greenLine3 {
     background-color: #49e41b;
     height: 3px;
     display: block;
-    width: 60%;
+    width: 40%;
     z-index: 99;
 }
 
-/*green line for about and contact headers*/
 .greenLine4 {
-    position: absolute;
-    left: -50px;
     background-color: #49e41b;
-    height: 3px;
-    width: 50%;
+    height: 5px;
+    display: block;
+    width: 75%;
+    z-index: 99;
 }
 
-.center {
-    max-width: auto;
-    text-align: center;
+/* white line: can be used as an alternative to the greenLine*/
+.whiteLine {
+    background-color: white;
+    height: 5px;
+    display: block;
+    width: 40%;
+    z-index: 99;
 }
 
 .dots:after {
@@ -480,6 +509,7 @@ footer {
     color: black;
     border-radius: 0 20px 20px 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.29);
+    margin-top: 90px;
 }
 
 #mySidenav a:hover {
@@ -530,7 +560,18 @@ footer {
 
 /*Events page blue background*/
 .testBkgd{
-    background-color:#34CCE3;
+    background-color:rgba(52, 204, 227, 0.486);
+    padding: 15px;
+}
+
+/*border around text in partnership page*/
+.borderBlue{
+    /*background-color:#34CCE3;*/
+    /*border-color: #34CCE3;*/
+    border-color: #49e41b;
+    border-style: solid;
+    padding: 15px;
+    border-width: 4px;
 }
 
 /*.testBkgd::before{
@@ -541,10 +582,9 @@ footer {
     border: 0px;
 }*/
 
-/*outline on events page for calendar*/
-#calendarBox {
-    border: solid #90929E;
-    padding: 15px;
+.blueLine {
+    color: #34CCE3;
+    height: 5px;
 }
 
 /*calendar icon on Events page*/
@@ -556,11 +596,15 @@ footer {
     border: 0px;
 }
 
+/*White dots on Events page*/
+.whiteDots {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 /*Jumbotron display title on Events page*/
 #events{
-    font-size: 2em;
-    color: #34CCE3;
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 700;
 }
 
@@ -608,21 +652,9 @@ footer {
     text-align: center;
 }
 
-#broker{
-    padding-left: 10px;
-}
-
-/*bullet colors in benefit broker page*/
-ul {
-    list-style: none;
-    padding-left: 10px;
-}
-
-ul li::before {
-    content: "\2022";
-    color: #34CCE3;
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em; 
-    margin-left: 1em;
+/*Partnership Page: taking bullets off of the lists*/
+ul.noStyle {
+    list-style-type:none;
+    margin: 3px;
+    padding: 3px;
 }
