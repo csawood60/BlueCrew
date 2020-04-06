@@ -32,7 +32,7 @@
                             
                     A native of Texas, Tim has lived and worked all over the 
                     United States throughout his career.  Having worked with many 
-                    types of organizations from global giants to a emerging startups, 
+                    types of organizations from global giants to emerging startups, 
                     he is fascinated by the ways in which organizations engage with 
                     their employees.  He has found an affinity for learning what makes 
                     an organization tick and then customizing human capital programs 
