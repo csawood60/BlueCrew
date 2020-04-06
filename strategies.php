@@ -71,12 +71,14 @@
                             increased turnover costs.<br><br>
                     </div>
                 </div>
-            </div><br><br>
+            </div>
+        </div>
+    </div><br><br>
         
     <!--Gray line with communication icon-->
     <div class="container-fluid" id="communicationArea">
         <hr class="grayLineCommunication">
-    </div><br><br><br>
+    </div><br>
 
 
     <!--paragraphs and picture in communication section-->
@@ -135,7 +137,7 @@
     <!--Gray line with employee development icon-->
     <div class="container-fluid" id="developmentArea">
         <hr class="grayLineDevelopment">
-    </div><br><br><br>
+    </div><br>
 
     <!--paragraphs and picture in employee development section-->
     <div class="container-fluid">
@@ -197,11 +199,13 @@
                     </div>
                 </div>
             </div>
-
+        </div>
+    </div>
+    
             <!--Gray line with compliance icon-->
             <div class="container-fluid" id="complianceArea">
                 <hr class="grayLineCompliance">
-            </div><br><br><br>
+            </div><br>
 
             <!--paragraphs and picture in compliance section-->
             <div class="container-fluid">
@@ -253,9 +257,8 @@
                     </div>
                 </div>
             </div><br><br>
-        </div>
-    </div><br><br> 
-  
+
+
     <?php include('assets/include/foot.php');?>
 
 </body>

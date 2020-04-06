@@ -65,18 +65,18 @@
             $headers = "From: $emailFrom\r\n";
             $headers .= "Reply-To: $emailFrom\r\n";
             $headers .= "MIME-Version: 1.0 \r\n";
-            $headers .= "Content-Type: text/plain; charset=ISO-8859-1 \r\n";
+            $headers .= "Content-Type: text/html; charset=ISO-8859-1 \r\n";
 
-            $txt = "Name: ".$contactName."\n";
-            $txt .= "Company Name: ".$companyName."\n";
-            $txt .= "Phone Number: ".$phone."\n";
-            $txt .= "Email Address: ".$emailFrom."\n";
-            $txt .= "Team Size: ".$teamSize."\n";
-            $txt .= "Message: ".$message."\n";
+            $txt = "Name: ".$contactName."<br>";
+            $txt .= "Company Name: ".$companyName."<br>";
+            $txt .= "Phone Number: ".$phone."<br>";
+            $txt .= "Email Address: ".$emailFrom."<br>";
+            $txt .= "Team Size: ".$teamSize."<br>";
+            $txt .= "Message: ".$message."<br>";
 
 
-            mail("katherineprintz@gmail.com", $subject, $txt, $headers) or die("Error!");
-            echo "<p style='text-align: center; font-family: Helvetica; color: #34CCE3;'>Your message has been sent. Thank you for reaching out!<br><a href='../index.html' style='font-family: Helvetica; color: #34CCE3;'> Return to Main Page</a></p>";
+            mail("tim@getblueivy.com", $subject, $txt, $headers) or die("Error!");
+            echo "<p style='text-align: center; font-family: Helvetica; color: #34CCE3;'>Your message has been sent. Thank you for reaching out!<br><a href='../index.php' style='font-family: Helvetica; color: #34CCE3;'> Return to Main Page</a></p>";
 
             ?>
        

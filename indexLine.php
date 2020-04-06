@@ -1,9 +1,9 @@
-<?php $title = 'Shaping Amazing Workplaces'; ?>
-<?php $metaTags = 'home index'; ?>
-<?php $currentPage = 'index'; ?>
-
-<?php include('assets/include/head.php'); ?>
-
+<?php include('assets/include/head.php');?>
+    
+    <link rel="stylesheet" href="assets/css/sawhold.css">    
+    <script src="blueIvy.js"></script>
+    
+    <title>Shaping Amazing Workplaces</title>
 </head>
 
 <body>
@@ -15,13 +15,13 @@
             to providing world-class human capital management capabilities to
             organizations that seek to improve employee engagement.</p> 
             <p class="test">
-                <a class="btn btn-primary btn-lg" href="#resources" role="button">Learn more</a>
+                <a class="btn btn-success btn-lg" href="#resources" role="button">Learn more</a>
             </p>
         </div>
     </div>
 
     <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="20000">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -55,7 +55,7 @@
                         documents to fit our industry and company vision. Our focus
                         has been on creating an open environment for feedback,
                         growth & training for management & employees. Tim has
-                        balanced these areas as he supports our team with each
+                        balanced these areas as he as supports our team with each
                         one. We are witnessing the impact his support is having on
                         our team.</em></p></blockquote>
                         <footer>Rhonda Rigby<br>Director Of Operations<br>ABC Great Beginnings Inc.</footer>
@@ -77,6 +77,7 @@
         </div>
     </div>
     <div class="container"><hr class="greenLine3"></div>
+
 
             <!--paragraph and picture in Valuable Resources section-->
             <div class="container" id="resources">
@@ -132,11 +133,11 @@
                                             driving a positive culture, your
                                             culture will drive your organization
                                             in unintentional and undesirable
-                                            ways.</p><br><br><br>
-                                            <div class="short-row"></div>
+                                            ways.</p><br><br>
+                                            <div class="short-row"></div><br><br><br>
                                             <div class="card-buttons">
                                                 <div class="p-4">
-                                                    <a href="strategies.php#cultureArea" class="btn btn-primary">Learn More</a>
+                                                    <a href="strategies.php#cultureArea" class="btn btn-success">Learn More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -156,11 +157,11 @@
                                             needs to happen and when they are
                                             connected with a greater vision
                                             because of effective communication
-                                            processes.</p><br><br>
+                                            processes.</p><br><br><br><br>
                                             <div class="short-row"></div>
                                             <div class="card-buttons">
                                                 <div class="p-4">
-                                                    <a href="strategies.php#communicationArea" class="btn btn-primary">Learn More</a>
+                                                    <a href="strategies.php#communicationArea" class="btn btn-success">Learn More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -180,11 +181,11 @@
                                             employee development will see a
                                             substantial return on investment
                                             through increased productivity,
-                                            loyalty, and retention.</p><br><br>
+                                            loyalty, and retention.</p><br><br><br>
                                             <div class="short-row"></div>
                                             <div class="card-buttons">
                                                 <div class="p-4">
-                                                    <a href="strategies.php#developmentArea" class="btn btn-primary">Learn More</a>
+                                                    <a href="strategies.php#developmentArea" class="btn btn-success">Learn More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -197,7 +198,7 @@
                                             <img src="assets/img/complianceIcon2.png" alt="" class="img-fluid rounded-circle w-25 mb-3">
                                             <h4><strong>Regulatory Compliance</strong></h4>
                                             <p>Front-line supervisors can either
-                                            be your greatest asset or your
+                                            be your organization, or your
                                             greatest liability. They must be
                                             trained and accountable for
                                             interacting with employees in a
@@ -209,7 +210,7 @@
                                             <div class="short-row"></div>
                                             <div class="card-buttons">
                                                 <div class="p-4">
-                                                    <a href="strategies.php#complianceArea" class="btn btn-primary">Learn More</a>
+                                                    <a href="strategies.php#complianceArea" class="btn btn-success">Learn More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -219,10 +220,9 @@
                         </div>
                     </div>
                 </div>
-                </div>  </div>  </div>  </div>  </div>  </div>  </div>    
+                </div>    </div>    </div>    </div>    
 
 <?php include('assets/include/foot.php');?>
 
 </body>
-
 </html>
