@@ -660,3 +660,110 @@ ul.noStyle {
 .dottedBlueLine{
     border-top: 3px dotted #34CCE3;
 }
+
+/* This replace jquery-ui.css for corners */
+.ui-corner-all {
+    /*  border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px; 
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px; */
+    }
+    
+    /* Color for the tabs */
+    /* .ui-state-active{
+        border: 3px solid #49c41b;
+        background: #34CCE3;
+        font-weight: bold;
+        color: black;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+     
+    } */
+    
+    /* .ui-state-default {
+        border: 2px solid #49c41b;  */
+        /*background: #f6f6f6;
+        font-weight: normal;
+        color: #454545;
+    }
+    
+    .ui-helper-reset {
+        margin: 20px;
+    }
+    
+    /* this is from bootstrap css & used to change footer icon colors*/
+    
+    .page-footer .social-icons a {
+        color: black;
+        background-color: #49c41b;
+    }
+    
+    .navheaderWidth {
+        min-width: 100%;
+        padding: 0;
+    }
+    
+    /* All lettering that is to be Blue Ivy Blue */
+    .gbiBlue {
+        color: #34CCE3;
+    }    
+    
+    .Launcher__LauncherButton-sc-1d77t61-0 {
+        background-color: #34CCE3; 
+        background-color: red;
+        margin: 0px 0px  100px; 
+    }
+    
+    .marginTop400 {
+        margin: 35% 0 0 0;
+    }
+    
+    .pic1 {
+        background-image: url(../img/culture3.jpg);
+    }
+    
+    .pic2 {
+        background-image: url(../img/revolvingdoor.jpg);
+    }
+    
+    .pic3 {
+        background-image: url(../img/workbrainscover.jpg);
+    }
+
+    .pic4 {
+        background-image: url(../img/COVID-19solosqr.jpg);
+    }
+    
+    .pic5 {
+        background-image: url(../img/px_here_worried.jpg);
+    }
+    
+    .pic6 {
+        background-image: url(../img/*.jpg);
+    }
+    
+    .picx {
+        height: 300px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    #resourcesPage {
+        background-image: url(../img/womanLaptop.jpg);
+        height: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 600px;
+    }
+
+    #cards img {
+        margin-top: -30px;
+    }
+
+    .high100 {
+        height: 100px;
+    }
