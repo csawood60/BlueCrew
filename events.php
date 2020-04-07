@@ -16,8 +16,8 @@
                     <img src="assets/img/calendar.png" alt="Calendar Icon" class="img-fluid mx-auto d-block" max width="150px">
                 </div>
                 <div class="col-lg-10 my-auto">                
-                    <h1 id="events">Amazing workplaces develop amazing people</h1>
-                    <h4 class="lead-2">Come join the movement ​at one of our live events below</h4>
+                    <h1 id="events">Amazing Workplaces Develop Amazing People</h1>
+                    <h4 class="lead-2">Come join the movement at one of our live events below.</h4>
                     <hr class="greenLine4">
                 </div>
             </div>
