@@ -661,6 +661,10 @@ ul.noStyle {
     border-top: 3px dotted #34CCE3;
 }
 
+.help-block.with-errors {
+    color: red;
+}
+
 /* This replace jquery-ui.css for corners */
 .ui-corner-all {
     /*  border-bottom-left-radius: 30px;

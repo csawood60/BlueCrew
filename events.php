@@ -1,10 +1,12 @@
+<!DOCTYPE html>
+<html>
+
 <?php $title = 'Shaping Amazing Workplaces'; ?>
 <?php $metaTags = 'events occasions conference activities'; ?>
 <?php $currentPage = 'events'; ?>
 
 <?php include('assets/include/head.php'); ?>
 
-</head>
 
 <body>
 <?php include('assets/include/nav.php');?>
@@ -17,7 +19,7 @@
                 </div>
                 <div class="col-lg-10 my-auto">                
                     <h1 id="events">Amazing Workplaces Develop Amazing People</h1>
-                    <h4 class="lead-2">Come join the movement at one of our live events below.</h4>
+                    <h4 class="lead-2">Come join the movement ​at one of our live events below.</h4>
                     <hr class="greenLine4">
                 </div>
             </div>

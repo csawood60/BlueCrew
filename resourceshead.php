@@ -1,10 +1,12 @@
+<!DOCTYPE html>
+<html>
+
 <?php $title = 'Shaping Amazing Workplaces'; ?>
 <?php $metaTags = 'resurces materials PDF articles listings documentation'; ?>
 <?php $currentPage = 'resources'; ?>
 
 <?php include('assets/include/head.php'); ?>
 
-</head>
 
 <body>
 <?php include('assets/include/nav.php');?>
@@ -75,7 +77,7 @@
                                             <div class="jumbotron drk jumbotron-fluid picx pic3">
                                             </div>
                                             <h4><strong>Zombie Employees</strong></h3>
-                                            <p>Despite their glossed - over eyes, lethargy, grunting and moaning, they somehow creep upon you unexpectedly and eat away at your productivity. </p><br>
+                                            <p>Despite their glossed - over eyes, lethargy, grunting and moaning, they somehow creep up on you unexpectedly and eat away at your productivity. </p><br>
                                             <div class="short-row"></div>
                                             <div class="card-buttons">
                                                 <div class="p-4">
@@ -119,8 +121,8 @@
                                         <div class="card-body w-100">
                                             <div class="jumbotron drk jumbotron-fluid picx pic5">
                                             </div>
-                                            <h4><strong>Family First</strong></h4>
-                                            <p class="align-items-center">The Emergency Paid Sick Leave Act requires 2 weeks paid sick leave for employees impacted by COVID-19.</p> <br>
+                                            <h4><strong>Coronavirus Response Act</strong></h4>
+                                            <p class="align-items-center">FFCRA has many requirements for employees impacted by COVID-19.  How are you affected?</p> <br>
                                             <div class="short-row"></div>
                                             <div class="card-buttons">
                                                 <div class="p-4">

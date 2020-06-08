@@ -1,10 +1,12 @@
+<!DOCTYPE html>
+<html>
+
 <?php $title = 'Shaping Amazing Workplaces'; ?>
 <?php $metaTags = 'strategy tactical vision future goals planning index'; ?>
 <?php $currentPage = 'strategies'; ?>
 
 <?php include('assets/include/head.php'); ?>
 
-</head>
 
 <body>
 <?php include('assets/include/nav.php');?>

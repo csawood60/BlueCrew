@@ -1,10 +1,12 @@
+<!DOCTYPE html>
+<html>
+
 <?php $title = 'Shaping Amazing Workplaces'; ?>
 <?php $metaTags = 'partnerships aliance teams organizations'; ?>
 <?php $currentPage = 'partnerships'; ?>
 
 <?php include('assets/include/head.php'); ?>
 
-</head>
 
 <body>
 <?php include('assets/include/nav.php');?>
