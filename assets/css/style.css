@@ -131,10 +131,10 @@ body {
 .blueR {
     position: absolute;
     height: 10%;
-    width: 33%;
+    width: 25%;
     z-index: -1;
-    top: 18%;
-    left: 7%;
+    top: 15%;
+    left: 10%;
     opacity: 40%;
 }
 
