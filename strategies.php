@@ -39,7 +39,9 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="assets/img/handsMiddle.jpg" class="img-fluid">
+                <img src="assets/img/handsInMiddle.jpg" class="img-fluid" id="strategiesImage">
+                <img src="assets/img/blueRectangle.png" class="img-fluid" id="blueRectangle-strategies-img-top">
+                <img src="assets/img/greenLines.png" class="img-fluid" id="greenLines-strategies-img">
                 <span class="text-justify"></span>
             </div>
             <div class="col-lg-8 col-md-8 col-sm-12 desc">
@@ -87,7 +89,9 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="assets/img/people%20talking.jpg" class="img-fluid">
+                <img src="assets/img/peopletalking.jpg" class="img-fluid" id="strategiesImage">
+                <img src="assets/img/blueRectangle.png" class="img-fluid" id="blueRectangle-strategies-img-bottom">
+                <img src="assets/img/greenLines.png" class="img-fluid" id="greenLines-strategies-img">
                 <span class="text-justify"></span>
             </div>
             <div class="col-lg-8 col-md-8 col-sm-12 desc"><br>
@@ -145,7 +149,9 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="assets/img/seminar.jpg" class="img-fluid">
+                <img src="assets/img/seminar.jpg" class="img-fluid" id="strategiesImage">
+                <img src="assets/img/blueRectangle.png" class="img-fluid" id="blueRectangle-strategies-img-top">
+                <img src="assets/img/greenLines.png" class="img-fluid" id="greenLines-strategies-img">
                 <span class="text-justify"></span>
             </div>
             <div class="col-lg-8 col-md-8 col-sm-12 desc"><br>
@@ -213,7 +219,9 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-12">
-                        <img src="assets/img/compliance.jpg" class="img-fluid">
+                        <img src="assets/img/compliance.jpg" class="img-fluid" id="strategiesImage">
+                        <img src="assets/img/blueRectangle.png" class="img-fluid" id="blueRectangle-strategies-img-bottom">
+                        <img src="assets/img/greenLines.png" class="img-fluid" id="greenLines-strategies-img">
                         <span class="text-justify"></span>
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-12 desc"><br>

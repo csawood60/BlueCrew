@@ -127,7 +127,7 @@ body {
     text-align: center;
 }
 
-
+/* blue rectangle on contact page */
 .blueR {
     position: absolute;
     height: 10%;
@@ -421,17 +421,44 @@ footer {
     margin-bottom: 35px;
 }
 
-/*Strategies page: blue circle at end of gray line: not currently being used*/
-.greenLine:after {
-    background: url('../img/blueCircleOutline2.png') no-repeat top right;
-    content: "";
-    display: block;
-    height: 75px; /* height of the circle */
+/* controls image placement above style items (green lines and blue rectangle) */
+#strategiesImage {
+    z-index: 3;
+    float: left;
+    width: 66%;
+    margin-right: -100%;
     position: relative;
-    top: -36px; /* half the height of the circle */
-    border: 0;
+    margin-left: 25%;
+    margin-top: 10%;
 }
 
+/* controls placement of blue rectangle behind strategies images - top corner */
+#blueRectangle-strategies-img-top {
+    z-index: 2;
+    position: relative;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+/* controls placement of blue rectangle behind strategies images - bottom corner */
+#blueRectangle-strategies-img-bottom {
+    z-index: 2;
+    position: relative;
+    width: 70%;
+    margin-left: 30%;
+    margin-top: 25%;
+}
+
+/* controls placement of green lines block behind all strategies images */
+#greenLines-strategies-img {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 10%;
+}
+
+/* Green line under strategies headers */
 .greenLine2 {
     background-color: #49e41b;
     height: 2px;
