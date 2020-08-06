@@ -1,28 +1,46 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-body{
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 /*Home page picture & Jumbotron*/
 #homePage {
-    background-image: url('../img/home.jpg');/*Photo by Startup Stock Photos from Pexels*/
-    height: cover;
+    /*background-image: url('../img/home.jpg');/*Photo by Startup Stock Photos from Pexels*/
+    height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    position: relative;
+    padding-top: 0;
+}
+
+.homepage-container {
+    position: relative;
+}
+
+.homepage-text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-container {
+    max-height: 500px;
+    overflow: hidden;
 }
 
 @media only screen and (max-width: 767px) {
     #homePage {
-    /* The file size of this background image is 93% smaller
-        to improve page load speed on mobile internet connections */
+        /* The file size of this background image is 93% smaller
+            to improve page load speed on mobile internet connections */
         background-image: url('../img/homeSmall.jpg');
-        height: cover;
+        height: 100%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -34,14 +52,10 @@ body{
     background-color: #fff;
 }
 
-/*.opacity {
-    background-color: rgba(36, 36, 36, 0.692);
-}*/
-
 /*Blue header type*/
 .display-4 {
-    font-weight: 300;/*for home page*/
-    color:#34CCE3;
+    font-weight: 300; /*for home page*/
+    color: #34CCE3;
     background-color: rgba(36, 36, 36, 0.692);
     text-align: center;
     padding: 0px 20px;
@@ -49,28 +63,28 @@ body{
 
 /*green rule line on header*/
 .display-4::after {
-    content:'';
+    content: '';
     background: #49c41b;
     height: 3px;
     width: 40%;
-    display: block;   
-    left: -2.5em; 
+    display: block;
+    left: -2.5em;
 }
 
 @media only screen and (max-width: 680px) {
     .display-4::after {
-        content:'';
+        content: '';
         background: #49c41b;
         height: 3px;
         width: 100%;
-        display: block;   
+        display: block;
     }
 }
 
 /*Blue header type blog page*/
 .display-5 {
-    color:#34CCE3;
-    text-align: left; 
+    color: #34CCE3;
+    text-align: left;
 }
 
 /*Black header type*/
@@ -80,25 +94,15 @@ body{
 
 /*Blue header dots - span class on contact page*/
 .design-dots {
-    color:#34CCE3;
+    color: #34CCE3;
 }
-
-/*green rule line header*/
-/*h1::after {
-    content:'';
-    background: #49c41b;
-    height: 3px;
-    width: 515px;
-    display: block;   
-    left: -2.5em; 
-}*/
 
 .h1Plus {
     font-size: 2.5rem;
 }
 
 /*text paragraph under home page header*/
-.lead{
+.lead {
     color: white;
     background-color: rgba(36, 36, 36, 0.692);
     text-align: center;
@@ -107,20 +111,20 @@ body{
     line-height: 1.2;
 }
 
-.test{
+.homepage-learn-button {
     color: white;
     text-align: center;
 }
 
 /*carousel testing*/
-.overlayHome { 
-    color:#fff;
-    position:absolute;
-    z-index:12;
-    top:50%;
-    left:0;
-    width:60%;
-    text-align:center;
+.overlayHome {
+    color: #fff;
+    position: absolute;
+    z-index: 12;
+    top: 50%;
+    left: 0;
+    width: 60%;
+    text-align: center;
 }
 
 
@@ -138,55 +142,40 @@ body{
 .btn {
     font-size: 18px;
     text-decoration: none;
-    color:#fff;
+    color: #fff;
     background-color: #49c41b;
     border-color: #49c41b;
     padding: 10px 20px;
     border-radius: 10px;
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 /*Green button styling*/
-.btn:hover{
+.btn:hover {
     background: white;
     border-color: white;
-    color:gray;
-    border-color:#49c41b ;
+    color: gray;
+    border-color: #49c41b;
 }
 
-.btn:active{
+.btn:active {
     background: white;
     border-color: white;
-    color:gray;
-    border-color:#49c41b;
+    color: gray;
+    border-color: #49c41b;
 }
 
 /*Green button throughout site*/
-.btn .btn-primary:hover{
+.btn .btn-primary:hover {
     background: white;
     border-color: white;
-    color:gray;
-    border-color:#49c41b;
-}
-
-/*Testimonial Carousel*/
-.carousel-inner{
-    max-width: 73%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-@media only screen and (max-width: 767px) {
-    .carousel-inner {
-    /* The file size of this background image is 93% smaller
-        to improve page load speed on mobile internet connections */
-        max-width: 97%;
-    }
+    color: gray;
+    border-color: #49c41b;
 }
 
 .carousel-item .img-fluid {
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
 }
 
 .carousel-indicators > li {
@@ -205,7 +194,7 @@ body{
     min-height: 130px;
     font-size: 16px;
     margin: 0 auto;
-    quotes: "\201C""\201D""\2018""\2019";
+    quotes: "\201C" "\201D" "\2018" "\2019";
     padding: 10px 20px;
     line-height: 1.4;
 }
@@ -239,7 +228,7 @@ body{
 /*testimonial peoples' names & position before*/
 footer {
     font-size: 16px;
-    padding:0px 0px 100px 20px;
+    padding: 0px 0px 100px 20px;
     text-align: left;
     font-size: .9em;
 }
@@ -248,17 +237,17 @@ footer {
 .divider-left {
     background-color: #49e41b;
     height: 3px;
-    width: 60%px; /*changed from 515px*/
-    display: block;   
-    left: -2.5em; 
+    width: 60% px; /*changed from 515px*/
+    display: block;
+    left: -2.5em;
 }
 
 .divider-right {
     background-color: #49e41b;
     height: 3px;
     width: 515px;
-    display: block;   
-    right: -2.5em; 
+    display: block;
+    right: -2.5em;
 }
 
 /*blue dots under picture*/
@@ -288,7 +277,7 @@ footer {
     font-weight: 400;
 }
 
-#cards .card{
+#cards .card {
     border-radius: 0;
     box-shadow: 5px 5px 5px #90929E;
     transition: all 0.3s ease-in;
@@ -308,7 +297,7 @@ footer {
     left: 30px;
 }
 
-#cards .card:hover{
+#cards .card:hover {
     transform: scale(1.025);
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
@@ -344,57 +333,46 @@ footer {
     min-height: 100px;
 }
 
-.body-text{
+.body-text {
     padding-right: 20px;
     font-weight: normal;
 }
 
 /* NEW gray lines (with circle icons at ends) in strategies page above 4 strategies*/
 .grayLineCulture {
-    background-color:#90929E;
+    background-color: #90929E;
     height: 2px;
-    display: block;   
+    display: block;
     width: 70%;
     margin-bottom: 35px;
 }
 
 .grayLineCommunication {
-    background-color:#90929E;
+    background-color: #90929E;
     height: 2px;
-    display: block;   
+    display: block;
     width: 70%;
     margin-bottom: 35px;
 }
 
 .grayLineDevelopment {
-    background-color:#90929E;
+    background-color: #90929E;
     height: 2px;
-    display: block;   
+    display: block;
     width: 70%;
     margin-bottom: 35px;
 }
 
 .grayLineCompliance {
-    background-color:#90929E;
+    background-color: #90929E;
     height: 2px;
-    display: block;   
+    display: block;
     width: 70%;
     margin-bottom: 35px;
 }
 
-/*blue circle at end of green line OLD
-.greenLine:after { 
-    background: url('../img/blueCircleOutline2.png') no-repeat top right;
-    content: "";
-    display: block;
-    height: 75px; /* height of the circle 
-    position: relative;
-    top: -36px; /* half the height of the circle 
-    border: 0;
-}*/
-
 /*blue circle at end of green line with icon*/
-.grayLineCulture:after { 
+.grayLineCulture:after {
     background: url('../img/cultureIcon5.png') no-repeat top right;
     content: "";
     display: block;
@@ -404,7 +382,7 @@ footer {
     border: 0;
 }
 
-.grayLineCommunication:after { 
+.grayLineCommunication:after {
     background: url('../img/communication4.png') no-repeat top right;
     content: "";
     display: block;
@@ -414,7 +392,7 @@ footer {
     border: 0;
 }
 
-.grayLineDevelopment:after { 
+.grayLineDevelopment:after {
     background: url('../img/developmentIcon.png') no-repeat top right;
     content: "";
     display: block;
@@ -424,7 +402,7 @@ footer {
     border: 0;
 }
 
-.grayLineCompliance:after { 
+.grayLineCompliance:after {
     background: url('../img/complianceIcon2.png') no-repeat top right;
     content: "";
     display: block;
@@ -435,16 +413,16 @@ footer {
 }
 
 /*Strategies page:green line above 4 strategies*/
-.greenLine  {
-    background-color:#90929E;
+.greenLine {
+    background-color: #90929E;
     height: 2px;
-    display: block;   
+    display: block;
     width: 70%;
     margin-bottom: 35px;
 }
 
 /*Strategies page: blue circle at end of gray line: not currently being used*/
-.greenLine:after { 
+.greenLine:after {
     background: url('../img/blueCircleOutline2.png') no-repeat top right;
     content: "";
     display: block;
@@ -488,7 +466,7 @@ footer {
 
 .dots:after {
     background: url('../img/blueDots.png') no-repeat left;
-    content:"";
+    content: "";
     display: block;
     height: 60px;
     position: relative;
@@ -512,39 +490,39 @@ footer {
 
 #mySidenav a:hover {
     left: 0;
-    }
-    
-    #culture {
-        top: 20px;
-        background: #49e41b url(../img/cultureIconBlack2.png);
-        background-position: right;
-        background-size: 33px;
-        background-repeat: no-repeat;
-        }
-        
-        #communication {
-        top: 70px;
-        background: #49e41b url(../img/communicationIconBlack3.png);
-        background-position: right;
-        background-size: 33px;
-        background-repeat: no-repeat;
-        }
-        
-        #development {
-        top: 120px;
-        background: #49e41b url(../img/developmentIconBlack.png);
-        background-position: right;
-        background-size: 33px;
-        background-repeat: no-repeat;
-        }
-        
-        #compliance {
-        top: 170px;
-        background: #49e41b url(../img/complianceIconBlack.png);
-        background-position: right;
-        background-size: 33px;
-        background-repeat: no-repeat;
-        }
+}
+
+#culture {
+    top: 20px;
+    background: #49e41b url(../img/cultureIconBlack2.png);
+    background-position: right;
+    background-size: 33px;
+    background-repeat: no-repeat;
+}
+
+#communication {
+    top: 70px;
+    background: #49e41b url(../img/communicationIconBlack3.png);
+    background-position: right;
+    background-size: 33px;
+    background-repeat: no-repeat;
+}
+
+#development {
+    top: 120px;
+    background: #49e41b url(../img/developmentIconBlack.png);
+    background-position: right;
+    background-size: 33px;
+    background-repeat: no-repeat;
+}
+
+#compliance {
+    top: 170px;
+    background: #49e41b url(../img/complianceIconBlack.png);
+    background-position: right;
+    background-size: 33px;
+    background-repeat: no-repeat;
+}
 
 /*gets rid of pop-out side navigation on strategies page when screen size is smaller*/
 @media (max-width: 768px) {
@@ -557,13 +535,13 @@ footer {
 }
 
 /*Events page blue background*/
-.testBkgd{
-    background-color:rgba(52, 204, 227, 0.486);
+.testBkgd {
+    background-color: rgba(52, 204, 227, 0.486);
     padding: 15px;
 }
 
 /*border around text in partnership page*/
-.borderBlue{
+.borderBlue {
     /*background-color:#34CCE3;*/
     /*border-color: #34CCE3;*/
     border-color: #49e41b;
@@ -572,23 +550,15 @@ footer {
     border-width: 4px;
 }
 
-/*.testBkgd::before{
-    background: url('../img/whiteDots2.png') no-repeat;
-    content:"";
-    display: block;
-    position: relative;
-    border: 0px;
-}*/
-
 .blueLine {
     color: #34CCE3;
     height: 5px;
 }
 
 /*calendar icon on Events page*/
-.event::before{
+.event::before {
     background: url('../img/calendar.png') no-repeat;
-    content:"";
+    content: "";
     display: block;
     position: relative;
     border: 0px;
@@ -601,7 +571,7 @@ footer {
 }
 
 /*Jumbotron display title on Events page*/
-#events{
+#events {
     font-size: 2.5em;
     font-weight: 700;
 }
@@ -632,12 +602,12 @@ footer {
     opacity: 0;
     transition: .5s ease;
     background-color: #008CBA;
-    }
+}
 
 .container-overlay:hover .overlay {
     opacity: 1;
 }
-    
+
 .text {
     color: white;
     font-size: 20px;
@@ -652,12 +622,12 @@ footer {
 
 /*Partnership Page: taking bullets off of the lists*/
 ul.noStyle {
-    list-style-type:none;
+    list-style-type: none;
     margin: 3px;
     padding: 3px;
 }
 
-.dottedBlueLine{
+.dottedBlueLine {
     border-top: 3px dotted #34CCE3;
 }
 
@@ -665,109 +635,86 @@ ul.noStyle {
     color: red;
 }
 
-/* This replace jquery-ui.css for corners */
-.ui-corner-all {
-    /*  border-bottom-left-radius: 30px;
-        border-bottom-right-radius: 30px; 
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px; */
-    }
-    
-    /* Color for the tabs */
-    /* .ui-state-active{
-        border: 3px solid #49c41b;
-        background: #34CCE3;
-        font-weight: bold;
-        color: black;
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
-     
-    } */
-    
-    /* .ui-state-default {
-        border: 2px solid #49c41b;  */
-        /*background: #f6f6f6;
-        font-weight: normal;
-        color: #454545;
-    }
-    
-    .ui-helper-reset {
-        margin: 20px;
-    }
-    
-    /* this is from bootstrap css & used to change footer icon colors*/
-    
-    .page-footer .social-icons a {
-        color: black;
-        background-color: #49c41b;
-    }
-    
-    .navheaderWidth {
-        min-width: 100%;
-        padding: 0;
-    }
-    
-    /* All lettering that is to be Blue Ivy Blue */
-    .gbiBlue {
-        color: #34CCE3;
-    }    
-    
-    .Launcher__LauncherButton-sc-1d77t61-0 {
-        background-color: #34CCE3; 
-        background-color: red;
-        margin: 0px 0px  100px; 
-    }
-    
-    .marginTop400 {
-        margin: 35% 0 0 0;
-    }
-    
-    .pic1 {
-        background-image: url(../img/culture3.jpg);
-    }
-    
-    .pic2 {
-        background-image: url(../img/revolvingdoor.jpg);
-    }
-    
-    .pic3 {
-        background-image: url(../img/workbrainscover.jpg);
-    }
 
-    .pic4 {
-        background-image: url(../img/COVID-19solosqr.jpg);
-    }
-    
-    .pic5 {
-        background-image: url(../img/px_here_worried.jpg);
-    }
-    
-    .pic6 {
-        background-image: url(../img/*.jpg);
-    }
-    
-    .picx {
-        height: 300px;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
+.page-footer .social-icons a {
+    color: black;
+    background-color: #49c41b;
+}
 
-    #resourcesPage {
-        background-image: url(../img/womanLaptop.jpg);
-        height: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        height: 600px;
-    }
+.navheaderWidth {
+    min-width: 100%;
+    padding: 0;
+}
 
-    #cards img {
-        margin-top: -30px;
-    }
+/* All lettering that is to be Blue Ivy Blue */
+.gbiBlue {
+    color: #34CCE3;
+}
 
-    .high100 {
-        height: 100px;
-    }
+.Launcher__LauncherButton-sc-1d77t61-0 {
+    background-color: #34CCE3;
+    background-color: red;
+    margin: 0px 0px 100px;
+}
+
+.marginTop400 {
+    margin: 22% 0 0 0;
+}
+
+.pic1 {
+    background-image: url(../img/culture3.jpg);
+}
+
+.pic2 {
+    background-image: url(../img/revolvingdoor.jpg);
+}
+
+.pic3 {
+    background-image: url(../img/workbrainscover.jpg);
+}
+
+.pic4 {
+    background-image: url(../img/COVID-19solosqr.jpg);
+}
+
+.pic5 {
+    background-image: url(../img/px_here_worried.jpg);
+}
+
+.pic6 {
+    background-image: url(../img/*.jpg);
+}
+
+.pic7 {
+    background-image: url(../img/broken_arm.jpg);
+}
+
+.pic8 {
+    background-image: url(../img/people_in_a_row.png);
+}
+
+
+.picx {
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#resourcesPage {
+    height: cover;
+    background-image: url(../img/toolrack.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#cards img {
+    margin-top: -30px;
+}
+
+.high100 {
+    height: 100px;
+}

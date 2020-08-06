@@ -1,90 +1,87 @@
-<?php
-// require ReCaptcha class
-require('recaptcha-master/src/autoload.php');
 
-// configure
-// an email address that will be in the From field of the email.
-$from = 'Demo contact form <demo@domain.com>';
-
-// an email address that will receive the email with the output of the form
-$sendTo = 'katherineprintz@gmail.com';
-
-// subject of the email
-$subject = 'New message from contact form';
-
-// form field names and their translations.
-// array variable name => Text to appear in the email
-$fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message');
-
-// message that will be displayed when everything is OK :)
-$okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
-
-// If something goes wrong, we will display this message.
-$errorMessage = 'There was an error while submitting the form. Please try again later';
-
-// ReCaptch Secret
-$recaptchaSecret = '6LeuVfoUAAAAAKTNCN9SHVW_iOnjaxMfwcrWqncG';
-
-// let's do the sending
-
-// if you are not debugging and don't need error reporting, turn this off by error_reporting(0);
-error_reporting(E_ALL & ~E_NOTICE);
-
-try {
-    if (!empty($_POST)) {
-
-        // validate the ReCaptcha, if something is wrong, we throw an Exception,
-        // i.e. code stops executing and goes to catch() block
-        
-        if (!isset($_POST['g-recaptcha-response'])) {
-            throw new \Exception('ReCaptcha is not set.');
-        }
-
-        // do not forget to enter your secret key from https://www.google.com/recaptcha/admin
-        
-        $recaptcha = new \ReCaptcha\ReCaptcha($recaptchaSecret, new \ReCaptcha\RequestMethod\CurlPost());
-        
-        // we validate the ReCaptcha field together with the user's IP address
-        
-        $response = $recaptcha->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
-
-        if (!$response->isSuccess()) {
-            throw new \Exception('ReCaptcha was not validated.');
-        }
-        
-        // everything went well, we can compose the message, as usually
-        
-        $emailText = "You have a new message from your contact form\n=============================\n";
-
-        foreach ($_POST as $key => $value) {
-            // If the field exists in the $fields array, include it in the email
-            if (isset($fields[$key])) {
-                $emailText .= "$fields[$key]: $value\n";
+        <?php
+            function Clean($string, $min='', $max='')
+            {
+            $string = strip_tags($string);
+            $string = preg_replace("/[^a-zA-Z0-9\+-_# ]/", "", html_entity_decode($string, ENT_QUOTES));
+            $string = str_replace(array('\'', '"', '\\', ';', '=', '(', ')', '%'), '', $string);
+            $string = filter_var($string, FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH | FILTER_FLAG_STRIP_LOW);
+            $len = strlen($string);
+            if((($min != '') && ($len < $min)) || (($max != '') && ($len > $max)))
+            {
+            return "";
             }
+            else
+            {
+            return $string;
+            }
+            }
+        
+        function CleanEmail($email)
+            {
+            if (filter_var($email,FILTER_VALIDATE_EMAIL)==FALSE)
+            {
+            // this failed the first check
+            return "";
+            }
+            else
+            {
+            // this passed the first check
+            /* explode out local and domain */
+            list($local,$domain)=explode('@',$email);
+            $localLength=strlen($local);
+            $domainLength=strlen($domain);
+            /* check for proper lengths */
+            if ( ( $localLength > 0 && $localLength < 65) && ( $domainLength > 3 && $domainLength < 256) && ( checkdnsrr($domain,'MX') || checkdnsrr($domain,'A') ) )
+                {
+                // this passed the second check for length and domain and dns tests
+                return $email;
+                }
+            else
+                {
+                // this failed the second check
+                return "";
+                }
+            }
+            }
+        
+        
+            
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+            //set all variables
+            $contactName = $companyName = $phone = $address = $teamSize = $message = "";
+
+            $contactName = Clean($_POST["name"]);
+            $companyName = Clean($_POST["company-name"]);
+            $phone = Clean($_POST["phone-number"]);
+            $emailFrom = Clean($_POST["email"]);
+            $teamSize = Clean($_POST["team-size"]);
+            $message = Clean($_POST["message"]);
+      
+            //Write the actual email
+            $to = '';
+            $subject = "Message From ".$contactName;
+            $headers = "From: $emailFrom\r\n";
+            $headers .= "Reply-To: $emailFrom\r\n";
+            $headers .= "MIME-Version: 1.0 \r\n";
+            $headers .= "Content-Type: text/html; charset=ISO-8859-1 \r\n";
+
+            $txt = "Name: ".$contactName."<br>";
+            $txt .= "Company Name: ".$companyName."<br>";
+            $txt .= "Phone Number: ".$phone."<br>";
+            $txt .= "Email Address: ".$emailFrom."<br>";
+            $txt .= "Team Size: ".$teamSize."<br>";
+            $txt .= "Message: ".$message."<br>";
+
+
+            mail("tim@getblueivy.com", $subject, $txt, $headers) or die("Error!");
+            echo "<p style='text-align: center; font-family: Helvetica; color: #34CCE3;'>Your message has been sent. Thank you for reaching out!<br><a href='../index.php' style='font-family: Helvetica; color: #34CCE3;'> Return to Main Page</a></p>";
+
+            ?>
+       
+        <?php
         }
     
-        // All the neccessary headers for the email.
-        $headers = array('Content-Type: text/plain; charset="UTF-8";',
-            'From: ' . $from,
-            'Reply-To: ' . $from,
-            'Return-Path: ' . $from,
-        );
         
-        // Send email
-        mail($sendTo, $subject, $emailText, implode("\n", $headers));
-
-        $responseArray = array('type' => 'success', 'message' => $okMessage);
-    }
-} catch (\Exception $e) {
-    $responseArray = array('type' => 'danger', 'message' => $e->getMessage());
-}
-
-if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
-    $encoded = json_encode($responseArray);
-
-    header('Content-Type: application/json');
-
-    echo $encoded;
-} else {
-    echo $responseArray['message'];
-}
+        ?>

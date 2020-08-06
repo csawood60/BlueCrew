@@ -18,13 +18,9 @@
                     <a href="https://www.linkedin.com/company/getblueivy" target="_blank"><i class="icon ion-social-linkedin"></i></a>
                 </div>
                 <div class="links">
-                    <a href="#!" style="color: #34CCE3; font-size: small;">Copyright Blue Ivy Professional Services, LLC., 2020. All Rights Reserved</a>
+                    <a href="#!" style="color: #34CCE3; font-size: small;">Copyright Blue Ivy Professional Services, LLC., 2020. All Rights Reserved.</a>
 
-                </div>            
-                <!-- <div class="links"
-                    style="color: #34CCE3; font-size: small; position: relative; bottom: 0px; right: 5px;">Powered by: GetBlueIvy Team
-                </div> -->
-
+                </div>
             </div>
         </footer>
     </div>

@@ -87,7 +87,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="assets/img/communicationStrategiesPage.jpg" class="img-fluid">
+                <img src="assets/img/people%20talking.jpg" class="img-fluid">
                 <span class="text-justify"></span>
             </div>
             <div class="col-lg-8 col-md-8 col-sm-12 desc"><br>
@@ -145,7 +145,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="assets/img/employeeDevStrategiesPage.jpg" class="img-fluid">
+                <img src="assets/img/seminar.jpg" class="img-fluid">
                 <span class="text-justify"></span>
             </div>
             <div class="col-lg-8 col-md-8 col-sm-12 desc"><br>
@@ -213,7 +213,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-12">
-                        <img src="assets/img/complianceStrategiesPage.jpg" class="img-fluid">
+                        <img src="assets/img/compliance.jpg" class="img-fluid">
                         <span class="text-justify"></span>
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-12 desc"><br>
