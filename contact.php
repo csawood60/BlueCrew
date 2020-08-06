@@ -87,6 +87,7 @@
 
 
                         <input type="submit" class="btn btn-success btn-send" value="Send message">
+                        <p></p>
 
                     </div>
 
