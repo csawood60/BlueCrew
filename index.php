@@ -13,34 +13,36 @@
 <div class="jumbotron drk jumbotron-fluid homepage-container" id="homePage">
     <div id="homePageImgCarousel" class="carousel slide carousel-container" data-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active"> <!-- 735 x 450 -->
+            <div class="carousel-item active">
                 <img class="d-block w-100" src="assets/img/foundry.jpg" alt="First slide">
             </div>
-            <div class="carousel-item"> <!-- 910 x 607 -->
+            <div class="carousel-item">
                 <img class="d-block w-100" src="assets/img/conference%20room.jpg" alt="Second slide">
             </div>
-            <div class="carousel-item"> <!-- 910 x 607 -->
+            <div class="carousel-item">
                 <img class="d-block w-100" src="assets/img/print%20shop.jpg" alt="Third slide">
             </div>
-            <div class="carousel-item"> <!-- 3216 x 1818 -->
+            <div class="carousel-item">
                 <img class="d-block w-100" src="assets/img/day%20care.jpg" alt="Fourth slide">
             </div>
-            <div class="carousel-item"> <!-- 900 x 550 -->
+            <div class="carousel-item">
                 <img class="d-block w-100" src="assets/img/construction.jpg" alt="Fifth slide">
             </div>
-            <div class="carousel-item"> <!-- 480 x 320 -->
+            <div class="carousel-item">
                 <img class="d-block w-100" src="assets/img/factory.png" alt="Sixth slide">
             </div>
         </div>
-    </div>
-    <div class="container homepage-text-container">
-        <h1 class="display-4"><strong>Shaping Amazing Workplaces</strong></h1>
-        <p class="lead">​Blue Ivy Professional Services is dedicated
-            to providing world-class human capital management capabilities to
-            organizations that seek to improve employee engagement.</p>
-        <p class="homepage-learn-button">
-            <a class="btn btn-primary btn-lg" href="#resources" role="button">Learn more</a>
-        </p>
+        <div class="container homepage-text-container">
+            <h1 class="display-4"><strong>Shaping Amazing Workplaces</strong></h1>
+            <p class="lead">​Blue Ivy Professional Services is dedicated
+                to providing world-class human capital management capabilities to
+                organizations that seek to improve employee engagement.</p>
+            <div class="short-row">
+                <p class="homepage-learn-button">
+                    <a class="btn btn-primary btn-lg" href="#resources" role="button">Learn more</a>
+                </p>
+            </div>
+        </div>
     </div>
 </div>
 

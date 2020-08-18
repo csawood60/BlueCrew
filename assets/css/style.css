@@ -30,8 +30,8 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.carousel-container {
-    max-height: 500px;
+.carousel-item {
+    height: 500px;
     overflow: hidden;
 }
 
@@ -39,7 +39,6 @@ body {
     #homePage {
         /* The file size of this background image is 93% smaller
             to improve page load speed on mobile internet connections */
-        background-image: url('../img/homeSmall.jpg');
         height: 100%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -71,16 +70,6 @@ body {
     left: -2.5em;
 }
 
-@media only screen and (max-width: 680px) {
-    .display-4::after {
-        content: '';
-        background: #49c41b;
-        height: 3px;
-        width: 100%;
-        display: block;
-    }
-}
-
 /*Blue header type blog page*/
 .display-5 {
     color: #34CCE3;
@@ -104,11 +93,11 @@ body {
 /*text paragraph under home page header*/
 .lead {
     color: white;
-    background-color: rgba(36, 36, 36, 0.692);
     text-align: center;
     padding: 20px 20px;
     font-size: 25px;
     line-height: 1.2;
+    background-color: rgba(36, 36, 36, 0.692);
 }
 
 .homepage-learn-button {
@@ -127,6 +116,46 @@ body {
     text-align: center;
 }
 
+@media only screen and (max-width: 680px) {
+    .display-4 {
+        font-size: xx-large;
+        font-weight: 300; /*for home page*/
+        color: #34CCE3;
+        background-color: rgba(36, 36, 36, 0.692);
+        text-align: center;
+        padding: unset;
+    }
+
+    .display-4::after {
+        content: '';
+        background: #49c41b;
+        height: 3px;
+        width: 40%;
+        display: block;
+        left: -2.5em;
+    }
+
+    .homepage-text-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .lead {
+        color: white;
+        text-align: center;
+        padding: 10px 10px;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .homepage-learn-button {
+        color: white;
+        text-align: center;
+    }
+}
+
 /* blue rectangle on contact page */
 .blueR {
     position: absolute;
@@ -134,8 +163,13 @@ body {
     width: 25%;
     z-index: -1;
     top: 15%;
-    left: 10%;
+    left: 5%;
     opacity: 40%;
+}
+@media only screen and (max-width: 767px) {
+    .blueR {
+        visibility: hidden;
+    }
 }
 
 /*"Learn more" button styling*/
@@ -446,6 +480,7 @@ footer {
     z-index: 2;
     position: relative;
     width: 70%;
+    margin-left: 30%;
     margin-left: 30%;
     margin-top: 25%;
 }
