@@ -13,7 +13,7 @@
     <div class="container"> 
         <div class="row short-row"> 
             <div class="col-sm">
-                <h1 class="display-3"><strong>Drop us a line<span class="design-dots">.</span></strong></h1>
+                <h1 class="display-3 contact-header"><strong>Drop us a line<span class="design-dots">.</span></strong></h1>
                 <div class="greenLine4"></div>
                 <br>
             </div>

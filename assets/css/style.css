@@ -21,6 +21,7 @@ body {
 
 .homepage-container {
     position: relative;
+    margin-bottom: 0rem;
 }
 
 .homepage-text-container {
@@ -31,10 +32,16 @@ body {
 }
 
 .carousel-item {
-    height: 500px;
+    min-height: 300px;
     overflow: hidden;
 }
 
+@media only screen and (max-width: 680px) {
+    .carousel-item {
+        min-height: 575px;
+        overflow: hidden;
+    }
+}
 @media only screen and (max-width: 767px) {
     #homePage {
         /* The file size of this background image is 93% smaller
@@ -44,6 +51,8 @@ body {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        margin-bottom: 0rem;
+        padding-bottom: 0rem;
     }
 }
 
@@ -79,6 +88,12 @@ body {
 /*Black header type*/
 .display-3 {
     color: black;
+}
+
+@media only screen and (max-width: 680px) {
+    .contact-header{
+        font-size: 3rem;
+    }
 }
 
 /*Blue header dots - span class on contact page*/
@@ -261,17 +276,16 @@ body {
 
 /*testimonial peoples' names & position before*/
 footer {
-    font-size: 16px;
-    padding: 0px 0px 100px 20px;
+    padding: 0 0 100px 20px;
     text-align: left;
-    font-size: .9em;
+    font-size: 0.9em;
 }
 
 /*green ruled line above 2 women picture*/
 .divider-left {
     background-color: #49e41b;
     height: 3px;
-    width: 60% px; /*changed from 515px*/
+    width: 60px; /*changed from 515px*/
     display: block;
     left: -2.5em;
 }
@@ -765,7 +779,6 @@ ul.noStyle {
 }
 
 #resourcesPage {
-    height: cover;
     background-image: url(../img/toolrack.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
