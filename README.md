@@ -1,2 +1,0 @@
-# BlueCrew
-Team Internship Project
