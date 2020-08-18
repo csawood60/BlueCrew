@@ -9,7 +9,6 @@
 <body>
 <?php include('assets/include/nav.php');?>
 
-<img src="assets/img/bluerect.jpg" alt="blue rectangle" class="blueR">
     <div class="container"> 
         <div class="row short-row"> 
             <div class="col-sm">

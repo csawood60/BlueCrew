@@ -13,23 +13,23 @@
 <div class="jumbotron drk jumbotron-fluid homepage-container" id="homePage">
     <div id="homePageImgCarousel" class="carousel slide carousel-container" data-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="assets/img/foundry.jpg" alt="First slide">
+            <div class="carousel-item active carousel-item-images">
+                <img class="d-block w-100 carousel-image" src="assets/img/foundry.jpg" alt="First slide">
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/conference%20room.jpg" alt="Second slide">
+            <div class="carousel-item carousel-item-images">
+                <img class="d-block w-100 carousel-image" src="assets/img/conference%20room.jpg" alt="Second slide">
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/print%20shop.jpg" alt="Third slide">
+            <div class="carousel-item carousel-item-images">
+                <img class="d-block w-100 carousel-image" src="assets/img/print%20shop.jpg" alt="Third slide">
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/day%20care.jpg" alt="Fourth slide">
+            <div class="carousel-item carousel-item-images">
+                <img class="d-block w-100 carousel-image" src="assets/img/day%20care.jpg" alt="Fourth slide">
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/construction.jpg" alt="Fifth slide">
+            <div class="carousel-item carousel-item-images">
+                <img class="d-block w-100 carousel-image" src="assets/img/construction.jpg" alt="Fifth slide">
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/factory.png" alt="Sixth slide">
+            <div class="carousel-item carousel-item-images">
+                <img class="d-block w-100 carousel-image" src="assets/img/factory.png" alt="Sixth slide">
             </div>
         </div>
         <div class="container homepage-text-container">

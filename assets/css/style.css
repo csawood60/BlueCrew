@@ -36,12 +36,17 @@ body {
     overflow: hidden;
 }
 
+.carousel-item-images {
+    max-height: 600px;
+}
+
 @media only screen and (max-width: 680px) {
     .carousel-item {
         min-height: 575px;
         overflow: hidden;
     }
 }
+
 @media only screen and (max-width: 767px) {
     #homePage {
         /* The file size of this background image is 93% smaller
@@ -168,22 +173,6 @@ body {
     .homepage-learn-button {
         color: white;
         text-align: center;
-    }
-}
-
-/* blue rectangle on contact page */
-.blueR {
-    position: absolute;
-    height: 10%;
-    width: 25%;
-    z-index: -1;
-    top: 15%;
-    left: 5%;
-    opacity: 40%;
-}
-@media only screen and (max-width: 767px) {
-    .blueR {
-        visibility: hidden;
     }
 }
 
