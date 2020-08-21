@@ -43,7 +43,11 @@ body {
 @media only screen and (max-width: 680px) {
     .carousel-item {
         min-height: 575px;
-        overflow: hidden;
+    }
+
+    .carousel-image {
+        width: 225%!important;
+        height: auto;
     }
 }
 
