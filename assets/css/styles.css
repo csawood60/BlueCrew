@@ -1,0 +1,817 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*                               navigation bar styling                               */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.navbar-logo {
+    max-width: 125px;
+}
+
+.navbar-options {
+    display: flex;
+}
+
+.navbar-options li {
+    list-style: none;
+}
+
+.navbar-options a {
+    color: #55A4DD;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/*                            Home page image carousel styling                          */
+.carousel-container {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.carousel-slide.active {
+    display: block;
+}
+
+/* individual images in image carousel */
+.carousel-image {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 680px) {
+    .carousel-item {
+        min-height: 575px;
+    }
+
+    .carousel-image {
+        width: 225%!important;
+        height: auto;
+    }
+}
+
+
+/*                              homepage title and lead styling                            */
+
+
+.homepage-header-container {
+    position: relative;
+    margin-bottom: 0rem;
+}
+
+.homepage-title-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(36, 36, 36, 0.692);
+}
+
+/*Blue header type*/
+.header-1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    color: #55A4DD;
+    text-align: center;
+}
+
+/*green rule line on header*/
+.header-1::after {
+    content: '';
+    background: #69bf4a;
+    height: 5px;
+    width: 75%;
+    display: block;
+}
+
+/*text paragraph under home page header*/
+.lead {
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+.btn-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-size: 25px;
+    color: #fff;
+    background-color: #69bf4a;
+    border-color: #69bf4a;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/*                                 homepage content                                */
+
+.homepage-content-container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.greenLine {
+    background-color: #69bf4a;
+    height: 5px;
+    width: 40%;
+}
+
+.homepage-resources-container {
+
+}
+
+/*Blue dots throughout site*/
+.blueDots {
+    color: #55A4DD;
+    font-size: 400px;
+}
+
+
+
+
+
+/* Formatting on blue dot image used throughout site (og comment: White dots on Events page) */
+.whiteDots {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/*Blue header type blog page*/
+.display-5 {
+    color: #005c83;
+    text-align: left;
+}
+
+/*Black header type*/
+.display-3 {
+    color: black;
+}
+
+@media only screen and (max-width: 680px) {
+    .contact-header{
+        font-size: 3rem;
+    }
+}
+
+/*Blue header dots - span class on contact page*/
+.design-dots {
+    color: #005c83;
+}
+
+.h1Plus {
+    font-size: 2.5rem;
+}
+
+/*carousel testing*/
+.overlayHome {
+    color: #fff;
+    position: absolute;
+    z-index: 12;
+    top: 50%;
+    left: 0;
+    width: 60%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 680px) {
+    .display-4 {
+        font-size: xx-large;
+        font-weight: 300; /*for home page*/
+        color: #005c83;
+        background-color: rgba(36, 36, 36, 0.692);
+        text-align: center;
+        padding: unset;
+    }
+
+    .display-4::after {
+        content: '';
+        background: #69bf4a;
+        height: 3px;
+        width: 40%;
+        display: block;
+        left: -2.5em;
+    }
+
+    .homepage-text-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .lead {
+        color: white;
+        text-align: center;
+        padding: 10px 10px;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .homepage-learn-button {
+        color: white;
+        text-align: center;
+    }
+}
+
+/*Green button styling*/
+.btn:hover {
+    background: white;
+    border-color: white;
+    color: gray;
+    border-color: #69bf4a;
+}
+
+.btn:active {
+    background: white;
+    border-color: white;
+    color: gray;
+    border-color: #69bf4a;
+}
+
+/*Green button throughout site*/
+.btn .btn-primary:hover {
+    background: white;
+    border-color: white;
+    color: gray;
+    border-color: #69bf4a;
+}
+
+.carousel-item .img-fluid {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-indicators > li {
+    background-color: #69bf4a;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    background-color: #69bf4a;
+}
+
+.testimonial {
+    padding-top: 5em;
+    min-height: 130px;
+    font-size: 16px;
+    margin: 0 auto;
+    quotes: "\201C" "\201D" "\2018" "\2019";
+    padding: 10px 20px;
+    line-height: 1.4;
+}
+
+.testimonial::before {
+    font-family: 'Times New Roman', Times, serif;
+    content: open-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: -5px;
+    position: relative;
+    top: 20px;
+    color: #005c83;
+    font-size: 3em;
+}
+
+.testimonial::after {
+    font-family: 'Times New Roman', Times, serif;
+    content: close-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: 5px;
+    position: relative;
+    top: 20px;
+    color: #005c83;
+    font-size: 3em;
+}
+
+/*testimonial peoples' names & position before*/
+footer {
+    padding: 0 0 100px 20px;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+/*green ruled line above 2 women picture*/
+.divider-left {
+    background-color: #69bf4a;
+    height: 3px;
+    width: 60px; /*changed from 515px*/
+    display: block;
+    left: -2.5em;
+}
+
+.divider-right {
+    background-color: #69bf4a;
+    height: 3px;
+    width: 515px;
+    display: block;
+    right: -2.5em;
+}
+
+/*blue dots under picture*/
+.pict {
+    font-size: 100px;
+    color: #005c83;
+    text-align: right;
+    padding: 0px;
+}
+
+/*cards on home page*/
+.cards h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cards h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#cards img {
+    margin-top: -50px;
+}
+
+#cards p {
+    font-weight: 400;
+}
+
+#cards .card {
+    border-radius: 0;
+    box-shadow: 5px 5px 5px #90929E;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    height: 100%;
+}
+
+#cards .button {
+    padding-bottom: 10px;
+}
+
+.card-buttons {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    left: 30px;
+}
+
+#cards .card:hover {
+    transform: scale(1.025);
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(58, 149, 163);
+}
+
+.blueDots-jpg {
+    max-height: 30px;
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    min-height: 200px;
+}
+
+.row-5 {
+    min-height: 100px;
+}
+
+.short-row {
+    min-height: 100px;
+}
+
+.body-text {
+    padding-right: 20px;
+    font-weight: normal;
+}
+
+/* NEW gray lines (with circle icons at ends) in strategies page above 4 strategies*/
+.grayLineCulture {
+    background-color: #90929E;
+    height: 2px;
+    display: block;
+    width: 70%;
+    margin-bottom: 35px;
+}
+
+.grayLineCommunication {
+    background-color: #90929E;
+    height: 2px;
+    display: block;
+    width: 70%;
+    margin-bottom: 35px;
+}
+
+.grayLineDevelopment {
+    background-color: #90929E;
+    height: 2px;
+    display: block;
+    width: 70%;
+    margin-bottom: 35px;
+}
+
+.grayLineCompliance {
+    background-color: #90929E;
+    height: 2px;
+    display: block;
+    width: 70%;
+    margin-bottom: 35px;
+}
+
+/*blue circle at end of green line with icon*/
+.grayLineCulture:after {
+    background: url('../img/cultureIcon5.png') no-repeat top right;
+    content: "";
+    display: block;
+    height: 75px; /* height of the circle */
+    position: relative;
+    top: -36px; /* half the height of the circle */
+    border: 0;
+}
+
+.grayLineCommunication:after {
+    background: url('../img/communication4.png') no-repeat top right;
+    content: "";
+    display: block;
+    height: 75px; /* height of the circle */
+    position: relative;
+    top: -36px; /* half the height of the circle */
+    border: 0;
+}
+
+.grayLineDevelopment:after {
+    background: url('../img/developmentIcon.png') no-repeat top right;
+    content: "";
+    display: block;
+    height: 75px; /* height of the circle */
+    position: relative;
+    top: -36px; /* half the height of the circle */
+    border: 0;
+}
+
+.grayLineCompliance:after {
+    background: url('../img/complianceIcon2.png') no-repeat top right;
+    content: "";
+    display: block;
+    height: 75px; /* height of the circle */
+    position: relative;
+    top: -36px; /* half the height of the circle */
+    border: 0;
+}
+
+/*Strategies page:green line above 4 strategies*/
+.greenLine-strategies {
+    background-color: #90929E;
+    height: 2px;
+    display: block;
+    width: 70%;
+    margin-bottom: 35px;
+}
+
+/* controls image placement above style items (green lines and blue rectangle) */
+#strategiesImage {
+    z-index: 3;
+    float: left;
+    width: 66%;
+    margin-right: -100%;
+    position: relative;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+/* controls placement of blue rectangle behind strategies images - top corner */
+#blueRectangle-strategies-img-top {
+    z-index: 2;
+    position: relative;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+/* controls placement of blue rectangle behind strategies images - bottom corner */
+#blueRectangle-strategies-img-bottom {
+    z-index: 2;
+    position: relative;
+    width: 70%;
+    margin-left: 30%;
+    margin-left: 30%;
+    margin-top: 25%;
+}
+
+/* controls placement of green lines block behind all strategies images */
+#greenLines-strategies-img {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 10%;
+}
+
+/* Green line under strategies headers */
+.greenLine2 {
+    background-color: #69bf4a;
+    height: 2px;
+    display: block;
+    width: 30%;
+}
+
+
+.greenLine4 {
+    background-color: #69bf4a;
+    height: 5px;
+    display: block;
+    width: 75%;
+    z-index: 99;
+}
+
+/* white line: can be used as an alternative to the greenLine*/
+.whiteLine {
+    background-color: white;
+    height: 5px;
+    display: block;
+    width: 40%;
+    z-index: 99;
+}
+
+.dots:after {
+    background: url('../img/blueDots.png') no-repeat left;
+    content: "";
+    display: block;
+    height: 60px;
+    position: relative;
+    border: 0px;
+}
+
+#mySidenav a {
+    position: fixed;
+    left: -140px;
+    z-index: 999;
+    transition: 0.3s;
+    padding: 5px;
+    width: 190px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.29);
+    margin-top: 90px;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#culture {
+    top: 20px;
+    background: #69bf4a url(../img/cultureIconBlack2.png);
+    background-position: right;
+    background-size: 33px;
+    background-repeat: no-repeat;
+}
+
+#communication {
+    top: 70px;
+    background: #69bf4a url(../img/communicationIconBlack3.png);
+    background-position: right;
+    background-size: 33px;
+    background-repeat: no-repeat;
+}
+
+#development {
+    top: 120px;
+    background: #69bf4a url(../img/developmentIconBlack.png);
+    background-position: right;
+    background-size: 33px;
+    background-repeat: no-repeat;
+}
+
+#compliance {
+    top: 170px;
+    background: #69bf4a url(../img/complianceIconBlack.png);
+    background-position: right;
+    background-size: 33px;
+    background-repeat: no-repeat;
+}
+
+/*gets rid of pop-out side navigation on strategies page when screen size is smaller*/
+@media (max-width: 768px) {
+    #mySidenav {
+        display: none;
+    }
+}
+
+.lead-2 {
+}
+
+/*Events page blue background*/
+.testBkgd {
+    background-color: rgba(52, 204, 227, 0.486);
+    padding: 15px;
+}
+
+/*border around text in partnership page*/
+.borderBlue {
+    /*background-color:#34CCE3;*/
+    /*border-color: #34CCE3;*/
+    border-color: #69bf4a;
+    border-style: solid;
+    padding: 15px;
+    border-width: 4px;
+}
+
+.blueLine {
+    color: #005c83;
+    height: 5px;
+}
+
+/*calendar icon on Events page*/
+.event::before {
+    background: url('../img/calendar.png') no-repeat;
+    content: "";
+    display: block;
+    position: relative;
+    border: 0px;
+}
+
+/*Jumbotron display title on Events page*/
+#events {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+/*span class on required fields, contact page*/
+.required {
+    color: red;
+}
+
+.about-img {
+    border-radius: 50%;
+    border: 15px solid #005c83;
+    max-width: 300px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #005c83;
+}
+
+.container-overlay:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*Partnership Page: taking bullets off of the lists*/
+ul.noStyle {
+    list-style-type: none;
+    margin: 3px;
+    padding: 3px;
+}
+
+.dottedBlueLine {
+    border-top: 3px dotted #005c83;
+}
+
+.help-block.with-errors {
+    color: red;
+}
+
+
+.page-footer .social-icons a {
+    color: black;
+    background-color: #69bf4a;
+}
+
+.navheaderWidth {
+    min-width: 100%;
+    padding: 0;
+}
+
+/* All lettering that is to be Blue Ivy Blue */
+.gbiBlue {
+    color: #005c83;
+}
+
+.Launcher__LauncherButton-sc-1d77t61-0 {
+    background-color: #005c83;
+    background-color: red;
+    margin: 0px 0px 100px;
+}
+
+.marginTop400 {
+    margin: 22% 0 0 0;
+}
+
+.pic1 {
+    background-image: url(../img/culture3.jpg);
+}
+
+.pic2 {
+    background-image: url(../img/revolvingdoor.jpg);
+}
+
+.pic3 {
+    background-image: url(../img/workbrainscover.jpg);
+}
+
+.pic4 {
+    background-image: url(../img/COVID-19solosqr.jpg);
+}
+
+.pic5 {
+    background-image: url(../img/px_here_worried.jpg);
+}
+
+.pic6 {
+    background-image: url(../img/*.jpg);
+}
+
+.pic7 {
+    background-image: url(../img/broken_arm.jpg);
+}
+
+.pic8 {
+    background-image: url(../img/people_in_a_row.png);
+}
+
+
+.picx {
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#resourcesPage {
+    background-image: url(../img/toolrack.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#cards img {
+    margin-top: -30px;
+}
+
+.high100 {
+    height: 100px;
+}
