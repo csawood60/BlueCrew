@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <?php $title = 'Shaping Amazing Workplaces'; ?>
 <?php $metaTags = 'partnerships aliance teams organizations'; ?>
@@ -18,7 +18,7 @@
                 <div class="greenLine3"></div>
             </div>
             <div class="col-lg-2 my-auto">                
-                <img src="assets/img/handshake.png" alt="Handshake Icon" max width="150px" class="img-fluid mx-auto d-block"  style="padding-top:15px;">
+                <img src="assets/img/partnerships-icon_handshake.png" alt="Handshake Icon" width="150px" class="img-fluid mx-auto d-block"  style="padding-top:15px;">
             </div>
         </div>
     </div><br>
@@ -26,12 +26,12 @@
 
     <!--Intro section-->
     <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="assets/img/handsOverDesk2.jpg" alt="Group of Hands Over Desk Picture" class="about-img img-fluid mx-auto d-block">
+        <div class="row flex-container__column">
+            <div class="col-lg-4 col-md-4 col-sm-12 circle-image-container">
+                <img src="assets/img/partnerships_introImage.jpg" alt="Group of Hands Over Desk Picture" class="circle-img img-fluid mx-auto d-block">
             </div>
-            <div class="col-lg-8 col-md-8 col-sm-12"><br>
-                <p class="body-text"><!--used to have class of borderBlue=green border around text-->
+            <div class="col-lg-8 col-md-8 col-sm-12 text-container"><br>
+                <p class="body-text">
                     As we strive to differentiate our brand, one
                     way that we increase our value to clients is
                     cultivating amazing partners to call on when
@@ -43,7 +43,7 @@
                 </p>
                 <div class="greenLine3"></div><br>
                 <div class="container">
-                    <ul><!-- used to be class="noStyle" no bullets-->
+                    <ul>
                         <li><strong>Referral partners</strong></li>
                         <li><strong>Value-add arrangements</strong></li> 
                         <li><strong>White-label services</strong></li>
@@ -56,17 +56,17 @@
 
     <!--Partner Perks Section-->
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-md-8 col-sm-12">
+        <div class="row flex-container__column">
+            <div class="col-lg-8 col-md-8 col-sm-12 text-container">
                 <h2>Partner Perks<span class="design-dots">...</span></h2>
-                    <p class="body-text"><!--used to have class of borderBlue=green border around text-->
+                    <p class="body-text">
                         Blue Ivy Professional Services allows partners
                         to effectively expand their menu of services
                         by offering the following and more:
                     </p>
                 <div class="greenLine3"></div><br>
                 <div class="container">
-                    <ul><!-- used to be class="noStyle" no bullets-->
+                    <ul>
                         <li><strong>3rd Party Engagement Surveys</strong></li>
                         <li><strong>Preventive I-9 Audits</strong></li> 
                         <li><strong>Policy Review and Improvement</strong></li>
@@ -77,8 +77,8 @@
                 </div><br>
                 <p>Reach out today to find additional trusted resources to strengthen your strategy.</p>
             </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <img src="assets/img/menu.jpg" alt="Menu Picture" class="about-img img-fluid mx-auto my-auto d-block">
+                <div class="col-lg-4 col-md-4 col-sm-12 circle-image-container">
+                    <img src="assets/img/partnerships_partnerPerks.jpg" alt="Menu Picture" class="circle-img img-fluid mx-auto my-auto d-block">
                 </div>
         </div>
     </div><br>
@@ -86,13 +86,13 @@
 
 <!--Client Perks Section-->
     <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="assets/img/writeGlass.jpg" alt="Flow Chart Picture" class="about-img img-fluid mx-auto d-block">
+        <div class="row flex-container__column">
+            <div class="col-lg-4 col-md-4 col-sm-12 circle-image-container">
+                <img src="assets/img/partnerships_clientPerks.jpg" alt="Flow Chart Picture" class="circle-img img-fluid mx-auto d-block">
             </div>
-            <div class="col-lg-8 col-md-8 col-sm-12"><br>
+            <div class="col-lg-8 col-md-8 col-sm-12 text-container"><br>
                 <h2>Client Perks<span class="design-dots">...</span></h2>
-                <p class="body-text"><!--used to have class of borderBlue=green border around text-->
+                <p class="body-text">
                     Because of these amazing partnerships, Blue Ivy
                     Professional Services can recommend amazing
                     services and vendors to our clients. Reach out
@@ -102,7 +102,7 @@
                 </p>
                 <div class="greenLine3"></div><br>
                 <div class="container">
-                    <ul><!-- used to be class="noStyle" no bullets-->
+                    <ul>
                         <li><strong>Employee Benefit Brokers</strong></li>
                         <li><strong>Business Accountants</strong></li> 
                         <li><strong>HR Technology Vendors</strong></li>
@@ -114,8 +114,8 @@
     </div><br>
     <div class="container"><hr class="dottedBlueLine"></div><br>
 
-<!--Green Lines decortaion at bottom-->
-    <div class="container-fluid"><img src="assets/img/greenLinesDark.png" alt="greeen line design" class="img-fluid" width="30%"></div>
+<!--Green Lines decoration at bottom-->
+    <div class="container-fluid"><img src="assets/img/design-greenLines_dark.png" alt="greeen line design" class="img-fluid" width="30%"></div>
     <br><br>
                 
 <?php include('assets/include/foot.php');?>

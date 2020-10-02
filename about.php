@@ -13,18 +13,18 @@
     <div class="container">
         <div class="row short-row"> 
             <div class="col-sm">
-                <h1 class="display-3"><strong>Who is Blue Ivy?</strong></h1>
+                <h1 class="display-3 text-center__mobile"><strong>Who is Blue Ivy?</strong></h1>
                 <div class="greenLine4"></div>
                 <br>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-4 d-flex align-items-center">
-                <img src="assets/img/tim-desk.jpg" class="about-img" alt="Tim">
+        <div class="row flex-container__column">
+            <div class="col-sm-4 d-flex align-items-center circle-image-container">
+                <img src="assets/img/about-tim.jpg" class="circle-img" alt="Tim">
             </div>
-            <div class="col-sm-8 desc"><br>
-                <h1>Tim Johnson, CEO</h1>
-                <p id="about-tim">Tim Johnson is the founder, president, CEO, 
+            <div class="col-sm-8 desc text-container"><br>
+                <h1 class="header-1__mobile">Tim Johnson, CEO</h1>
+                <p class="body-text">Tim Johnson is the founder, president, CEO,
                     heart, and soul of Blue Ivy Professional Services.  Leveraging 
                     decades of experience, he enjoys the challenge of providing 
                     human capital solutions for growing organizations.  From simple 
@@ -48,13 +48,13 @@
         </div>
         <div class="row short-row">
             <div class="col-sm d-flex justify-content-center align-items-center">
-                <img src="assets/img/blueDots.png" class="blueDots-jpg" alt="Blue Dots">
+                <img src="assets/img/design-blueDots.png" class="blueDots-jpg" alt="Blue Dots">
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-8 desc"><br>
-                <h1>Ray Ivy</h1>
-                <p> A fifth-generation Texan and a quintessential 
+        <div class="row flex-container__column">
+            <div class="col-sm-8 desc text-container"><br>
+                <h1 class="header-1__mobile">Ray Ivy</h1>
+                <p class="body-text"> A fifth-generation Texan and a quintessential
                     member of the Greatest Generation, Ray Ivy consistently demonstrated 
                     a strong reputation for industry, integrity, and community-building.  
                     Breaking horses in the lean years of the 1930s taught him the 
@@ -70,24 +70,24 @@
                     readily apparent in his daily life.  Building homes for others, 
                     providing medication for those who had none, and serving in his 
                     local congregation were just some of the hallmarks of his legacy 
-                    of trust and respect in communities across West Texas.<br><br></p>
+                    of trust and respect in communities across West Texas.</p>
             </div>
-            <div class="col-sm-4 align d-flex align-items-center">
-                <img src="assets/img/ray.jpg" class="about-img" alt="Ray">
+            <div class="col-sm-4 align d-flex align-items-center circle-image-container">
+                <img src="assets/img/about-ray.jpg" class="circle-img" alt="Ray">
             </div>
         </div>
         <div class="row short-row">
             <div class="col-sm d-flex justify-content-center align-items-center">
-                <img src="assets/img/blueDots.png" class="blueDots-jpg" alt="Blue Dots">
+                <img src="assets/img/design-blueDots.png" class="blueDots-jpg" alt="Blue Dots">
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-4 d-flex align-items-center">
-                <img src="assets/img/herman.jpg" class="about-img" alt="Herman">
+        <div class="row flex-container__column">
+            <div class="col-sm-4 d-flex align-items-center circle-image-container">
+                <img src="assets/img/about-herman.jpg" class="circle-img" alt="Herman">
             </div>
-            <div class="col-sm-8 desc"><br>
-                <h1>Herman Blau</h1>
-                <p> Even from his early years on a sheep ranch in
+            <div class="col-sm-8 desc text-container"><br>
+                <h1 class="header-1__mobile">Herman Blau</h1>
+                <p class="body-text"> Even from his early years on a sheep ranch in
                     Kansas, Herman Blau built his life around hard work and a 
                     commitment to his community.  As a result of the famine and crop 
                     failures in that region, he relocated to Arizona where he began 
@@ -106,12 +106,12 @@
                     customer when he felt that it would be more beneficial to build up 
                     those around him.  Viewing his achievements as a means and not an 
                     end, he ensured that his vision was always focused on benefiting 
-                    his community, his neighbors, and his family.<br><br></p>
+                    his community, his neighbors, and his family.</p>
             </div>
         </div>
         <div class="row short-row">
             <div class="col-sm d-flex justify-content-center align-items-center">
-                <img src="assets/img/blueDots.png" class="blueDots-jpg" alt="Blue Dots">
+                <img src="assets/img/design-blueDots.png" class="blueDots-jpg" alt="Blue Dots">
             </div>
         </div>
     </div>

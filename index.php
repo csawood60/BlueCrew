@@ -14,22 +14,22 @@
     <div id="homePageImgCarousel" class="carousel slide carousel-container" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active carousel-item-images">
-                <img class="d-block w-100 carousel-image" src="assets/img/foundry.jpg" alt="First slide">
+                <img class="d-block w-100 carousel-image" src="assets/img/home-carousel_foundry.jpg" alt="First slide">
             </div>
             <div class="carousel-item carousel-item-images">
-                <img class="d-block w-100 carousel-image" src="assets/img/conference%20room.jpg" alt="Second slide">
+                <img class="d-block w-100 carousel-image" src="assets/img/home-carousel_conferenceRoom.jpg" alt="Second slide">
             </div>
             <div class="carousel-item carousel-item-images">
-                <img class="d-block w-100 carousel-image" src="assets/img/print%20shop.jpg" alt="Third slide">
+                <img class="d-block w-100 carousel-image" src="assets/img/home-carousel_printShop.jpg" alt="Third slide">
             </div>
             <div class="carousel-item carousel-item-images">
-                <img class="d-block w-100 carousel-image" src="assets/img/day%20care.jpg" alt="Fourth slide">
+                <img class="d-block w-100 carousel-image" src="assets/img/home-carousel_dayCare.jpg" alt="Fourth slide">
             </div>
             <div class="carousel-item carousel-item-images">
-                <img class="d-block w-100 carousel-image" src="assets/img/construction.jpg" alt="Fifth slide">
+                <img class="d-block w-100 carousel-image" src="assets/img/home-carousel_construction.jpg" alt="Fifth slide">
             </div>
             <div class="carousel-item carousel-item-images">
-                <img class="d-block w-100 carousel-image" src="assets/img/factory.png" alt="Sixth slide">
+                <img class="d-block w-100 carousel-image" src="assets/img/home-carousel_factory.png" alt="Sixth slide">
             </div>
         </div>
         <div class="container homepage-text-container">
@@ -110,9 +110,8 @@
 <div class="container" id="resources">
     <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-12">
-            <img alt="" role="presentation" src="assets/img/womenMeet.jpg" class="img-fluid">
-            <img src="assets/img/blueDots.png" class="img-fluid whiteDots text-justify" alt="clue dots">
-            <!--<span class="text-justify"><h2 class="pict">.....</h2></span>-->
+            <img alt="" role="presentation" src="assets/img/home-valuableResources.jpg" class="img-fluid">
+            <img src="assets/img/design-blueDots.png" class="img-fluid whiteDots text-justify" alt="clue dots">
         </div>
         <div class="col-lg-8 col-md-8 col-sm-12 desc"><br>
             <h2><strong>Your Most Valuable Resources are Human</strong></h2>
@@ -146,13 +145,14 @@
             <div class="col">
                 <h2><strong>What Can Blue Do For You?</strong></h2>
             </div>
-            <br><br><br><br>
+
             <div class="container">
                 <div class="row">
+
                     <div class="col-lg-3 col-md-6">
                         <div class="card">
                             <div class="card-body w-100">
-                                <img src="assets/img/cultureIcon5.png" alt=""
+                                <img src="assets/img/cards-icon_culture.png" alt=""
                                      class="img-fluid rounded-circle w-25 mb-3">
                                 <h4><strong>Organizational Culture</strong></h4>
                                 <p>Culture permeates everything in
@@ -176,7 +176,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="card">
                             <div class="card-body w-100">
-                                <img src="assets/img/communicationIcon4.png" alt=""
+                                <img src="assets/img/cards-icon_communication.png" alt=""
                                      class="img-fluid rounded-circle w-25 mb-3">
                                 <h4><strong>Organizational Communication</strong></h4>
                                 <p>Organizational communication is
@@ -202,7 +202,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="card">
                             <div class="card-body w-100">
-                                <img src="assets/img/developmentIcon.png" alt=""
+                                <img src="assets/img/cards-icon_development.png" alt=""
                                      class="img-fluid rounded-circle w-25 mb-3">
                                 <h4><strong>Employee Development</strong></h4>
                                 <p>Great companies have great people. This
@@ -227,7 +227,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="card">
                             <div class="card-body w-100">
-                                <img src="assets/img/complianceIcon2.png" alt=""
+                                <img src="assets/img/cards-icon_compliance.png" alt=""
                                      class="img-fluid rounded-circle w-25 mb-3">
                                 <h4><strong>Regulatory Compliance</strong></h4>
                                 <p>Front-line supervisors can either
@@ -249,6 +249,7 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>

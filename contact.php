@@ -40,8 +40,8 @@
                             </div>
                         
                             <div class="form-group col-md-6 mb-3">
-                                <label for="form_lastname">Company Name<span class="required">*</span></label>
-                                <input id="form_lastname" type="text" name="company-name" class="form-control" placeholder="Company Name..." required="required"
+                                <label for="form_company">Company Name<span class="required">*</span></label>
+                                <input id="form_company" type="text" name="company-name" class="form-control" placeholder="Company Name..." required="required"
                                     data-error="Company Name is required.">
                                 <div class="help-block with-errors"></div>
                             </div>
@@ -56,15 +56,15 @@
                             </div>
         
                             <div class="form-group col-md-4 mb-3">
-                                <label for="form_email">Phone Number<span class="required">*</span></label>
+                                <label for="form_phone">Phone Number<span class="required">*</span></label>
                                 <input id="phoneNumber" type="text" name="phone-number" class="form-control" placeholder="Phone Number..." required="required"
                                     data-error="Phone Number is required.">
                                 <div class="help-block with-errors"></div>
                             </div>
         
                             <div class="form-group col-md-4 mb-3">
-                                <label for="form_phone">Team Size</label>
-                                <input id="form_phone" type="tel" name="team-size" class="form-control" placeholder="Team Size...">
+                                <label for="form-team">Team Size</label>
+                                <input id="form_team" type="tel" name="team-size" class="form-control" placeholder="Team Size...">
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>

@@ -15,7 +15,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-2 my-auto">                
-                    <img src="assets/img/calendar.png" alt="Calendar Icon" class="img-fluid mx-auto d-block" max width="150px">
+                    <img src="assets/img/events-icon_calendar.png" alt="Calendar Icon" class="img-fluid mx-auto d-block" max width="150px">
                 </div>
                 <div class="col-lg-10 my-auto">                
                     <h1 id="events">Amazing Workplaces Develop Amazing People</h1>
@@ -26,13 +26,11 @@
         </div>
     </div>
 
-            <hr class="my-4">
-
     <div class="testBkgd">
         <div class="container"> 
             <div class="row">
                 <div class="col-lg-2 col-md-2 col-sm-12 h-100" >
-                    <img src="assets/img/whiteDots.png" class="whitedots">
+                    <img src="assets/img/design-whiteDots.png" class="whitedots">
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <h3><strong>Marijuana in the Workplace: Strategies for Compliance</strong></h3>
@@ -41,10 +39,10 @@
                             Noon to 1:30 pm<br>
                             Hampton Inn Draper<br>
                             13711 South 200 West<br></p>
-                            <a class="btn btn-primary btn-lg" href="https://MarijuanaAtWork.eventbrite.com" rel="noopener noreferrer" target="_blank" role="button">Register</a><br><br>                        <p class="body-text"></p>
+                            <a class="btn btn-primary btn-lg" href="https://MarijuanaAtWork.eventbrite.com" rel="noopener noreferrer" target="_blank" role="button">Register</a><br><br>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 h-100 my-auto">
-                    <img src="assets/img/MarijuanaEvent.png" alt="" width="100%">
+                    <img src="assets/img/events-marijuana.png" alt="" width="100%">
                 </div>
             </div>
         </div>
@@ -53,7 +51,7 @@
         <hr class="my-4">
     
     <div>
-        <img src="assets/img/greenLines.png" alt="Green lines design" class="img-fluid" max-width="30%">
+        <img src="assets/img/design-greenLines.png" alt="Green lines design" class="img-fluid" max-width="30%">
     </div>
 
     </div>

@@ -6,7 +6,7 @@
     <div   class="container navheaderWidth">    
         <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: black;">
                     <a class="navbar-brand logo" href="index.php">
-                <img src="assets/img/untitled_640_white_2.png" alt="Get Blue Ivy" style="width:150px;">
+                <img src="assets/img/navbar_logo.png" alt="Get Blue Ivy" style="width:150px;">
             </a>
             <button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav">
                 <span class="sr-only">Toggle navigation</span>
